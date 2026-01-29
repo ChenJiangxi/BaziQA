@@ -1,0 +1,397 @@
+[
+    {
+      "contest_id": "contest8_2023",
+      "current_year": "2023",
+      "description": "本竞赛包含8位不同出生年月日时及性别的命主，每位命主有5道选择题，共40题。参赛者需根据命主的出生资料，选择最符合其命运情况的答案。竞赛旨在测试参赛者对八字命理的理解和应用能力。",
+      "total_questions": 40
+    },
+    {
+      "person_id": "female_19661018_P009",
+      "name": "1966年出生女性",
+      "profile": {
+        "birth": {
+          "year": 1966,
+          "month": 10,
+          "day": 18,
+          "hour": 23,
+          "minute": 15,
+          "place": "香港",
+          "raw": "1966-10-18 23:15 香港出生"
+        },
+        "gender": "female"
+      },
+      "questions": [
+        {
+          "question_id": "P009-Q1",
+          "question": "此命的性格特征如何?",
+          "options": [
+            "A急性子，容易被别人影响决定，表达能力差，对朋友豪爽",
+            "B喜欢投诉，常说自己苦，易发脾气，不易信人", 
+            "C贪财好胜，权力欲重，固执己见，喜命令别人", 
+            "D贪生怕死，不懂交际，少说法多做事，守财节俭"],
+          "answer": "B"
+        },
+        {
+          "question_id": "P009-Q2",
+          "question": "那个行业合乎此命情况?",
+          "options": ["A律师", "B销售员", "C地产生意", "D图书馆文员"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P009-Q3",
+          "question": "此命叔叔是出家人，于那年跳楼亡?",
+          "options": ["A1982", "B1984", "C1986", "D1988"],
+          "answer": "B"
+        },
+        {
+          "question_id": "P009-Q4",
+          "question": "此命到现在的婚姻情况与学历?",
+          "options": [
+            "A单身，从未结过婚，没有子女。大学毕业", 
+            "B已婚，有子女，正常普通家庭。大学毕业", 
+            "C已离婚，没有子女。没有大学毕业", 
+            "D同性恋，有女朋友，有一养女，没有大学毕业"],
+          "answer": "A"
+        },
+        {
+          "question_id": "P009-Q5",
+          "question": "2008年至今，其命运情况?",
+          "options": [
+            "A移民新加坡，半炒股半退休的休閒富裕生活", 
+            "B叔叔死后多年的保险法律完结，得保险金而富裕在香港生活", 
+            "C酒后开车，意外撞死人，坐过多年牢。虽有自己私楼，平民生活", 
+            "D突然全身多病，四处求医而医不好，风光过一时的生活，转变为穷困疗倒，住公屋"],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "person_id": "male_19620806_P010",
+      "name": "1962年出生男性",
+      "profile": {
+        "birth": {
+          "year": 1962,
+          "month": 8,
+          "day": 6,
+          "hour": 9,
+          "minute": 0,
+          "place": "香港"
+        },
+        "gender": "male"
+      },
+      "questions": [
+        {
+          "question_id": "P010-Q6",
+          "question": "命主16岁前家庭状况?",
+          "options": ["A跟随母亲生活", "B在孤儿院长大", "跟随父亲生活", "D跟随收养父母生活"],
+          "answer": "A"
+        },
+        {
+          "question_id": "P010-Q7",
+          "question": "命主父母状况?",
+          "options": ["A父母相继在儿时离世", "B父短寿母长寿", "C家境贫穷，父母无法养育命主而分离", "D父亲长寿，母亲短寿"],
+          "answer": "B"
+        },
+        {
+          "question_id": "P010-Q8",
+          "question": "命主婚姻状况?",
+          "options": ["A已婚，但已离异", "B一直独身，清心寡欲", "C独身，经常嫖妓", "D已婚，婚姻生活稳定"],
+          "answer": "B"
+        },
+        {
+          "question_id": "P010-Q9",
+          "question": "2014年发生何事?",
+          "options": ["A命主伴侣患癌症", "B命主兄弟姐妹中有人患癌症", "C命主父亲或母亲患癌症", "D命主自己患癌症"],
+          "answer": "D"
+        },
+        {
+          "question_id": "P010-Q10",
+          "question": "以下何项属正确?",
+          "options": ["A独子，没有兄弟姐妹", "B曾犯事，留有案底", "C长期患病，需要人照顾", "D工作稳定，毕业后一份工作做到退休"],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "person_id": "male_19860424_P011",
+      "name": "1986年出生男性",
+      "profile": {
+        "birth": {
+          "year": 1986,
+          "month": 4,
+          "day": 24,
+          "hour": 21,
+          "minute": 30,
+          "place": "马来西亚"
+        },
+        "gender": "male"
+      },
+      "questions": [
+        {
+          "question_id": "P011-Q11",
+          "question": "命主在那一年结婚?",
+          "options": ["A2012", "B2013", "C2015", "D2016"],
+          "answer": "D"
+        },
+        {
+          "question_id": "P011-Q12",
+          "question": "两个男孩分别出生年份?",
+          "options": ["A2013与2015", "B2014与2016", "C2016与2019", "D2017与2022"],
+          "answer": "D"
+        },
+        {
+          "question_id": "P011-Q13",
+          "question": "命主目前财运?",
+          "options": ["A身家超过千万身家（马币）", "B收入平平，固定薪金4千薪水", "C财运顺畅，每月收入都有增长", "D欠债超过1千万的债务"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P011-Q14",
+          "question": "婚前情状?",
+          "options": ["A已离婚", "B己婚，但是有婚外情", "C婚姻美满", "D未婚但有两孩子"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P011-Q15",
+          "question": "命主目前职业?",
+          "options": ["A小吃店老板", "B寿板店职员", "C偏门老板", "D命理风水顾问"],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "person_id": "male_19560311_P012",
+      "name": "1956年出生男性",
+      "profile": {
+        "birth": {
+          "year": 1956,
+          "month": 3,
+          "day": 11,
+          "hour": 9,
+          "minute": 0,
+          "place": "马来西亚"
+        },
+        "gender": "male"
+      },
+      "questions": [
+        {
+          "question_id": "P012-Q16",
+          "question": "命主性格如何?",
+          "options": ["A. 自私，贪心，好色", "B.胆小，怕事，没主见", "C.内向，沉默寡言", "D.外向胆大好胜，急性子"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P012-Q17",
+          "question": "命主学历?",
+          "options": ["A小学毕业", "B中学辍学", "C大学毕业", "D硕士毕业"],
+          "answer": "A"
+        },
+        {
+          "question_id": "P012-Q18",
+          "question": "命主婚姻状况?",
+          "options": ["A已婚无儿女", "B已婚,育2男1女", "C早年结婚,晚年离婚", "D未婚"],
+          "answer": "A"
+        },
+        {
+          "question_id": "P012-Q19",
+          "question": "命主在1997年发生何事?",
+          "options": ["A接获诈骗电话，骗走百万存款", "B发生严重车祸，昏迷3个月", "C与友人合伙投资，出国寻二战后宝藏", "D自创业，开办大型港式酒家"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P012-Q20",
+          "question": "命主健康状况?",
+          "options": ["A.2011年血管阻塞，轻微中风", "B.2013 年心脏搭桥手术", "C.2016年确诊癌症，隔年与世长辞", "D.2020年确诊新冠，肺部感染死亡"],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "person_id": "female_19780405_P013",
+      "name": "1978年出生女性",
+      "profile": {
+        "birth": {
+          "year": 1978,
+          "month": 4,
+          "day": 5,
+          "hour": 17,
+          "minute": 0,
+          "place": "台湾"
+        },
+        "gender": "female"
+      },
+      "questions": [
+        {
+          "question_id": "P013-Q21",
+          "question": "2011年发生什么事?",
+          "options": ["A成立公司", "B拿到美国永久绿卡", "C投资获利千万", "D无事发生"],
+          "answer": "B"
+        },
+        {
+          "question_id": "P013-Q22",
+          "question": "以下事项，哪个在2009年没有发生？",
+          "options": ["A考上律师", "B远距离旅行", "C找到工作", "D购置不动产"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P013-Q23",
+          "question": "何时结婚?",
+          "options": ["A2006", "B2007", "C2008", "D2009"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P013-Q24",
+          "question": "命主哪一年生孩子?",
+          "options": ["A2012", "B2013", "C2015", "D2018"],
+          "answer": "B"
+        },
+        {
+          "question_id": "P013-Q25",
+          "question": "生产状况为?",
+          "options": ["A男婴", "B女婴", "C双胞胎", "D难产"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "person_id": "female_19581027_P014",
+      "name": "1958年出生女性",
+      "profile": {
+        "birth": {
+          "year": 1958,
+          "month": 10,
+          "day": 27,
+          "hour": 7,
+          "minute": 0,
+          "place": "台湾"
+        },
+        "gender": "female"
+      },
+      "questions": [
+        {
+          "question_id": "P014-Q26",
+          "question": "请问以下哪年命主以女性服装设计师身份出名大旺，收到各路明星邀请设计衣服?",
+          "options": ["A1983", "B1984", "C1985", "D1986"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P014-Q27",
+          "question": "请问以下哪年命主通灵，晚上梦到各路神明来报六合彩号码(台湾早年的地下博弈)她跟她大姐说，她姐赚到上千万台币横发买房?",
+          "options": ["A1987", "B1989", "C1990", "D1992"],
+          "answer": "A"
+        },
+        {
+          "question_id": "P014-Q28",
+          "question": "请问以下哪年命主因为老公上班不稳定决定自行创业开店，开店后发现小孩翘课说谎在店里打小孩？",
+          "options": ["A1991", "B1992", "C1993", "D1994"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P014-Q29",
+          "question": "请问以下哪年命主忽然赚到大钱，受不了孩子抱怨，决定买房解决孩子读书的通勤问题?",
+          "options": ["A1996", "B2003", "C2005", "D2008"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P014-Q30",
+          "question": "请问以下哪年命主发现长久的乳房硬块转变为乳癌，检查后开刀十分顺利，平安无事？",
+          "options": ["A2008", "B2010", "C2016", "D2022"],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "person_id": "female_20020601_P015",
+      "name": "2002年出生女性",
+      "profile": {
+        "birth": {
+          "year": 2002,
+          "month": 6,
+          "day": 1,
+          "hour": 8,
+          "minute": 30,
+          "place": "香港"
+        },
+        "gender": "female"
+      },
+      "questions": [
+        {
+          "question_id": "P015-Q31",
+          "question": "此命出身贫或富?",
+          "options": ["A孤儿院长大", "B贫穷家庭出身", "C小康之家出身", "D大富贵家庭出身"],
+          "answer": "B"
+        },
+        {
+          "question_id": "P015-Q32",
+          "question": "学历程度?",
+          "options": ["A大学毕业", "B正在修读硕士/研究生", "C小学毕业", "D中六毕业"],
+          "answer": "D"
+        },
+        {
+          "question_id": "P015-Q33",
+          "question": "以下那一年份有拍拖/恋爱？",
+          "options": ["A2018", "B2019", "C2020", "D以上都有"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P015-Q34",
+          "question": "022年在姻缘方面如何?",
+          "options": ["A结婚", "B奉子成婚", "C离婚", "D分手"],
+          "answer": "D"
+        },
+        {
+          "question_id": "P015-Q35",
+          "question": "2022发生什么大事?",
+          "options": ["A事业上有好机遇，参加比赛得奖", "B在日本成为一位名侦探", "C母亲急病逝世", "D有横财运，中六合彩头奖"],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "person_id": "male_19800711_P016",
+      "name": "1980年出生男性",
+      "profile": {
+        "birth": {
+          "year": 1980,
+          "month": 7,
+          "day": 11,
+          "hour": 9,
+          "minute": 0,
+          "place": "香港"
+        },
+        "gender": "male"
+      },
+      "questions": [
+        {
+          "question_id": "P016-Q36",
+          "question": "第一次结婚年份?",
+          "options": ["A2000", "B2001", "C2005", "D2006"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P016-Q37",
+          "question": "第二次结婚年份?",
+          "options": ["A2011", "B2012", "C2013", "D2015"],
+          "answer": "C"
+        },
+        {
+          "question_id": "P016-Q38",
+          "question": "从事职业?",
+          "options": ["A秘书", "B物流公司老板", "C翻译员", "D游泳救生员"],
+          "answer": "B"
+        },
+        {
+          "question_id": "P016-Q39",
+          "question": "性格特征?",
+          "options": ["A被动，做事消极，但爱心和同情心重", "B鬼主意多，做事喜欢走捷径，耍小聪明", "C保守，节俭，但承担力强", "D脾气暴燥，好色，做事鲁莽"],
+          "answer": "B"
+        },
+        {
+          "question_id": "P016-Q40",
+          "question": "命主在丙戌大运（2009–2018）财运?",
+          "options": ["A丙戌大运一直财政稳定，有存款和房产，生活无忧", "B丙戌大运一直财政很好，常常在投资物业或股票上屡见丰厚获利", "C丙戌大运刚开始时财政丰盛，但后来因为赌钱而债台高筑", "D丙戌大运刚开始时平稳渡过，但后来因为要为家人清还债务而负债累累"],
+          "answer": "D"
+        }
+        ]
+    }
+]
