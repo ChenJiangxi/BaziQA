@@ -4,7 +4,8 @@
 
 ## 📖 数据集简介
 
-本项目及相关论文知识成果现已应用于[AuraMate灵伴](https://auramate.net/)玄学陪伴产品。
+本项目及相关论文知识成果现已应用于[AuraMate灵伴](https://auramate.net/)玄学陪伴产品。相关论文见[论文链接](https://arxiv.org/abs/2602.12889)。
+
 本数据集是用于评估大型语言模型（LLM）在中国传统八字命理推理能力的基准测试集。数据集包含真实人物的出生信息（年月日时）、性别、出生地点，以及经过专家验证的命运事件问答题。
 
 数据集分为两个部分：
@@ -322,12 +323,11 @@ print(f"准确率: {accuracy:.2%}")
 如有疑问或建议，请通过以下方式联系：
 
 - **GitHub Issues**: [提交Issue](https://github.com/your-username/bazi-test/issues)
-- **Email**: your.email@example.com
 
 ## 🔗 相关资源
 
 - [AuraMate灵伴 项目主页](https://auramate.net/)
-- [论文链接](待发布)
+- [论文链接](https://arxiv.org/abs/2602.12889)
 
 ## 📊 更新日志
 
