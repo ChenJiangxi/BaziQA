@@ -21,8 +21,8 @@
 | 2016 第7届 | 论坛题目帖 [Wayback](https://web.archive.org/web/20190923160006/http://www.forum.hkjfma.org/discuz/forum.php?mod=viewthread&tid=33126&extra=page%3D1) → `pages/2016_questions_forum_tid33126.txt` | 论坛答案帖第 2 楼 [Wayback](https://web.archive.org/web/20191022213457/http://www.forum.hkjfma.org/discuz/forum.php?mod=viewthread&tid=33155) → `pages/2016_answers_forum_tid33155.txt` | 官方 |
 | 2017 第8届 | [hkjfma.org/?page_id=7657](https://hkjfma.org/?page_id=7657) → `pages/2017_hkjfma_official.txt` | 官网只公布得奖者；用转载站 | 转载 |
 | 2018 第9届 | [hkjfma.org/?page_id=9264](https://hkjfma.org/?page_id=9264) → `pages/2018_hkjfma_official.txt` | 手写答案表 [hkjfma.org/?page_id=9290](https://hkjfma.org/?page_id=9290) → `images/2018_answer_key.jpg` | 官方 |
-| 2019 第10届 | 10 张题目图 [hkjfma.org/?page_id=9345](https://hkjfma.org/?page_id=9345) → `images/2019_questions_*.png` | 官网答案页只有得奖名单和作答分布截图；用转载站 | 转载 |
-| 2020 第11届 | 8 张题目图 [hkjfma.org/?p=10007](https://hkjfma.org/?p=10007) → `images/2020_questions_*.jpg` | 官网答案页只有得奖名单；用转载站 | 转载 |
+| 2019 第10届 | 10 张题目图 [hkjfma.org/?page_id=9345](https://hkjfma.org/?page_id=9345) → `images/2019_questions_*.png`；转载站的文字转录 → `pages/2019_questions_feiyuntiegui_2492.txt`（仅作交叉核对） | 官网答案页只有得奖名单和作答分布截图；用转载站 | 转载 |
+| 2020 第11届 | 8 张题目图 [hkjfma.org/?p=10007](https://hkjfma.org/?p=10007) → `images/2020_questions_*.jpg`；转载站的文字转录 → `pages/2020_questions_feiyuntiegui_2493.txt`（仅作交叉核对） | 官网答案页只有得奖名单；用转载站 | 转载 |
 | 2026 第17届 | 8 张题目图 [hkjfma.org/?p=13618](https://hkjfma.org/?p=13618)（2026-07-08 录入） | 手写答案表 → `images/2026_answer_key.jpg` | 官方 |
 
 ## 转载站答案为什么可信
@@ -37,6 +37,10 @@
 （2015 年第 18 题官方接受 B 或 D、2016 年第 13 题转载站漏写，这两题不计入比对。）
 所以 2014、2017、2019、2020 四年共 150 题采用该站答案，并在 JSON 里标为 `"answer_source": "secondary"`。
 如果你只想用官方答案，按这个字段过滤即可。
+
+## 2015 年题目只有转载来源
+
+官方题目帖没有被存档，2015 年题目全部来自转载站。这个站点的题目也能和其他年份的官方原文逐字比对：2018 年 200/200 个题干和选项完全一致，2014、2016、2017 年只差几个字，差异主要是它把「西曆」统一改写成「公历」，另有个别错字和一处漏题。所以 2015 年的题意可靠，个别用字可能和官方原帖有出入。年柱、命例顺序与官方答案帖（「1957丁酉年坤命 台灣 張評」等）全部吻合。
 
 ## 转写时做过的处理
 

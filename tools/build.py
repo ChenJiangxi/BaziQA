@@ -15,7 +15,7 @@ import opencc
 
 HERE = Path(__file__).parent
 CC = opencc.OpenCC('t2s')
-PROTECT = {'乾命': '命', '乾造': '造', '乾坤': '坤'}
+PROTECT = {'乾命': '\uE000命', '乾造': '\uE000造', '乾坤': '\uE000坤'}
 SHICHEN_MID = {z: (i * 2) % 24 for i, z in enumerate('子丑寅卯辰巳午未申酉戌亥')}  # 子=0, 丑=2 … 亥=22
 
 
@@ -25,7 +25,7 @@ def s(text):
     for k, v in PROTECT.items():
         text = text.replace(k, v)
     out = CC.convert(text)
-    return out.replace('', '乾')
+    return out.replace('\uE000', '乾')
 
 
 def parse(path):
@@ -95,10 +95,9 @@ def build(year, out_dir):
         b = birth(c, year)
         g = c['gender']
         pid = f"{year}_C{c['case']}_{g}_{c['date'].replace('-', '')}"
-        place = b['place'] or '出生地不详'
         person = {
             'person_id': pid,
-            'name': f"{b['year']}年{place}出生{'男性' if g == 'male' else '女性'}",
+            'name': f"{b['year']}年{b['place'] or ''}出生{'男性' if g == 'male' else '女性'}",
             'case_no': c['case'],
             'profile': {'birth': b, 'gender': g},
             'setter': {'name': s(c.get('provider')) or None, 'method': s(c.get('method')) or None},
