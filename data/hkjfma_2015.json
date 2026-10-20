@@ -31,7 +31,10 @@
         "place": "台湾台北",
         "approximate": true,
         "time_raw": "酉时",
-        "raw": "女命: 公历1957年11月7日,酉时 出生地：台湾台北"
+        "raw": "女命: 公历1957年11月7日,酉时 出生地：台湾台北",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -125,7 +128,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "午时",
-        "raw": "女命: 公历1957年1 月4 日午时 出生地: 香港"
+        "raw": "女命: 公历1957年1 月4 日午时 出生地: 香港",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -221,7 +227,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "午时",
-        "raw": "男命: 公历:1964年3月16日午时 出生地: 香港"
+        "raw": "男命: 公历:1964年3月16日午时 出生地: 香港",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -317,7 +326,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "戌时",
-        "raw": "男命: 公历1974年8月13日戌时 出生地:香港出生"
+        "raw": "男命: 公历1974年8月13日戌时 出生地:香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -416,7 +428,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "戌时",
-        "raw": "男命: 公历1963 年 8月 13日 戌时出生地: 香港"
+        "raw": "男命: 公历1963 年 8月 13日 戌时出生地: 香港",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -510,7 +525,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "08:00",
-        "raw": "女命： 公历1996年3月10日8am 出生地: 香港"
+        "raw": "女命： 公历1996年3月10日8am 出生地: 香港",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -604,7 +622,10 @@
         "place": "马来西亚",
         "approximate": true,
         "time_raw": "亥时",
-        "raw": "女命: 公历1959年 9月 6日，亥时（9-11pm） 出生地: 马来西亚"
+        "raw": "女命: 公历1959年 9月 6日，亥时（9-11pm） 出生地: 马来西亚",
+        "timezone": "Asia/Kuala_Lumpur",
+        "utc_offset": "+07:30",
+        "dst": false
       },
       "gender": "female"
     },

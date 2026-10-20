@@ -31,7 +31,10 @@
         "place": null,
         "approximate": true,
         "time_raw": "戌时",
-        "raw": "第一条命例题目，西历1979年10月5日戌时 坤命 出题者：李文渊"
+        "raw": "第一条命例题目，西历1979年10月5日戌时 坤命 出题者：李文渊",
+        "timezone": null,
+        "utc_offset": null,
+        "dst": null
       },
       "gender": "female"
     },
@@ -127,7 +130,10 @@
         "place": null,
         "approximate": true,
         "time_raw": "辰时",
-        "raw": "第二条命例题目，西历1983年6月28日辰时 坤命 出题者：史宾沙"
+        "raw": "第二条命例题目，西历1983年6月28日辰时 坤命 出题者：史宾沙",
+        "timezone": null,
+        "utc_offset": null,
+        "dst": null
       },
       "gender": "female"
     },
@@ -221,7 +227,10 @@
         "place": null,
         "approximate": true,
         "time_raw": "寅时",
-        "raw": "第三条命例 西历1955年 3 月 25日寅时 乾命 出题目: 鼎大图书"
+        "raw": "第三条命例 西历1955年 3 月 25日寅时 乾命 出题目: 鼎大图书",
+        "timezone": null,
+        "utc_offset": null,
+        "dst": null
       },
       "gender": "male"
     },

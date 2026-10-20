@@ -31,7 +31,10 @@
         "place": "台湾",
         "approximate": true,
         "time_raw": "卯时",
-        "raw": "乾命: 男性 西历 1962年生8月25日卯时 台湾出生"
+        "raw": "乾命: 男性 西历 1962年生8月25日卯时 台湾出生",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -125,7 +128,10 @@
         "place": "马来西亚",
         "approximate": false,
         "time_raw": "09:35",
-        "raw": "乾命 : 西历1965年3月5日9:35am 马来西亚出生"
+        "raw": "乾命 : 西历1965年3月5日9:35am 马来西亚出生",
+        "timezone": "Asia/Kuala_Lumpur",
+        "utc_offset": "+07:30",
+        "dst": false
       },
       "gender": "male"
     },
@@ -219,7 +225,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "戌时",
-        "raw": "男命: 西历1979年10月10日戌时 香港出生"
+        "raw": "男命: 西历1979年10月10日戌时 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -313,7 +322,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "申时",
-        "raw": "女命: 西历1975年9 月26日申时 香港出生"
+        "raw": "女命: 西历1975年9 月26日申时 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "female"
     },
@@ -407,7 +419,10 @@
         "place": "澳门",
         "approximate": true,
         "time_raw": "卯时",
-        "raw": "女命 :西历1992年5月6日 卯时 澳门出生"
+        "raw": "女命 :西历1992年5月6日 卯时 澳门出生",
+        "timezone": "Asia/Macau",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -503,7 +518,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "11:29",
-        "raw": "男命: 西历1974年3月16日上午11时29分 香港出生"
+        "raw": "男命: 西历1974年3月16日上午11时29分 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -599,7 +617,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "06:00",
-        "raw": "女命: 西历1961年7月10日卯时:早上６时 香港出生"
+        "raw": "女命: 西历1961年7月10日卯时:早上６时 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "female"
     },

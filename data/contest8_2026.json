@@ -1,6 +1,6 @@
 [
   {
-    "contest_id": "hkjfma_2026",
+    "contest_id": "contest8_2026",
     "current_year": "2026",
     "edition": 17,
     "title": "2026年第十七届 全球算命师大赛",
@@ -29,7 +29,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "06:50",
-        "raw": "西历 1982 年 6 月 12 日早上 6 点 50 分，香港出世"
+        "raw": "西历 1982 年 6 月 12 日早上 6 点 50 分，香港出世",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -123,7 +126,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "20:05",
-        "raw": "西历 1981 年 1 月 20 日 20 时 05 分，香港出生"
+        "raw": "西历 1981 年 1 月 20 日 20 时 05 分，香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -217,7 +223,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "酉时",
-        "raw": "西历 1956 年 9 月 3 日 酉时，香港出生"
+        "raw": "西历 1956 年 9 月 3 日 酉时，香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -311,7 +320,10 @@
         "place": "四川成都郊县",
         "approximate": true,
         "time_raw": "05:30",
-        "raw": "西历 1951 年 11 月 5 日 上午 5-6 点，出生于四川成都郊县"
+        "raw": "西历 1951 年 11 月 5 日 上午 5-6 点，出生于四川成都郊县",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -407,7 +419,10 @@
         "place": "河北农村",
         "approximate": true,
         "time_raw": "巳时",
-        "raw": "西历 1987 年 6 月 26 日 巳时出生，河北农村出生。"
+        "raw": "西历 1987 年 6 月 26 日 巳时出生，河北农村出生。",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -503,7 +518,10 @@
         "place": "马来西亚",
         "approximate": true,
         "time_raw": "巳时",
-        "raw": "坤造 西历：1961 年 11 月 4 日巳时，马来西亚出生"
+        "raw": "坤造 西历：1961 年 11 月 4 日巳时，马来西亚出生",
+        "timezone": "Asia/Kuala_Lumpur",
+        "utc_offset": "+07:30",
+        "dst": false
       },
       "gender": "female"
     },
@@ -597,7 +615,10 @@
         "place": "台湾高雄",
         "approximate": false,
         "time_raw": "15:30",
-        "raw": "台湾高雄 西历：1999 年 8 月 14 日 15 点 30 分（申时）"
+        "raw": "台湾高雄 西历：1999 年 8 月 14 日 15 点 30 分（申时）",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -693,7 +714,10 @@
         "place": null,
         "approximate": false,
         "time_raw": "22:00",
-        "raw": "西历：1981 年 10 月 19 日 晚上十点（亥时）"
+        "raw": "西历：1981 年 10 月 19 日 晚上十点（亥时）",
+        "timezone": null,
+        "utc_offset": null,
+        "dst": null
       },
       "gender": "male"
     },

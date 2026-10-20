@@ -31,7 +31,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "巳时",
-        "raw": "女命 : 西历 1962年4月4日 巳时 香港出生 命题提供 : 香港 八字 邓碧玉老师"
+        "raw": "女命 : 西历 1962年4月4日 巳时 香港出生 命题提供 : 香港 八字 邓碧玉老师",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "female"
     },
@@ -130,7 +133,10 @@
         "place": "广州",
         "approximate": false,
         "time_raw": "23:50",
-        "raw": "女命: 西历1979年3月1日 23:50时 广州出生 (广州出生,生活在广州)特别注意此命的出生时间在11:50pm 命题提供 : 香港 八字 方亮初老师"
+        "raw": "女命: 西历1979年3月1日 23:50时 广州出生 (广州出生,生活在广州)特别注意此命的出生时间在11:50pm 命题提供 : 香港 八字 方亮初老师",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -226,7 +232,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "午时",
-        "raw": "女命：西历1985年3月15日午时 香港出生 命题提供 : 香港 八字 梅思贤老师"
+        "raw": "女命：西历1985年3月15日午时 香港出生 命题提供 : 香港 八字 梅思贤老师",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -320,7 +329,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "卯时",
-        "raw": "男命: 西历 1979年7月21日卯时 香港出生 (自小在英国生活) 命题提供 香港 八字 余法一老师"
+        "raw": "男命: 西历 1979年7月21日卯时 香港出生 (自小在英国生活) 命题提供 香港 八字 余法一老师",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -416,7 +428,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "午时",
-        "raw": "女命：西历1986年5月6日午时 香港出生（农历三月二十八） 命题提供 : 青术会代表 八字 方法振老师"
+        "raw": "女命：西历1986年5月6日午时 香港出生（农历三月二十八） 命题提供 : 青术会代表 八字 方法振老师",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -510,7 +525,10 @@
         "place": "马来西亚",
         "approximate": true,
         "time_raw": "未时",
-        "raw": "女命：西历 1962年6月16日 未时 出生地：马来西亚 命题提供： 马来西亚 紫微斗数 东南易生老师"
+        "raw": "女命：西历 1962年6月16日 未时 出生地：马来西亚 命题提供： 马来西亚 紫微斗数 东南易生老师",
+        "timezone": "Asia/Kuala_Lumpur",
+        "utc_offset": "+07:30",
+        "dst": false
       },
       "gender": "female"
     },
@@ -604,7 +622,10 @@
         "place": "中国广西贵港市",
         "approximate": true,
         "time_raw": "申时",
-        "raw": "女命: 西历1993年11月25日 申时 出生地:中国广西 贵港市 命题提供： 中国大陆 八字 李小康老师"
+        "raw": "女命: 西历1993年11月25日 申时 出生地:中国广西 贵港市 命题提供： 中国大陆 八字 李小康老师",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -698,7 +719,10 @@
         "place": "中国大陆",
         "approximate": true,
         "time_raw": "午时",
-        "raw": "男命: 西历 1963年6月26日 午时出生 中国大陆出生（两个命题提供 中国大陆 八字 裘红祥老师）"
+        "raw": "男命: 西历 1963年6月26日 午时出生 中国大陆出生（两个命题提供 中国大陆 八字 裘红祥老师）",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -768,7 +792,10 @@
         "place": "中国大陆",
         "approximate": true,
         "time_raw": "巳时",
-        "raw": "男命: 西历 1976年8月12日 巳时出生 中国大陆出生（两个命题提供 中国大陆 八字 裘红祥老师）"
+        "raw": "男命: 西历 1976年8月12日 巳时出生 中国大陆出生（两个命题提供 中国大陆 八字 裘红祥老师）",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },

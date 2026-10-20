@@ -31,7 +31,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "申时",
-        "raw": "西历出生于: 1982年9月27日 申时 (女命) 香港出生"
+        "raw": "西历出生于: 1982年9月27日 申时 (女命) 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -104,7 +107,10 @@
         "place": "中国大陆",
         "approximate": true,
         "time_raw": "巳时",
-        "raw": "西历出生于: 1960年 12月10日 巳时 国内出生 (男命)"
+        "raw": "西历出生于: 1960年 12月10日 巳时 国内出生 (男命)",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -177,7 +183,10 @@
         "place": null,
         "approximate": true,
         "time_raw": "寅时",
-        "raw": "西历出生于: 1962年 9月29日 寅时(女命)"
+        "raw": "西历出生于: 1962年 9月29日 寅时(女命)",
+        "timezone": null,
+        "utc_offset": null,
+        "dst": null
       },
       "gender": "female"
     },

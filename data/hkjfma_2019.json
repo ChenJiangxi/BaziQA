@@ -31,7 +31,10 @@
         "place": "台湾宜兰",
         "approximate": true,
         "time_raw": "丑时",
-        "raw": "男命：生日：西元 1982 年、01 月、23 日 丑时：出生地、台湾、宜兰 命例提供 台湾：周星飞老师"
+        "raw": "男命：生日：西元 1982 年、01 月、23 日 丑时：出生地、台湾、宜兰 命例提供 台湾：周星飞老师",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -127,7 +130,10 @@
         "place": null,
         "approximate": false,
         "time_raw": "18:27",
-        "raw": "男命：命主生日 西历：1987年7月10日6.27pm 酉时 命例提供：马来西亚 紫微斗数 杨迪生老师"
+        "raw": "男命：命主生日 西历：1987年7月10日6.27pm 酉时 命例提供：马来西亚 紫微斗数 杨迪生老师",
+        "timezone": null,
+        "utc_offset": null,
+        "dst": null
       },
       "gender": "male"
     },
@@ -223,7 +229,10 @@
         "place": "中国大陆",
         "approximate": true,
         "time_raw": "辰时",
-        "raw": "女命：中国大陆出生：西历1984年12月28日辰时 命例问题提供：中国大陆，子平八字，王雅妮老师"
+        "raw": "女命：中国大陆出生：西历1984年12月28日辰时 命例问题提供：中国大陆，子平八字，王雅妮老师",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -317,7 +326,10 @@
         "place": "天津",
         "approximate": false,
         "time_raw": "02:30",
-        "raw": "女命 : 天津出世 西历1971年5月28日 凌晨 02:30丑时 (年少时,已随家人移居香港)八字命例 香港青术会: 陈易燊老师"
+        "raw": "女命 : 天津出世 西历1971年5月28日 凌晨 02:30丑时 (年少时,已随家人移居香港)八字命例 香港青术会: 陈易燊老师",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -413,7 +425,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "寅时",
-        "raw": "女命：香港出生: 西历 1962年8月26日 寅时 命例问题提供: 子平八字 香港:许果朗老师"
+        "raw": "女命：香港出生: 西历 1962年8月26日 寅时 命例问题提供: 子平八字 香港:许果朗老师",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "female"
     },
@@ -507,7 +522,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "未时",
-        "raw": "女命: 香港出生：西历 1977 年 04 月 30 日未时 命理问题提供：香港 子平八字 丘智伟老师"
+        "raw": "女命: 香港出生：西历 1977 年 04 月 30 日未时 命理问题提供：香港 子平八字 丘智伟老师",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -601,7 +619,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "寅时",
-        "raw": "女命: 香港出生：西历 1986 年 07 月 23 日寅时 命理问题提供： 香港 紫微斗数 林耀光老师"
+        "raw": "女命: 香港出生：西历 1986 年 07 月 23 日寅时 命理问题提供： 香港 紫微斗数 林耀光老师",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -695,7 +716,10 @@
         "place": "香港 / 广东中山",
         "approximate": true,
         "time_raw": "午时",
-        "raw": "女命: 香港与广东省中山出生,两个同年月日时之女命,大家注意此点 西历: 1982年1月27日午时 命例提供者: 八字 香港 李文渊老师"
+        "raw": "女命: 香港与广东省中山出生,两个同年月日时之女命,大家注意此点 西历: 1982年1月27日午时 命例提供者: 八字 香港 李文渊老师",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },

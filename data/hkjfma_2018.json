@@ -29,7 +29,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "辰时",
-        "raw": "香港出生男命 : 西历1994年11月4日 辰时"
+        "raw": "香港出生男命 : 西历1994年11月4日 辰时",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -87,7 +90,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "卯时",
-        "raw": "香港出生女命 : 西历1973年6 月7日 卯时"
+        "raw": "香港出生女命 : 西历1973年6 月7日 卯时",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "female"
     },
@@ -157,7 +163,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "卯时",
-        "raw": "香港出生男命 : 西历1972年1月26日 卯时"
+        "raw": "香港出生男命 : 西历1972年1月26日 卯时",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -251,7 +260,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "巳时",
-        "raw": "香港出生男命 : 西历1954年2月5日 巳时 (农历甲午年正月初三巳时)"
+        "raw": "香港出生男命 : 西历1954年2月5日 巳时 (农历甲午年正月初三巳时)",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -345,7 +357,10 @@
         "place": "马来西亚",
         "approximate": true,
         "time_raw": "亥时",
-        "raw": "马来西亚出生男命 ：西历 1960年 5 月 29日 亥时 (农历五月五日亥时)"
+        "raw": "马来西亚出生男命 ：西历 1960年 5 月 29日 亥时 (农历五月五日亥时)",
+        "timezone": "Asia/Kuala_Lumpur",
+        "utc_offset": "+07:30",
+        "dst": false
       },
       "gender": "male"
     },
@@ -439,7 +454,10 @@
         "place": "台湾",
         "approximate": true,
         "time_raw": "未时",
-        "raw": "台湾出生女命:公历1940年10月13日 未时（命例问题提供:台湾 子平八字 陈开通师傅）"
+        "raw": "台湾出生女命:公历1940年10月13日 未时（命例问题提供:台湾 子平八字 陈开通师傅）",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+09:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -535,7 +553,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "16:00",
-        "raw": "香港出生女命 : 西历1993年8月17日 16:00申时"
+        "raw": "香港出生女命 : 西历1993年8月17日 16:00申时",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -629,7 +650,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "午时",
-        "raw": "香港出生女命 ：西历 1961年 3 月 25日 午时 (农历二月九日午时)"
+        "raw": "香港出生女命 ：西历 1961年 3 月 25日 午时 (农历二月九日午时)",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "female"
     },
@@ -723,7 +747,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "未时",
-        "raw": "香港出生女命 : 西历1958年4月16日 未时"
+        "raw": "香港出生女命 : 西历1958年4月16日 未时",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "female"
     },

@@ -29,7 +29,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "寅时",
-        "raw": "男命 西历 1952年 6 月 15日寅时 农历五月二十三日 寅时 香港"
+        "raw": "男命 西历 1952年 6 月 15日寅时 农历五月二十三日 寅时 香港",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -125,7 +128,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "18:00",
-        "raw": "乾造: 西历1975年9月20日 18:00酉时 香港"
+        "raw": "乾造: 西历1975年9月20日 18:00酉时 香港",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -219,7 +225,10 @@
         "place": "台湾",
         "approximate": true,
         "time_raw": "寅时",
-        "raw": "女命 西历 1970年 6 月 5 日 寅时 台湾"
+        "raw": "女命 西历 1970年 6 月 5 日 寅时 台湾",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -313,7 +322,10 @@
         "place": "台湾台中",
         "approximate": true,
         "time_raw": "午时",
-        "raw": "乾造: 1963年阳历2月6日-阴历1月13日中午时、台湾台中出生。癸卯年、甲寅月、庚辰日、壬午时出生"
+        "raw": "乾造: 1963年阳历2月6日-阴历1月13日中午时、台湾台中出生。癸卯年、甲寅月、庚辰日、壬午时出生",
+        "timezone": "Asia/Taipei",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -409,7 +421,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "卯时",
-        "raw": "男命 西历 1952年 2月26日卯时 香港"
+        "raw": "男命 西历 1952年 2月26日卯时 香港",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -503,7 +518,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "寅时",
-        "raw": "男命 西历 1982年5月30日寅时 香港（命例问题提供者：香港 四柱八字 青术会代表Helen师傅）"
+        "raw": "男命 西历 1982年5月30日寅时 香港（命例问题提供者：香港 四柱八字 青术会代表Helen师傅）",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -597,7 +615,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "戌时",
-        "raw": "女命 西历 : 1970年10月5日戌时 香港"
+        "raw": "女命 西历 : 1970年10月5日戌时 香港",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "female"
     },

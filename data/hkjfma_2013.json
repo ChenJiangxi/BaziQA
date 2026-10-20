@@ -29,7 +29,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "戌时",
-        "raw": "乾命: 西元1968年生男命4月10日戌时 香港出生"
+        "raw": "乾命: 西元1968年生男命4月10日戌时 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -123,7 +126,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "19:15",
-        "raw": "坤命: 西元1972年11月6日19:15 戌时 香港出生"
+        "raw": "坤命: 西元1972年11月6日19:15 戌时 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -217,7 +223,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "00:30",
-        "raw": "男命 西历1972年1月15日 00：30AM 香港出生"
+        "raw": "男命 西历1972年1月15日 00：30AM 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -313,7 +322,10 @@
         "place": "香港",
         "approximate": null,
         "time_raw": null,
-        "raw": "出生日期: 西元1970年8月14日 性别: 女 出生地: 香港（出生时辰即本题所问）"
+        "raw": "出生日期: 西元1970年8月14日 性别: 女 出生地: 香港（出生时辰即本题所问）",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": null,
+        "dst": null
       },
       "gender": "female"
     },

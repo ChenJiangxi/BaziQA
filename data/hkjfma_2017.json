@@ -31,7 +31,10 @@
         "place": "新加坡",
         "approximate": false,
         "time_raw": "20:05",
-        "raw": "男命: 西历1961年10月5日20:05戌时 出生新加坡 八字 邵温老师"
+        "raw": "男命: 西历1961年10月5日20:05戌时 出生新加坡 八字 邵温老师",
+        "timezone": "Asia/Singapore",
+        "utc_offset": "+07:30",
+        "dst": false
       },
       "gender": "male"
     },
@@ -125,7 +128,10 @@
         "place": "中国江苏",
         "approximate": false,
         "time_raw": "23:20",
-        "raw": "男命 西历1980年6月25日 23:20. 出生中国江苏 紫微斗数 陈依婷"
+        "raw": "男命 西历1980年6月25日 23:20. 出生中国江苏 紫微斗数 陈依婷",
+        "timezone": "Asia/Shanghai",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -219,7 +225,10 @@
         "place": "马来西亚",
         "approximate": true,
         "time_raw": "申时",
-        "raw": "女命 西历: 1961年1月25日申时 马来西亚出生 八字 李袁鸣"
+        "raw": "女命 西历: 1961年1月25日申时 马来西亚出生 八字 李袁鸣",
+        "timezone": "Asia/Kuala_Lumpur",
+        "utc_offset": "+07:30",
+        "dst": false
       },
       "gender": "female"
     },
@@ -313,7 +322,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "丑时",
-        "raw": "男命: 西历 : 1980年8月12日丑时 香港出生 八字 许果朗"
+        "raw": "男命: 西历 : 1980年8月12日丑时 香港出生 八字 许果朗",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "male"
     },
@@ -407,7 +419,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "16:00",
-        "raw": "女命 : 西历 : 1980年2月2 日16:00申时 香港出生 八字 鼎大图书培哥"
+        "raw": "女命 : 西历 : 1980年2月2 日16:00申时 香港出生 八字 鼎大图书培哥",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -501,7 +516,10 @@
         "place": "香港",
         "approximate": true,
         "time_raw": "午时",
-        "raw": "男命 : 西历1976年5月15日午时 香港出生 八字 青术会 常欢师傅"
+        "raw": "男命 : 西历1976年5月15日午时 香港出生 八字 青术会 常欢师傅",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+09:00",
+        "dst": true
       },
       "gender": "male"
     },
@@ -595,7 +613,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "00:30",
-        "raw": "坤造：西历1951年1月24日零时至1时内出生。农历:1950年12月17日零时至1时内出生。 香港出生"
+        "raw": "坤造：西历1951年1月24日零时至1时内出生。农历:1950年12月17日零时至1时内出生。 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },
@@ -667,7 +688,10 @@
         "place": "香港",
         "approximate": false,
         "time_raw": "23:30",
-        "raw": "坤造：1951年1月24日23时至24时内出生。(注意:比前命迟23个小时出生) 农历：1950年12月17日23时至24时出生。 香港出生"
+        "raw": "坤造：1951年1月24日23时至24时内出生。(注意:比前命迟23个小时出生) 农历：1950年12月17日23时至24时出生。 香港出生",
+        "timezone": "Asia/Hong_Kong",
+        "utc_offset": "+08:00",
+        "dst": false
       },
       "gender": "female"
     },

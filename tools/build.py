@@ -12,10 +12,20 @@ import sys
 from pathlib import Path
 
 import opencc
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 HERE = Path(__file__).parent
 CC = opencc.OpenCC('t2s')
 PROTECT = {'乾命': '\uE000命', '乾造': '\uE000造', '乾坤': '\uE000坤'}
+# Birthplace → IANA zone, so each chart records the clock offset actually in force at birth
+# (Hong Kong / Taiwan / mainland summer time, Malaysia & Singapore at UTC+7:30 before 1982).
+TZ_BY_PLACE = [('香港', 'Asia/Hong_Kong'), ('澳门', 'Asia/Macau'), ('台湾', 'Asia/Taipei'),
+               ('马来西亚', 'Asia/Kuala_Lumpur'), ('新加坡', 'Asia/Singapore'), ('日本', 'Asia/Tokyo'),
+               ('中国', 'Asia/Shanghai'), ('广东', 'Asia/Shanghai'), ('广州', 'Asia/Shanghai'),
+               ('北京', 'Asia/Shanghai'), ('天津', 'Asia/Shanghai'), ('四川', 'Asia/Shanghai'),
+               ('河北', 'Asia/Shanghai'), ('江苏', 'Asia/Shanghai'), ('唐山', 'Asia/Shanghai'),
+               ('广西', 'Asia/Shanghai'), ('潮汕', 'Asia/Shanghai')]
 SHICHEN_MID = {z: (i * 2) % 24 for i, z in enumerate('子丑寅卯辰巳午未申酉戌亥')}  # 子=0, 丑=2 … 亥=22
 
 
@@ -75,6 +85,14 @@ def birth(c, year):
         out['approximate'] = True  # only the two-hour 时辰 is known; hour is its midpoint
     elif t:
         raise ValueError(f'{year} case {c["case"]}: unknown time {t!r}')
+    tz = next((z for k, z in TZ_BY_PLACE if out['place'] and k in out['place']), None)
+    out['timezone'] = tz
+    out['utc_offset'] = out['dst'] = None
+    if tz and out['hour'] is not None:
+        local = datetime(y, m, d, out['hour'], out['minute'], tzinfo=ZoneInfo(tz))
+        off = int(local.utcoffset().total_seconds() // 60)
+        out['utc_offset'] = f"{'+' if off >= 0 else '-'}{abs(off) // 60:02d}:{abs(off) % 60:02d}"
+        out['dst'] = bool(local.dst())
     return out
 
 
@@ -94,7 +112,9 @@ def build(year, out_dir):
     for c in cases:
         b = birth(c, year)
         g = c['gender']
-        pid = f"{year}_C{c['case']}_{g}_{c['date'].replace('-', '')}"
+        # 2021+ files keep the IDs of the original release so existing results still join
+        pid = c.get('pid') or f"{year}_C{c['case']}_{g}_{c['date'].replace('-', '')}"
+        qprefix = c.get('qid') or pid
         person = {
             'person_id': pid,
             'name': f"{b['year']}年{b['place'] or ''}出生{'男性' if g == 'male' else '女性'}",
@@ -112,7 +132,7 @@ def build(year, out_dir):
             labels = 'ABCDE'[:len(q['options'])]
             assert ans in labels, f'{year} Q{n}: answer {ans} not among {labels}'
             item = {
-                'question_id': f'{pid}-Q{n}',
+                'question_id': f'{qprefix}-Q{n}',
                 'question_no': n,
                 'question': s(q['stem']),
                 'options': [f'{l}. {s(o)}' for l, o in zip(labels, q['options'])],
@@ -126,7 +146,7 @@ def build(year, out_dir):
         persons.append(person)
 
     head = {
-        'contest_id': f'hkjfma_{year}',
+        'contest_id': f'contest8_{year}' if year >= 2021 else f'hkjfma_{year}',
         'current_year': str(year),
         'edition': int(meta['edition']),
         'title': s(meta['title']),

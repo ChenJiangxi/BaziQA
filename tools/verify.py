@@ -9,7 +9,7 @@
             lunar dates, "此X X男命" year clues and 大運 names/start years quoted in the
             questions must agree with a lunar-python chart computed from the stored fields.
 
-2026 is not covered by 1–2: its only source is 8 images (checked by reading them).
+2025 and 2026 are not covered by 1–2: their only sources are images (checked by reading them).
 
 usage: pip install opencc lunar-python && python tools/verify.py
 """
@@ -33,6 +33,8 @@ SOURCES = {
     2015: ['2015_questions_feiyuntiegui_2488.txt'], 2016: ['2016_questions_forum_tid33126.txt'],
     2017: ['2017_hkjfma_official.txt'], 2018: ['2018_hkjfma_official.txt'],
     2019: ['2019_questions_feiyuntiegui_2492.txt'], 2020: ['2020_questions_feiyuntiegui_2493.txt'],
+    2021: ['2021_questions_feiyuntiegui_2494.txt'], 2022: ['2022_questions_feiyuntiegui_2495.txt'],
+    2023: ['2023_hkjfma_official.txt'], 2024: ['2024_questions_feiyuntiegui_2556.txt'],
 }
 
 
@@ -87,14 +89,17 @@ def check_text_and_order():
 
 def check_birth():
     issues = []
-    years = list(SOURCES) + [2026]
+    years = list(SOURCES) + [2025, 2026]
     for y in years:
         for p in load(y)[1:]:
             b, g, raw = p['profile']['birth'], p['profile']['gender'], p['profile']['birth']['raw'] or ''
             tag = f"{y} C{p['case_no']}"
-            m = re.search(r'(\d{4})\s*年\s*(?:生|[陽阳][曆历])?\s*(?:男命)?\s*[、,]?\s*(\d{1,2})\s*月\s*[、,]?\s*(\d{1,2})\s*日', raw)
-            m2 = re.search(r'(\d{2})-(\d{2})-(\d{4})', raw)
-            ymd = tuple(map(int, m.groups())) if m else (int(m2.group(3)), int(m2.group(2)), int(m2.group(1))) if m2 else None
+            m = re.search(r'(\d{4})\s*年\s*(?:生|[陽阳][曆历])?\s*(?:男命)?\s*[、,\-—]*\s*(\d{1,2})\s*月\s*[、,\-—]*\s*(\d{1,2})\s*日', raw)
+            m2 = re.search(r'(?<!\d)(\d{2})-(\d{2})-(\d{4})', raw)
+            m3 = re.search(r'(\d{4})[.\-/](\d{1,2})[.\-/](\d{1,2})', raw)
+            ymd = (tuple(map(int, m.groups())) if m else
+                   (int(m2.group(3)), int(m2.group(2)), int(m2.group(1))) if m2 else
+                   tuple(map(int, m3.groups())) if m3 else None)
             if ymd != (b['year'], b['month'], b['day']):
                 issues.append(f'{tag}: stored date differs from raw line ({ymd})')
             says_m, says_f = bool(re.search('男|乾', raw)), bool(re.search('女|坤', raw))
@@ -139,7 +144,9 @@ if __name__ == '__main__':
     misses, order = check_text_and_order()
     # A miss is expected when the year's `corrections` names that question, or when the source
     # itself is a second-hand transcription that was overruled by the original image.
-    KNOWN = {(2020, 15): 'repost reads 慨; the original image has 嘅'}
+    KNOWN = {(2020, 15): 'repost reads 慨; the original image has 嘅',
+             (2024, 26): 'repost truncates 分手原因 to 分手原; the Zhihu copy has the full word',
+             (2021, 23): 'repost reads 以及; the original image has 與及'}
     unexplained = []
     for x in misses:
         y, q = int(x[:4]), int(re.search(r'Q(\d+)', x).group(1))
