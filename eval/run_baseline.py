@@ -1,13 +1,20 @@
-"""Multi-turn baseline from the BaziQA paper, for any OpenAI-compatible chat API.
+"""A multi-turn baseline for any OpenAI-compatible chat API.
 
 One conversation per chart: the model first reads the chart and writes a general analysis, then
-answers that chart's questions one by one, ending each reply with 「答案：X」. Nothing here is
-tuned to the answer key; it is the plain baseline reported in the paper (Multi-turn).
+answers that chart's questions one by one, ending each reply with 「答案：X」. This follows the flow of
+the paper's Multi-turn setting, but it is not the paper's exact setup: the prompts below are a
+shortened rewrite, and the charts come from paipan/ (no 神煞; Zi Wei added for Zi Wei setters)
+instead of xuan-utils-pro. Scores from this script are therefore not directly comparable with the
+paper's table. The prompts were not tuned on the answer key.
+
+Birth time convention: always ``stated`` (see paipan/README.md). API errors are retried with
+backoff; a chart that still fails is skipped and reported, and ``--resume`` fills such gaps later.
 
 usage:
   export OPENAI_API_KEY=...                       # or --api-key-env NAME
   python eval/run_baseline.py --files contest8_2025 --model deepseek-chat \
       --base-url https://api.deepseek.com/v1 --runs 5 --out preds/deepseek-chat.jsonl
+  python eval/run_baseline.py ... --resume                       # same command again: only missing charts
   python eval/run_baseline.py --files contest8_2025 --dry-run   # print the first prompt, no API call
 """
 from __future__ import annotations
@@ -18,11 +25,12 @@ import os
 import re
 import sys
 import threading
+import time
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from prompt import ROOT, chart_text, load_year  # noqa: E402
+from prompt import chart_text, load_year, wants_ziwei  # noqa: E402
 
 SYSTEM = """你是专业的命理分析师（八字为主，题目附紫微斗数盘时也参考紫微）。当前年份：{year}年。
 
@@ -65,29 +73,44 @@ class Chat:
         self.client, self.model, self.max_tokens, self.temperature = client, model, max_tokens, temperature
         self.messages = [{'role': 'system', 'content': system}]
 
-    def ask(self, text: str) -> str:
+    def ask(self, text: str, tries: int = 5) -> tuple[str, bool]:
+        """Send one user turn; return (reply, truncated). Transient API errors are retried."""
         self.messages.append({'role': 'user', 'content': text})
         kw = {'model': self.model, 'messages': self.messages, 'max_tokens': self.max_tokens}
         if self.temperature is not None:
             kw['temperature'] = self.temperature
-        reply = self.client.chat.completions.create(**kw).choices[0].message.content or ''
+        for attempt in range(tries):
+            try:
+                choice = self.client.chat.completions.create(**kw).choices[0]
+                break
+            except Exception as e:                      # noqa: BLE001 — any client or network error
+                # bad request / auth / unknown model will not get better by waiting
+                if getattr(e, 'status_code', None) in (400, 401, 403, 404) or attempt == tries - 1:
+                    raise
+                time.sleep(5 * 2 ** attempt)
+        reply = choice.message.content or ''
         self.messages.append({'role': 'assistant', 'content': reply})
-        return reply
+        return reply, choice.finish_reason == 'length'
 
 
 def run_chart(client, args, meta, person, bazi, ziwei, run: int) -> list[dict]:
     chat = Chat(client, args.model, SYSTEM.format(year=meta['current_year']), args.max_tokens, args.temperature)
     chat.ask(ANALYSIS.format(chart=chart_text(meta, person, bazi, ziwei, args.ziwei)))
+    with_ziwei = person['person_id'] in ziwei and wants_ziwei(person, args.ziwei)
     rows = []
     for q in person['questions']:
         letters = ''.join(o[0] for o in q['options'])
-        reply = chat.ask(QUESTION.format(question=q['question'], options='\n'.join(q['options'])))
+        reply, truncated = chat.ask(QUESTION.format(question=q['question'], options='\n'.join(q['options'])))
         ans = parse_answer(reply, letters)
         if not ans:
-            reply += '\n[追问]\n' + chat.ask(RETRY.format(letters='、'.join(letters)))
+            extra, t2 = chat.ask(RETRY.format(letters='、'.join(letters)))
+            reply += '\n[追问]\n' + extra
+            truncated = truncated or t2
             ans = parse_answer(reply, letters)
         row = {'question_id': q['question_id'], 'year': int(meta['current_year']), 'run': run,
-               'answer': ans, 'model': args.model, 'time_convention': 'stated', 'ziwei': args.ziwei}
+               'answer': ans, 'model': args.model, 'time_convention': 'stated', 'ziwei_shown': with_ziwei}
+        if truncated:
+            row['truncated'] = True                     # hit --max-tokens at least once
         if args.save_text:
             row['response'] = reply
         rows.append(row)
@@ -108,7 +131,9 @@ def main() -> None:
     ap.add_argument('--temperature', type=float, default=None)
     ap.add_argument('--workers', type=int, default=4, help='charts processed in parallel')
     ap.add_argument('--save-text', action='store_true', help='keep the model replies in the output')
-    ap.add_argument('--out', default='predictions.jsonl')
+    ap.add_argument('--out', default='predictions.jsonl', help='appended to, never overwritten')
+    ap.add_argument('--resume', action='store_true',
+                    help='skip (run, chart) pairs already complete in --out, e.g. after API failures')
     ap.add_argument('--dry-run', action='store_true', help='print the first chart prompt and exit')
     args = ap.parse_args()
 
@@ -126,13 +151,30 @@ def main() -> None:
     if not key or not args.model:
         sys.exit(f'set --model and the API key in ${args.api_key_env}')
     client = OpenAI(api_key=key, base_url=args.base_url)
-    lock = threading.Lock()
-    out = open(args.out, 'a', encoding='utf-8')
+    done = set()
+    if args.resume and os.path.exists(args.out):
+        for line in open(args.out, encoding='utf-8'):
+            if line.strip():
+                r = json.loads(line)
+                done.add((r.get('run'), r['question_id']))
     jobs = [(meta, p, bazi, ziwei, r) for r in range(args.first_run, args.first_run + args.runs)
-            for _, meta, persons, bazi, ziwei in years for p in persons]
+            for _, meta, persons, bazi, ziwei in years for p in persons
+            if not all((r, q['question_id']) in done for q in p['questions'])]
+    if args.resume:
+        print(f'resume: {len(jobs)} (run, chart) pairs left to do')
+    lock = threading.Lock()
+    failed = []
+    out = open(args.out, 'a', encoding='utf-8')
 
     def work(job):
-        rows = run_chart(client, args, *job)
+        try:
+            rows = run_chart(client, args, *job)
+        except Exception as e:                          # noqa: BLE001 — keep the other charts going
+            with lock:
+                failed.append(job)
+                print(f"FAILED {job[0]['current_year']} {job[1]['person_id']} run {job[4]}: {e!r}",
+                      file=sys.stderr, flush=True)
+            return
         with lock:
             for row in rows:
                 out.write(json.dumps(row, ensure_ascii=False) + '\n')
@@ -143,6 +185,9 @@ def main() -> None:
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         list(pool.map(work, jobs))
     out.close()
+    if failed:
+        print(f'{len(failed)} (run, chart) pairs failed and were not written; '
+              f'run the same command again with --resume to fill them in', file=sys.stderr)
     print(f'written to {args.out}; score with: python eval/score.py {args.out}')
 
 

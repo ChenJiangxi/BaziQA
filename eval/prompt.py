@@ -28,7 +28,8 @@ def wants_ziwei(person: dict, mode: str) -> bool:
     return '紫微' in (person['setter'].get('method') or '')      # auto: the setter used Zi Wei
 
 
-def bazi_text(entry: dict) -> str:
+def bazi_text(entry: dict, until_year: int | None = None) -> str:
+    """The BaZi chart as text; 流年 stop at ``until_year`` (the contest year) when given."""
     c = entry['chart']
     lines = ['【八字排盘】']
     for k, name in PILLAR_NAMES.items():
@@ -42,8 +43,9 @@ def bazi_text(entry: dict) -> str:
     q = c['qiyun']
     lines.append(f"起运：出生后 {q['after_years']} 年 {q['after_months']} 个月 {q['after_days']} 天起运（{q['start_date']}），{'顺行' if q['direction'] == 'forward' else '逆行'}")
     lines.append('大运：' + '；'.join(f"{d['ganzhi']}（{d['start_year']}–{d['end_year']}，虚岁 {d['start_age']}–{d['end_age']}）" for d in c['dayun']))
-    if c.get('liunian'):
-        lines.append('流年：' + '，'.join(f'{y}{gz}' for y, gz in c['liunian'].items()))
+    years = [(y, gz) for y, gz in (c.get('liunian') or {}).items() if until_year is None or int(y) <= until_year]
+    if years:
+        lines.append('流年：' + '，'.join(f'{y}{gz}' for y, gz in years))
     return '\n'.join(lines)
 
 
@@ -70,7 +72,16 @@ def chart_text(meta: dict, person: dict, bazi: dict, ziwei: dict, ziwei_mode: st
     b = person['profile']['birth']
     entry = bazi[person['person_id']]
     t = entry['time']
-    used = t['stated']['datetime'] if t['stated'] else f"{b['year']}-{b['month']:02d}-{b['day']:02d}（时辰不详）"
+    date = f"{b['year']}-{b['month']:02d}-{b['day']:02d}"
+    if not t['stated']:
+        used = f'{date}（时辰不详）'
+    elif b.get('approximate'):
+        # only a two-hour period is known: do not show the midpoint as if it were a clock time
+        used = f"{date} {t['stated']['shichen']}时（原文只给时辰，没有钟点）"
+    elif t.get('dst_minutes'):
+        used = f"{t['stated']['datetime']}（当地标准时间，已扣除 {t['dst_minutes']} 分钟夏令时）"
+    else:
+        used = t['stated']['datetime']
     lines = [f"当前年份：{meta['current_year']} 年",
              '【命主资料】',
              f"性别：{'男' if person['profile']['gender'] == 'male' else '女'}",
@@ -79,7 +90,7 @@ def chart_text(meta: dict, person: dict, bazi: dict, ziwei: dict, ziwei_mode: st
     if person.get('context'):
         lines.append('出题老师提供的已知信息：' + '；'.join(person['context']))
     lines.append('')
-    lines.append(bazi_text(entry))
+    lines.append(bazi_text(entry, int(meta['current_year'])))
     z = ziwei.get(person['person_id'])
     if z and wants_ziwei(person, ziwei_mode):
         lines.append('')

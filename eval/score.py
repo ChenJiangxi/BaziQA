@@ -1,8 +1,11 @@
 """Score model predictions against the BaziQA answer keys.
 
 Predictions: JSONL, one line per question: {"question_id": "...", "answer": "B", "run": 1}
-(``run`` is optional; lines with the same run number form one run). Missing questions count as
-wrong and are reported as missing.
+``answer`` is the option letter (``B``, ``b``, ``(B)`` and ``B.`` are accepted; anything else, such
+as ``答案：B``, counts as no answer). Lines with the same ``run`` number form one run, across all
+files given. A file whose lines have no ``run`` field is one run of its own, so
+``score.py a.jsonl b.jsonl`` scores two runs. Questions with no prediction or no valid letter count
+as wrong and are reported in the ``no answer`` column (summed over runs).
 
 usage:
   python eval/score.py preds.jsonl                         # default track: contest8 (2021–2026)
@@ -12,12 +15,15 @@ usage:
 
 Reported per year: accuracy (mean ± sd over runs), the contest's own trimmed score (drop the best
 and/or worst case as that year's rules did), and majority-vote accuracy when there are several
-runs. The headline number is the macro average: mean over years of each year's mean over runs.
+runs (blank answers do not vote; a tie earns fractional credit). The headline number is the macro
+average: mean over years of each year's mean over runs. Years with no predictions at all are left
+out with a warning, so a partial run never turns into a full-track number.
 """
 from __future__ import annotations
 
 import argparse
 import json
+import re
 import statistics as st
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -28,6 +34,9 @@ TRACKS = {
     'full': 'all 17 editions 2010–2026 (555 questions)',
     'official': 'only questions whose answer key is the organiser\'s own (365 questions)',
 }
+
+
+LETTER = re.compile(r'[(（]?([A-Ea-e])[)）.。、]?')
 
 
 def load_keys() -> dict:
@@ -48,12 +57,22 @@ def load_keys() -> dict:
     return keys
 
 
+def dropped(year: int, n_cases: int) -> int:
+    """How many cases the contest's own scoring drops: 2014 the best one, from 2015 the best and worst."""
+    if year >= 2015 and n_cases > 2:
+        return 2
+    if year == 2014 and n_cases > 1:
+        return 1
+    return 0
+
+
 def trimmed(year: int, per_case: dict) -> int:
-    """The contest's own score: 2014 dropped the best case; from 2015 the best and the worst."""
+    """The contest's own score, computed on the cases in scope."""
     s = sorted(per_case.values())
-    if year >= 2015 and len(s) > 2:
+    d = dropped(year, len(s))
+    if d == 2:
         return sum(s[1:-1])
-    if year == 2014 and len(s) > 1:
+    if d == 1:
         return sum(s[:-1])
     return sum(s)
 
@@ -80,8 +99,8 @@ def main() -> None:
             and (not args.bazi_only or k['bazi'])}
 
     runs = defaultdict(dict)                       # run -> {qid: answer}
-    unknown = 0
-    for path in args.predictions:
+    unknown = duplicates = invalid = 0
+    for i, path in enumerate(args.predictions, 1):
         for line in open(path, encoding='utf-8'):
             if not line.strip():
                 continue
@@ -89,21 +108,40 @@ def main() -> None:
             if r['question_id'] not in keys:
                 unknown += 1
                 continue
-            runs[r.get('run', 1)][r['question_id']] = (r.get('answer') or '').strip().upper()[:1]
+            # explicit run numbers are shared across files; a file without them is its own run
+            run = f"run {r['run']}" if 'run' in r else f'file {i}'
+            m = LETTER.fullmatch(str(r.get('answer') or '').strip())
+            invalid += m is None and bool(str(r.get('answer') or '').strip())
+            duplicates += r['question_id'] in runs[run]
+            runs[run][r['question_id']] = m.group(1).upper() if m else ''
 
     by_year = defaultdict(list)
     for qid, k in qset.items():
         by_year[k['year']].append(qid)
-    report = {'track': args.track, 'bazi_only': args.bazi_only, 'years': sorted(by_year),
-              'questions': len(qset), 'runs': len(runs), 'per_year': {}}
+    # a run counts for a year only if it has at least one prediction in that year
+    present = {(run, keys[q]['year']) for run, pred in runs.items() for q in pred}
+    absent = sorted(y for y in by_year if not any((r, y) in present for r in runs))
+    for y in absent:
+        del by_year[y]
+    report = {'track': args.track, 'bazi_only': args.bazi_only, 'runs': sorted(runs), 'per_year': {}}
     print(f"track: {args.track} — {TRACKS[args.track]}{' — BaZi charts only' if args.bazi_only else ''}")
-    print(f"questions: {len(qset)}   runs: {len(runs)}" + (f"   ignored unknown ids: {unknown}" if unknown else ''))
-    print(f"{'year':>5} {'n':>4} {'accuracy':>16} {'trimmed score':>16} {'majority vote':>14} {'missing':>8}")
+    print(f"questions: {sum(len(v) for v in by_year.values())}   runs: {len(runs)} ({', '.join(sorted(runs))})"
+          + (f"   ignored unknown ids: {unknown}" if unknown else ''))
+    if duplicates:
+        print(f"WARNING: {duplicates} repeated (run, question) lines; the last one was kept")
+    if invalid:
+        print(f"WARNING: {invalid} answers are not a bare option letter and were scored as no answer")
+    if absent:
+        print(f"WARNING: no predictions for {', '.join(map(str, absent))}; those years are left out, "
+              f"so the macro average below is NOT a full-track number")
+    report['years_without_predictions'] = absent
+    print(f"{'year':>5} {'n':>4} {'accuracy':>16} {'trimmed score':>16} {'majority vote':>14} {'no answer':>10}")
     year_means = []
     for year in sorted(by_year):
         qids = by_year[year]
         accs, trims, missing = [], [], 0
-        for run in sorted(runs):
+        year_runs = [r for r in sorted(runs) if (r, year) in present]
+        for run in year_runs:
             pred = runs[run]
             per_case = defaultdict(int)
             correct = 0
@@ -111,31 +149,33 @@ def main() -> None:
                 ok = pred.get(qid, '') in qset[qid]['accepted']
                 correct += ok
                 per_case[qset[qid]['case']] += ok
-                missing += qid not in pred
+                missing += not pred.get(qid)
             accs.append(correct / len(qids))
-            # full marks of the trimmed score: every case has five questions from 2014 on
-            out_of = len(qids) - (10 if year >= 2015 else 5 if year == 2014 else 0)
+            # full marks of the trimmed score (every case has five questions from 2014 on)
+            out_of = len(qids) - 5 * dropped(year, len(per_case))
             trims.append((trimmed(year, per_case), out_of))
         mean = st.mean(accs) if accs else 0.0
         sd = st.pstdev(accs) if len(accs) > 1 else 0.0
         vote = None
-        if len(runs) > 1:
-            votes = 0
+        if len(year_runs) > 1:
+            votes = 0.0
             for qid in qids:
-                c = Counter(runs[r].get(qid, '') for r in runs).most_common()
-                top = c[0][1]
-                tied = sorted(a for a, n in c if n == top)
-                votes += tied[0] in qset[qid]['accepted']      # ties broken alphabetically
+                c = Counter(a for a in (runs[r].get(qid, '') for r in year_runs) if a).most_common()
+                if not c:
+                    continue
+                tied = [a for a, n in c if n == c[0][1]]
+                # a tie gets fractional credit instead of an arbitrary winner
+                votes += sum(a in qset[qid]['accepted'] for a in tied) / len(tied)
             vote = votes / len(qids)
         tmean = st.mean(t for t, _ in trims) if trims else 0
         year_means.append(mean)
         report['per_year'][year] = {'n': len(qids), 'accuracy_mean': mean, 'accuracy_sd': sd,
                                     'per_run': accs, 'trimmed_mean': tmean,
                                     'trimmed_out_of': trims[0][1] if trims else None,
-                                    'majority_vote': vote, 'missing_predictions': missing}
+                                    'majority_vote': vote, 'no_answer': missing}
         print(f"{year:>5} {len(qids):>4} {100 * mean:>9.1f}% ±{100 * sd:>4.1f} "
               f"{tmean:>9.1f}/{trims[0][1] if trims else 0:<5} "
-              f"{'' if vote is None else f'{100 * vote:.1f}%':>14} {missing:>8}")
+              f"{'' if vote is None else f'{100 * vote:.1f}%':>14} {missing:>10}")
     macro = st.mean(year_means) if year_means else 0.0
     report['macro_accuracy'] = macro
     print(f"macro-average accuracy over {len(year_means)} years: {100 * macro:.1f}%"

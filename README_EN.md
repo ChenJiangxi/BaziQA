@@ -50,12 +50,12 @@ Each file is a JSON array: element 0 is contest metadata, the rest are birth cha
 ## Charts and evaluation
 
 - [`charts/`](charts/): BaZi and Zi Wei Dou Shu charts for all 117 birth records, cast with [lunar-python](https://github.com/6tail/lunar-python) and [iztro](https://github.com/SylarLong/iztro) (both MIT); engine and time conventions in [`paipan/`](paipan/README.md). The default reading uses the written two-hour period, or the clock time minus summer time; clock-time and apparent-solar-time pillars are included, and the 12 charts whose hour pillar depends on the choice are flagged.
-- [`eval/`](eval/README.md): `score.py` (per-year accuracy, the contest's trimmed score, majority vote, macro average), the paper's multi-turn baseline `run_baseline.py` for any OpenAI-compatible API, and the reporting rules (data version, track, number of runs, time convention).
+- [`eval/`](eval/README.md): `score.py` (per-year accuracy, the contest's trimmed score, majority vote, macro average), a multi-turn baseline `run_baseline.py` for any OpenAI-compatible API (it follows the paper's multi-turn flow with shortened prompts and this repo's charts, so its scores are not directly comparable with the paper's table), and the reporting rules (data version, track, number of runs, time convention).
 
 ```bash
 pip install -r requirements.txt
 python eval/run_baseline.py --files contest8_2026 --model <model> --base-url <url> --runs 3 --out preds.jsonl
-python eval/score.py preds.jsonl
+python eval/score.py preds.jsonl --years 2026     # score only the years you ran
 ```
 
 ## Versions
