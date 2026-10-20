@@ -2,7 +2,8 @@
 
 > **生成日期**：2026-01-27  
 > **数据集**：BaziQA (2021–2025)，共 200 道选择题（内部数据集 id 与文件名仍沿用 `contest8_*`，便于复现与兼容现有脚本）  
-> **评测模型**：DeepSeek-R1、DeepSeek-Chat-V3、GPT-5.1-Chat、Gemini-2.5-Flash、Gemini-3-Pro
+> **评测模型**：DeepSeek-R1、DeepSeek-Chat-V3、GPT-5.1-Chat、Gemini-2.5-Flash、Gemini-3-Pro  
+> **版本说明**：本报告对应论文所用的 `v1.0.0` 数据。当前版本重新转写了 2021–2025 年，修正了 32 处题目文字错误和 2 个命例（见 README「数据质量与版本」），所以用当前数据复跑的分数会和本报告不同。
 
 ---
 
