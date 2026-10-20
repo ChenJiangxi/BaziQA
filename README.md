@@ -239,12 +239,13 @@ python tools/verify.py          # 文字对原文、选项顺序、命例对排�
 ## 📄 引用
 
 ```bibtex
-@dataset{bazi_QA,
-  title={BaZi Fortune-Telling QA Dataset},
-  author={Jiangxi Chen},
-  year={2025},
-  publisher={GitHub},
-  url={https://github.com/ChenJiangxi/BaziQA}
+@misc{chen2026baziqa,
+  title={BaziQA-Benchmark: Evaluating Symbolic and Temporally Compositional Reasoning in Large Language Models},
+  author={Jiangxi Chen and Qian Liu},
+  year={2026},
+  eprint={2602.12889},
+  archivePrefix={arXiv},
+  url={https://arxiv.org/abs/2602.12889}
 }
 ```
 
