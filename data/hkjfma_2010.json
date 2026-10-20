@@ -1,0 +1,239 @@
+[
+  {
+    "contest_id": "hkjfma_2010",
+    "current_year": "2010",
+    "edition": 1,
+    "title": "2010年度全球算命师比赛（第一届）",
+    "description": "香港青年术数家协会「全球算命师大赛」第1届真题。3 个命例 × 3 题 = 9 题，每题 5 个选项（A–E）。参赛者根据命主的出生资料选择最符合其命运情况的答案。",
+    "total_questions": 9,
+    "num_charts": 3,
+    "scoring": "答中题数；冠军中 6 题（顾臻明），亚军中 5 题 3 人",
+    "answer_source": "official",
+    "sources": {
+      "questions": "https://hkjfma.org/?p=109",
+      "answers": "https://hkjfma.org/?p=109（同页「答案: 第一条: 1a, 2e, 3e / 第二条: 1d, 2a, 3b / 第三条: 1c, 2a, 3d」）"
+    },
+    "corrections": [
+      "Q8 选项 B「1989 己已」→「1989 己巳」（原文笔误）"
+    ]
+  },
+  {
+    "person_id": "2010_C1_female_19820927",
+    "name": "1982年香港出生女性",
+    "case_no": "1",
+    "profile": {
+      "birth": {
+        "year": 1982,
+        "month": 9,
+        "day": 27,
+        "hour": 16,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "申时",
+        "raw": "西历出生于: 1982年9月27日 申时 (女命) 香港出生"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "李文渊",
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2010_C1_female_19820927-Q1",
+        "question_no": 1,
+        "question": "命主男朋友被人谋杀在何年? (同年命主祖父仙逝)",
+        "options": [
+          "A. 2002壬午",
+          "B. 2008戊子",
+          "C. 2005乙酉",
+          "D. 2001辛巳",
+          "E. 2006丙戌"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2010_C1_female_19820927-Q2",
+        "question_no": 2,
+        "question": "命主何年因病（肺炎）而做手术?",
+        "options": [
+          "A. 2007丁亥",
+          "B. 2001辛巳",
+          "C. 2006丙戌",
+          "D. 2000庚辰",
+          "E. 2004甲申"
+        ],
+        "answer": "E"
+      },
+      {
+        "question_id": "2010_C1_female_19820927-Q3",
+        "question_no": 3,
+        "question": "命主2009己丑发生何事?",
+        "options": [
+          "A. 得到230万保险金钱",
+          "B. 卖楼而得财纯利63万",
+          "C. 被男朋友呃钱而分手",
+          "D. 创业",
+          "E. 被公司迫使辞职而失去工作"
+        ],
+        "answer": "E"
+      }
+    ]
+  },
+  {
+    "person_id": "2010_C2_male_19601210",
+    "name": "1960年中国大陆出生男性",
+    "case_no": "2",
+    "profile": {
+      "birth": {
+        "year": 1960,
+        "month": 12,
+        "day": 10,
+        "hour": 10,
+        "minute": 0,
+        "place": "中国大陆",
+        "approximate": true,
+        "time_raw": "巳时",
+        "raw": "西历出生于: 1960年 12月10日 巳时 国内出生 (男命)"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "史宾沙",
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2010_C2_male_19601210-Q4",
+        "question_no": 4,
+        "question": "请问命主在1986年丙寅年, 以下那件事正确 ?",
+        "options": [
+          "A. 跟女友分手",
+          "B. 母亲死亡",
+          "C. 车祸破财",
+          "D. 大赚其财",
+          "E. 命主重病"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2010_C2_male_19601210-Q5",
+        "question_no": 5,
+        "question": "请问命主在1998年戊寅年, 以下那件事正确 ?",
+        "options": [
+          "A. 大赚其财",
+          "B. 车祸破财",
+          "C. 惹上官符",
+          "D. 此年得子",
+          "E. 此年结婚"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2010_C2_male_19601210-Q6",
+        "question_no": 6,
+        "question": "请问命主在2002年壬午年, 以下那件事正确 ?",
+        "options": [
+          "A. 大赚其财",
+          "B. 大破其财",
+          "C. 桃花惹祸",
+          "D. 父亲死亡",
+          "E. 母亲死亡"
+        ],
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "person_id": "2010_C3_female_19620929",
+    "name": "1962年出生地不详出生女性",
+    "case_no": "3",
+    "profile": {
+      "birth": {
+        "year": 1962,
+        "month": 9,
+        "day": 29,
+        "hour": 4,
+        "minute": 0,
+        "place": null,
+        "approximate": true,
+        "time_raw": "寅时",
+        "raw": "西历出生于: 1962年 9月29日 寅时(女命)"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "鼎大图书培哥",
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2010_C3_female_19620929-Q7",
+        "question_no": 7,
+        "question": "请问命主在以下那一年，身体健康出了大问题（提示：为生死攸关的重病）?",
+        "options": [
+          "A. 2006 丙戌",
+          "B. 2007 丁亥",
+          "C. 2008 戊子",
+          "D. 2009 己丑",
+          "E. 2010 庚寅"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2010_C3_female_19620929-Q8",
+        "question_no": 8,
+        "question": "请问命主结婚之年在何年?",
+        "options": [
+          "A. 1987 丁卯",
+          "B. 1989 己巳",
+          "C. 1991 辛未",
+          "D. 1992 壬申",
+          "E. 1993 癸酉"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2010_C3_female_19620929-Q9",
+        "question_no": 9,
+        "question": "请问命子女数目 ?",
+        "options": [
+          "A. 没有子女",
+          "B. 一名子",
+          "C. 一名女",
+          "D. 一名子一名女",
+          "E. 两名子一名女"
+        ],
+        "answer": "D"
+      }
+    ]
+  }
+]

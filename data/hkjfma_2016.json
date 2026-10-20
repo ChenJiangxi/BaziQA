@@ -1,0 +1,680 @@
+[
+  {
+    "contest_id": "hkjfma_2016",
+    "current_year": "2016",
+    "edition": 7,
+    "title": "全球算命师大赛2016（第七届）",
+    "description": "香港青年术数家协会「全球算命师大赛」第7届真题。7 个命例 × 5 题 = 35 题，每题 4 个选项。参赛者根据命主的出生资料选择最符合其命运情况的答案。",
+    "total_questions": 35,
+    "num_charts": 7,
+    "scoring": "删除答中最高分及最低分的命例，以其余五个命例（25 题）计分；冠军方柏廸 17/23（5 命例/7 命例）",
+    "answer_source": "official",
+    "sources": {
+      "questions": "https://web.archive.org/web/20190923160006/http://www.forum.hkjfma.org/discuz/forum.php?mod=viewthread&tid=33126&extra=page%3D1（协会论坛题目帖）",
+      "answers": "https://web.archive.org/web/20191022213457/http://www.forum.hkjfma.org/discuz/forum.php?mod=viewthread&tid=33155（协会论坛「2016第七届比赛答案及得奖成绩」第 2 楼）"
+    },
+    "corrections": []
+  },
+  {
+    "person_id": "2016_C1_male_19520615",
+    "name": "1952年香港出生男性",
+    "case_no": "1",
+    "profile": {
+      "birth": {
+        "year": 1952,
+        "month": 6,
+        "day": 15,
+        "hour": 4,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "寅时",
+        "raw": "男命 西历 1952年 6 月 15日寅时 农历五月二十三日 寅时 香港"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "黄卯",
+      "method": "紫微斗数"
+    },
+    "context": [
+      "定盘资料如下：甲). 自己小学时，父母做生意。乙). 1962 壬寅年，自己严重车祸。"
+    ],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2016_C1_male_19520615-Q1",
+        "question_no": 1,
+        "question": "第二个大限，（17--26岁）父母事业情况?",
+        "options": [
+          "A. 十年暴发.",
+          "B. 十年破败 .",
+          "C. 先好后差.",
+          "D. 先差后好 ."
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2016_C1_male_19520615-Q2",
+        "question_no": 2,
+        "question": "第三个大限（27--36岁）：自己姻缘情况?",
+        "options": [
+          "A. 先好后坏 .",
+          "B. 先坏后好 .",
+          "C. 一直都差 .",
+          "D. 越来越好 ."
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2016_C1_male_19520615-Q3",
+        "question_no": 3,
+        "question": "1988 戊辰年 ： 父母情况：",
+        "options": [
+          "A. 得大笔横财 .",
+          "B. 和孙儿关系差 .",
+          "C. 急症后来死亡 .",
+          "D. 生意扩充成功。"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2016_C1_male_19520615-Q4",
+        "question_no": 4,
+        "question": "1993癸酉年 ; 自己和人合作(第三个大限识的男性朋友)搞公司 , 拍挡情况?",
+        "options": [
+          "A. 拍挡带来大生意 .",
+          "B. 拍挡带来大麻烦 .",
+          "C. 拍挡实力、能力高强 .",
+          "D. 拍挡晋升高官 ."
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2016_C1_male_19520615-Q5",
+        "question_no": 5,
+        "question": "1994年 ：公司情况 ?",
+        "options": [
+          "A. 高速扩展成功 .",
+          "B. 大客注资 .",
+          "C. 和另一间公司合作赚大钱 .",
+          "D. 结束倒闭 ."
+        ],
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "person_id": "2016_C2_male_19750920",
+    "name": "1975年香港出生男性",
+    "case_no": "2",
+    "profile": {
+      "birth": {
+        "year": 1975,
+        "month": 9,
+        "day": 20,
+        "hour": 18,
+        "minute": 0,
+        "place": "香港",
+        "approximate": false,
+        "time_raw": "18:00",
+        "raw": "乾造: 西历1975年9月20日 18:00酉时 香港"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "康常治",
+      "method": "紫微斗数（陆斌兆派）"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2016_C2_male_19750920-Q6",
+        "question_no": 6,
+        "question": "命主样貌特征?",
+        "options": [
+          "A. 身材瘦削眼晴较大",
+          "B. 身材瘦削眼晴较小",
+          "C. 身材肥大眼晴较大",
+          "D. 身材肥大眼晴较小"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2016_C2_male_19750920-Q7",
+        "question_no": 7,
+        "question": "个性及学历情况如何?",
+        "options": [
+          "A. 平庸又懒惰(大学未毕业)",
+          "B. 不聪敏但勤力死读书(大学毕业)",
+          "C. 聪敏但不读书(大学未毕业)",
+          "D. 聪敏能读书有成(大学毕业)"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2016_C2_male_19750920-Q8",
+        "question_no": 8,
+        "question": "命主26-35大限内财政状态最终如何?",
+        "options": [
+          "A. 破产",
+          "B. 中六合彩发大横财，发达",
+          "C. 打工仔(上班族) ， 不发不败，财政尚可",
+          "D. 不停转工财来财去，无积蓄"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2016_C2_male_19750920-Q9",
+        "question_no": 9,
+        "question": "命主36-45大限内事业运势?",
+        "options": [
+          "A. 名成利就工作顺利",
+          "B. 长期失业不工作",
+          "C. 自己当老板,生意失败",
+          "D. 工作发展不顺利每况越下"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2016_C2_male_19750920-Q10",
+        "question_no": 10,
+        "question": "2016年已经发生何等人生大事?",
+        "options": [
+          "A. 意外死亡",
+          "B. 感情美满，结婚之年",
+          "C. 中六合彩大横财环游世界",
+          "D. 生癌但治好"
+        ],
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "person_id": "2016_C3_female_19700605",
+    "name": "1970年台湾出生女性",
+    "case_no": "3",
+    "profile": {
+      "birth": {
+        "year": 1970,
+        "month": 6,
+        "day": 5,
+        "hour": 4,
+        "minute": 0,
+        "place": "台湾",
+        "approximate": true,
+        "time_raw": "寅时",
+        "raw": "女命 西历 1970年 6 月 5 日 寅时 台湾"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "陈易贤",
+      "method": "四柱八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2016_C3_female_19700605-Q11",
+        "question_no": 11,
+        "question": "命主的家境跟父母关系如何?",
+        "options": [
+          "A. 家境富有,跟母亲感情比较好",
+          "B. 家境富有,跟父亲感情比较好.",
+          "C. 家境小康,跟父亲感情不好.",
+          "D. 家境不好,跟父母感情都不好."
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2016_C3_female_19700605-Q12",
+        "question_no": 12,
+        "question": "命主的个性及婚姻如何?",
+        "options": [
+          "A. 个性叛逆容易情绪化,婚姻不美满,离婚.",
+          "B. 个性随和热诚,婚姻美满",
+          "C. 个性固执孤僻,不婚主义者.",
+          "D. 个性直爽开朗,没有结过婚,只有男朋友."
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2016_C3_female_19700605-Q13",
+        "question_no": 13,
+        "question": "命主1993年发生了什么事?",
+        "options": [
+          "A. 中奖一百万彩金.",
+          "B. 结婚.",
+          "C. 父亲去世.",
+          "D. 自行创业."
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2016_C3_female_19700605-Q14",
+        "question_no": 14,
+        "question": "命主目前状况如何?",
+        "options": [
+          "A. 事业成功的女企业家.",
+          "B. 监狱的女犯.",
+          "C. 寺庙的尼姑.",
+          "D. 一般的上班族,"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2016_C3_female_19700605-Q15",
+        "question_no": 15,
+        "question": "命主目前身体状况如何?",
+        "options": [
+          "A. 糖尿病",
+          "B. 高血压",
+          "C. 忧郁症",
+          "D. 肝硬化."
+        ],
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "person_id": "2016_C4_male_19630206",
+    "name": "1963年台湾台中出生男性",
+    "case_no": "4",
+    "profile": {
+      "birth": {
+        "year": 1963,
+        "month": 2,
+        "day": 6,
+        "hour": 12,
+        "minute": 0,
+        "place": "台湾台中",
+        "approximate": true,
+        "time_raw": "午时",
+        "raw": "乾造: 1963年阳历2月6日-阴历1月13日中午时、台湾台中出生。癸卯年、甲寅月、庚辰日、壬午时出生"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "蔡文成",
+      "method": "四柱八字"
+    },
+    "context": [
+      "1岁癸丑运，11壬子运，21辛亥运，31庚戌运，41己酉运，51戊申运，61丁未运"
+    ],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2016_C4_male_19630206-Q16",
+        "question_no": 16,
+        "question": "命主祖辈含父母家庭背景?",
+        "options": [
+          "A. 三代同堂.富裕商人",
+          "B. 祖上零落.贫穷孤苦",
+          "C. 公教老师.金融财政",
+          "D. 中产阶层.工商农民"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2016_C4_male_19630206-Q17",
+        "question_no": 17,
+        "question": "命主本人手足,职业,及婚姻?",
+        "options": [
+          "A. 独子,食品工厂,美满婚姻",
+          "B. 手足2人,金融财政,大妻小妾",
+          "C. 手足3人,百货行销,离婚同居",
+          "D. 手足6人,算命风水,单身未婚"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2016_C4_male_19630206-Q18",
+        "question_no": 18,
+        "question": "命主母亡何年?",
+        "options": [
+          "A. 庚戌运,己卯年1999",
+          "B. 庚戌运,庚辰年2000",
+          "C. 庚戌运,癸未年立秋前.2003",
+          "D. 己酉运,甲申年2004"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2016_C4_male_19630206-Q19",
+        "question_no": 19,
+        "question": "命主父亲车祸脑损似植物人何年?",
+        "options": [
+          "A. 己酉运,甲申年2004",
+          "B. 己酉运,乙酉年2005",
+          "C. 己酉运,丙戌年2006",
+          "D. 己酉运,己丑年2009"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2016_C4_male_19630206-Q20",
+        "question_no": 20,
+        "question": "命主戊申运,2014甲午年,丙子月有何大事?",
+        "options": [
+          "A. 生命大发财禄",
+          "B. 意外中大奖",
+          "C. 体弱多病又中风",
+          "D. 桃花女色破财"
+        ],
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "person_id": "2016_C5_male_19520226",
+    "name": "1952年香港出生男性",
+    "case_no": "5",
+    "profile": {
+      "birth": {
+        "year": 1952,
+        "month": 2,
+        "day": 26,
+        "hour": 6,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "卯时",
+        "raw": "男命 西历 1952年 2月26日卯时 香港"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "梁真圣",
+      "method": "四柱八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2016_C5_male_19520226-Q21",
+        "question_no": 21,
+        "question": "命主出生家庭环境及教育程度?",
+        "options": [
+          "A. 出身平民,大学毕业",
+          "B. 出身平民,大学未毕业",
+          "C. 出身富裕,大学毕业",
+          "D. 出身富裕,大学未毕业"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2016_C5_male_19520226-Q22",
+        "question_no": 22,
+        "question": "命主的健康及父母,子女情况如何?",
+        "options": [
+          "A. 命主健康少病痛,父母健在,有子女",
+          "B. 命主健康少病痛,父母离世,没有子女",
+          "C. 命主亚健康多病痛,父母健在,有子女",
+          "D. 命主亚健康多病痛,父母离世,没有子女"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2016_C5_male_19520226-Q23",
+        "question_no": 23,
+        "question": "命主性格特质及婚姻?",
+        "options": [
+          "A. 性格谦厚爱护太太,依然离婚",
+          "B. 脾气爆燥常常打骂太太,未离婚",
+          "C. 潇洒,多异性欢迎,未离婚",
+          "D. 洁癖爱完美,一心一意爱护太太,依然离婚"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2016_C5_male_19520226-Q24",
+        "question_no": 24,
+        "question": "命主现在的职业及财富?",
+        "options": [
+          "A. 白手兴家生意人,财富丰盛",
+          "B. 职位低微,三餐不继",
+          "C. 生意之命,财绝破产",
+          "D. 中级管理工作,平民百姓生活,约十万美元绩畜"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2016_C5_male_19520226-Q25",
+        "question_no": 25,
+        "question": "命主那两个大运二十年,是其事业发展最为高峰时期?",
+        "options": [
+          "A. 乙巳,丙午 1975---1994",
+          "B. 丙午,丁未 1985---2004",
+          "C. 丁未,戊申 1995---2014",
+          "D. 乙巳,戊申 1975--1984 , 2005--2014"
+        ],
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "person_id": "2016_C6_male_19820530",
+    "name": "1982年香港出生男性",
+    "case_no": "6",
+    "profile": {
+      "birth": {
+        "year": 1982,
+        "month": 5,
+        "day": 30,
+        "hour": 4,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "寅时",
+        "raw": "男命 西历 1982年5月30日寅时 香港（命例问题提供者：香港 四柱八字 青术会代表Helen师傅）"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "Helen",
+      "method": "四柱八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2016_C6_male_19820530-Q26",
+        "question_no": 26,
+        "question": "命主性格?",
+        "options": [
+          "A. 胆怯怕事",
+          "B. 斯文爱靓",
+          "C. 急燥火爆",
+          "D. 懒惰成性"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2016_C6_male_19820530-Q27",
+        "question_no": 27,
+        "question": "命主出身家境及学历?",
+        "options": [
+          "A. 出身富裕阶层,中学毕业",
+          "B. 出身富裕阶层,大学毕业",
+          "C. 出身低下阶层,中学毕业",
+          "D. 出身低下阶层,大学毕业"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2016_C6_male_19820530-Q28",
+        "question_no": 28,
+        "question": "命主出社会的职业?",
+        "options": [
+          "A. 政府机关任职",
+          "B. 教师职业",
+          "C. 运动员教练",
+          "D. 打理家族生意"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2016_C6_male_19820530-Q29",
+        "question_no": 29,
+        "question": "命主的结婚在何年?",
+        "options": [
+          "A. 2009",
+          "B. 2010",
+          "C. 2011",
+          "D. 2012"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2016_C6_male_19820530-Q30",
+        "question_no": 30,
+        "question": "父亲惹官非及太太小产于何年一齐发生?",
+        "options": [
+          "A. 2010",
+          "B. 2012",
+          "C. 2013",
+          "D. 2014"
+        ],
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "person_id": "2016_C7_female_19701005",
+    "name": "1970年香港出生女性",
+    "case_no": "7",
+    "profile": {
+      "birth": {
+        "year": 1970,
+        "month": 10,
+        "day": 5,
+        "hour": 20,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "戌时",
+        "raw": "女命 西历 : 1970年10月5日戌时 香港"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "鼎大图书培哥",
+      "method": "四柱八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2016_C7_female_19701005-Q31",
+        "question_no": 31,
+        "question": "命主的性格及学历?",
+        "options": [
+          "A. 多言,大学以上学历",
+          "B. 多言,大学以下学历",
+          "C. 沉默少言,大学以上学历",
+          "D. 沉默少言,大学以下学历"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2016_C7_female_19701005-Q32",
+        "question_no": 32,
+        "question": "以下那一个合乎命主的婚姻感情及子女及父母情况?",
+        "options": [
+          "A. 已婚,婚姻美满,有儿女,父母健在",
+          "B. 已婚,常常被丈夫打伤,有儿女,父母不在人世",
+          "C. 已婚,离婚,再婚,丈夫死亡,没有儿女,父母不在人世",
+          "D. 未婚,多次拍拖多次分离,没有儿女,与母亲生活"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2016_C7_female_19701005-Q33",
+        "question_no": 33,
+        "question": "命主于那个年份做过手术?",
+        "options": [
+          "A. 1998",
+          "B. 2003",
+          "C. 2007",
+          "D. 2009"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2016_C7_female_19701005-Q34",
+        "question_no": 34,
+        "question": "命主的2013年---现在事业工作?",
+        "options": [
+          "A. 地产经纪",
+          "B. 大学教师",
+          "C. CEO秘书",
+          "D. 散工,工作时有时无,收入不稳定"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2016_C7_female_19701005-Q35",
+        "question_no": 35,
+        "question": "命主在那一个大运的运气比较好?",
+        "options": [
+          "A. 甲申 1979---1988",
+          "B. 癸未 1989---1998",
+          "C. 壬午 1999---2008",
+          "D. 辛巳 2009--现在"
+        ],
+        "answer": "A"
+      }
+    ]
+  }
+]

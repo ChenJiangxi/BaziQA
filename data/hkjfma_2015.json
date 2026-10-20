@@ -1,0 +1,687 @@
+[
+  {
+    "contest_id": "hkjfma_2015",
+    "current_year": "2015",
+    "edition": 6,
+    "title": "2015第六届全球算命师大赛",
+    "description": "香港青年术数家协会「全球算命师大赛」第6届真题。7 个命例 × 5 题 = 35 题，每题 4 个选项。参赛者根据命主的出生资料选择最符合其命运情况的答案。",
+    "total_questions": 35,
+    "num_charts": 7,
+    "scoring": "删除答中最高分及最低分的命例，以其余五个命例（25 题）计分；冠军弦月 12/25",
+    "answer_source": "official",
+    "sources": {
+      "questions": "官方题目帖（论坛 tid=32940）已下线且未被存档；题目取自转载站 http://www.feiyuntiegui.com/?id=2488（简体转录，已删除其中的论坛转贴痕迹「ck06 发表于 9-6-2015」）",
+      "answers": "https://web.archive.org/web/20191020082554/http://forum.hkjfma.org/discuz/forum.php?mod=viewthread&tid=32957&extra=page%3D1（协会论坛「2015第六届全球算命师比赛正确答案」）"
+    },
+    "corrections": [
+      "Q10 选项 A「结𦈏」→「结婚」"
+    ]
+  },
+  {
+    "person_id": "2015_C1_female_19571107",
+    "name": "1957年台湾台北出生女性",
+    "case_no": "1",
+    "profile": {
+      "birth": {
+        "year": 1957,
+        "month": 11,
+        "day": 7,
+        "hour": 18,
+        "minute": 0,
+        "place": "台湾台北",
+        "approximate": true,
+        "time_raw": "酉时",
+        "raw": "女命: 公历1957年11月7日,酉时 出生地：台湾台北"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "张评",
+      "method": "八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2015_C1_female_19571107-Q1",
+        "question_no": 1,
+        "question": "命主父亲于何年过世？",
+        "options": [
+          "A. 1973 年",
+          "B. 1978年",
+          "C. 1980年",
+          "D. 1993年"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C1_female_19571107-Q2",
+        "question_no": 2,
+        "question": "命主出社会的唯一职业如何？",
+        "options": [
+          "A. 政府机构任职人员。",
+          "B. 私人企业打工上班。",
+          "C. 自营开店做小生意。",
+          "D. 宗教五术相关事业。"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2015_C1_female_19571107-Q3",
+        "question_no": 3,
+        "question": "命主的婚姻成在何时？",
+        "options": [
+          "A. 1976年",
+          "B. 1978年",
+          "C. 1988年",
+          "D. 1990年"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C1_female_19571107-Q4",
+        "question_no": 4,
+        "question": "命主患有那种的慢性疾病？",
+        "options": [
+          "A. 心脏病。",
+          "B. 精神病。",
+          "C. 血友病。",
+          "D. 妇科肿瘤。"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2015_C1_female_19571107-Q5",
+        "question_no": 5,
+        "question": "命主的寿元终止在何年？",
+        "options": [
+          "A. 1992年",
+          "B. 1993年",
+          "C. 1997年",
+          "D. 1999年"
+        ],
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "person_id": "2015_C2_female_19570104",
+    "name": "1957年香港出生女性",
+    "case_no": "2",
+    "profile": {
+      "birth": {
+        "year": 1957,
+        "month": 1,
+        "day": 4,
+        "hour": 12,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "午时",
+        "raw": "女命: 公历1957年1 月4 日午时 出生地: 香港"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "黄卯",
+      "method": "紫微斗数"
+    },
+    "context": [
+      "提示：1. 事主先天心脏血管有病。2. 钙质不足，牙齿多问题。3. 由小学到中学读成绩好的名女校。"
+    ],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2015_C2_female_19570104-Q6",
+        "question_no": 6,
+        "question": "1992 和一男性合作做生意。公司状况：",
+        "options": [
+          "A. 规模大、生意好。",
+          "B. 规模小、生意好。",
+          "C. 规模大、生意差。",
+          "D. 规模小、生意差。"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C2_female_19570104-Q7",
+        "question_no": 7,
+        "question": "1993 合作男性的情况：",
+        "options": [
+          "A. 男方带来大额生意、公司大幅扩展。",
+          "B. 男方失踪、公司成胶着状态。",
+          "C. 男方病死、公司倒闭。",
+          "D. 和男方有感情纠纷，分手因此结业。"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C2_female_19570104-Q8",
+        "question_no": 8,
+        "question": "1994 父母状况：",
+        "options": [
+          "A. 自己因异性事故，和父亲不和。",
+          "B. 自己男友医疗失误，医死父亲。",
+          "C. 父亲重症，自己却因此得一笔钱。",
+          "D. 父亲重症，自己卖楼付医药费。"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2015_C2_female_19570104-Q9",
+        "question_no": 9,
+        "question": "1999 自己财运：",
+        "options": [
+          "A. 因异性引起大笔钱财损失。",
+          "B. 有大财可得的机遇，但因父母长辈导至错失、损失。",
+          "C. 公司因周转不灵而倒闭。",
+          "D. 因在外地置业而有大损失。"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C2_female_19570104-Q10",
+        "question_no": 10,
+        "question": "2001 自己心境：",
+        "options": [
+          "A. 自己在气愤之下，毅然结婚。",
+          "B. 自己在气愤之下，炒期指输大钱。",
+          "C. 自己在气愤之下，心脏病发死亡。",
+          "D. 自己在气愤之下，搬离家园。"
+        ],
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "person_id": "2015_C3_male_19640316",
+    "name": "1964年香港出生男性",
+    "case_no": "3",
+    "profile": {
+      "birth": {
+        "year": 1964,
+        "month": 3,
+        "day": 16,
+        "hour": 12,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "午时",
+        "raw": "男命: 公历:1964年3月16日午时 出生地: 香港"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "乐只君",
+      "method": "紫微斗数"
+    },
+    "context": [
+      "已知事情：身体暂时未有大问题，主要是亏损性和劳损性的毛病。"
+    ],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2015_C3_male_19640316-Q11",
+        "question_no": 11,
+        "question": "命主性格",
+        "options": [
+          "A. 胆怯怕事",
+          "B. 懒散拖延",
+          "C. 好勇好强",
+          "D. 意志力弱"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2015_C3_male_19640316-Q12",
+        "question_no": 12,
+        "question": "命主于财帛方面的特色",
+        "options": [
+          "A. 用钱保守，积蓄主要源自薪酬。",
+          "B. 薪金丰厚，但投资不利。故储蓄不多。",
+          "C. 横来横去，但于低潮时，总会有朋友雪中送炭。",
+          "D. 曾因金钱而犯法。"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C3_male_19640316-Q13",
+        "question_no": 13,
+        "question": "命主于哪个紫微斗数的十年运限丧父",
+        "options": [
+          "A. 1967-1976",
+          "B. 1977-1986",
+          "C. 1987-1996",
+          "D. 1997-2006"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C3_male_19640316-Q14",
+        "question_no": 14,
+        "question": "命主于男女感情上曾发的事",
+        "options": [
+          "A. 于1987-1996期间结婚，至今感情未变。",
+          "B. 于1987-1996期间结婚，至虚龄34-43期间离婚。并同期再娶。",
+          "C. 于1987-1996期间结婚，并于同期离婚。至今未有再娶。",
+          "D. 于1987-1996期间结婚，同期配偶去世。至今未有再娶。"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C3_male_19640316-Q15",
+        "question_no": 15,
+        "question": "命主于1995发生了下列哪件事情",
+        "options": [
+          "A. 没有转工，但更换了上司。其后与新上司交恶。",
+          "B. 没有转工，但更换了上司。而且得新上司宠爱。",
+          "C. 因为转工，而更换了上司。大家感情一般。",
+          "D. 跟随当时的上司转工，故更换了公司，但没有转换上司。"
+        ],
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "person_id": "2015_C4_male_19740813",
+    "name": "1974年香港出生男性",
+    "case_no": "4",
+    "profile": {
+      "birth": {
+        "year": 1974,
+        "month": 8,
+        "day": 13,
+        "hour": 20,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "戌时",
+        "raw": "男命: 公历1974年8月13日戌时 出生地:香港出生"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "鼎大图书培哥",
+      "method": "八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2015_C4_male_19740813-Q16",
+        "question_no": 16,
+        "question": "请分析此命的出身家庭环境与及其学历?",
+        "options": [
+          "A. 出身富裕之家庭, 大学毕业",
+          "B. 出身富裕之家庭, 中学毕业",
+          "C. 出身贫穷之家庭, 大学毕业",
+          "D. 出身贫穷之家庭, 中学毕业"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C4_male_19740813-Q17",
+        "question_no": 17,
+        "question": "请分析此命的性格与及其健康情况?",
+        "options": [
+          "A. 性格急燥争强, 有皮肤湿疹问题",
+          "B. 性格急燥争强, 有哮喘问题",
+          "C. 性格保守稳重, 有皮肤湿疹问题",
+          "D. 性格保守稳重, 有哮喘问题"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2015_C4_male_19740813-Q18",
+        "question_no": 18,
+        "question": "命主与太太于何年结婚, 何年小产?",
+        "options": [
+          "A. 2001辛巳年结婚, 2010庚寅年尾小产",
+          "B. 2001辛巳年结婚, 2013癸巳年尾小产",
+          "C. 2006丙戌年结婚, 2010庚寅年尾小产",
+          "D. 2006丙戌年结婚, 2013癸巳年尾小产"
+        ],
+        "answer": "B",
+        "accepted_answers": [
+          "B",
+          "D"
+        ],
+        "answer_note": "官方注明：第四命例命主是2011辛卯年结婚，出题时误写成2001辛巳年，所以答B或D（癸巳年尾小产）都算对"
+      },
+      {
+        "question_id": "2015_C4_male_19740813-Q19",
+        "question_no": 19,
+        "question": "此命现在的工作是在甲戌运 (1993年 - 2002年) 那一年开始直到现在?",
+        "options": [
+          "A. 1994甲戌年",
+          "B. 1996丙子年",
+          "C. 1998戊寅年",
+          "D. 2000庚辰年"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C4_male_19740813-Q20",
+        "question_no": 20,
+        "question": "承接上一个问题, 他现在工作事业, 是何一种类?",
+        "options": [
+          "A. 创业做生意",
+          "B. 地产楼房买卖经纪",
+          "C. 金融投资人员",
+          "D. 交通公司的一个小管理人员"
+        ],
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "person_id": "2015_C5_male_19630813",
+    "name": "1963年香港出生男性",
+    "case_no": "5",
+    "profile": {
+      "birth": {
+        "year": 1963,
+        "month": 8,
+        "day": 13,
+        "hour": 20,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "戌时",
+        "raw": "男命: 公历1963 年 8月 13日 戌时出生地: 香港"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "李青扬",
+      "method": "八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2015_C5_male_19630813-Q21",
+        "question_no": 21,
+        "question": "命主 1982年 及 1983 年的学业情况如何?",
+        "options": [
+          "A. 1982年能考入大学，1983年学业更上一层",
+          "B. 1982年能考入大学，，但在1983年，校内成绩一落千丈",
+          "C. 1982年不能考入大学，1983年才能考入大学",
+          "D. 1982年及1983年皆不能考入大学"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2015_C5_male_19630813-Q22",
+        "question_no": 22,
+        "question": "命主在丁巳大运 (1985 -1994年)，离职创业，结果是 ;",
+        "options": [
+          "A. 初期差得濒临结业，但最后卖盘赚大钱告终，荣回职场",
+          "B. 初期成功，但失败至负债告终，败回职场",
+          "C. 初期成功，最后卖盘赚大钱告终，荣回职场",
+          "D. 但由头蚀到最后，负债告终，败回职场"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C5_male_19630813-Q23",
+        "question_no": 23,
+        "question": "命主在壬午及癸未年，虽正受雇，但私下创业，结果是 ;",
+        "options": [
+          "A. 创业的公司，能赚大钱",
+          "B. 创业的公司，只有微利",
+          "C. 创业的公司，损了大财",
+          "D. 创业的公司，轻微亏损"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2015_C5_male_19630813-Q24",
+        "question_no": 24,
+        "question": "命主在丙辰大运正式结婚，之后他的男女运，直至乙卯大运完结是 ;",
+        "options": [
+          "A. 妻外有稳定的红颜知己，左拥右抱",
+          "B. 夫妻稳定，互相忠贞",
+          "C. 虽偶有逢场作兴，但非常短期，无损婚姻",
+          "D. 离婚告终，但身伴女人又离离合合"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2015_C5_male_19630813-Q25",
+        "question_no": 25,
+        "question": "命主在乙卯大运正式离开职场，在那一年发生?",
+        "options": [
+          "A. 2010庚寅年",
+          "B. 2011辛卯年",
+          "C. 2012壬辰年",
+          "D. 2013癸巳年"
+        ],
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "person_id": "2015_C6_female_19960310",
+    "name": "1996年香港出生女性",
+    "case_no": "6",
+    "profile": {
+      "birth": {
+        "year": 1996,
+        "month": 3,
+        "day": 10,
+        "hour": 8,
+        "minute": 0,
+        "place": "香港",
+        "approximate": false,
+        "time_raw": "08:00",
+        "raw": "女命： 公历1996年3月10日8am 出生地: 香港"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "玲珑堂常欢",
+      "method": "八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2015_C6_female_19960310-Q26",
+        "question_no": 26,
+        "question": "命主样貌特征：",
+        "options": [
+          "A. 身材肥胖耳朵较大",
+          "B. 身材肥胖眼晴较大",
+          "C. 身材瘦削耳朵较大",
+          "D. 身材瘦削眼睛较细"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C6_female_19960310-Q27",
+        "question_no": 27,
+        "question": "从二岁开始上学后至今，交友方面，有什么特别之处：",
+        "options": [
+          "A. 外向，人缘极好",
+          "B. 外向，但好友寥寥",
+          "C. 内向，好友寥寥",
+          "D. 内向，不喜交朋结友"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2015_C6_female_19960310-Q28",
+        "question_no": 28,
+        "question": "哪一年发生初恋及其对象特征：",
+        "options": [
+          "A. 2011年，比自己年轻",
+          "B. 2011年，比自己年长",
+          "C. 2012年，年纪相若",
+          "D. 2012年，比自己年长"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C6_female_19960310-Q29",
+        "question_no": 29,
+        "question": "命主的学历如何：",
+        "options": [
+          "A. 考上大学，在香港工作",
+          "B. 考上大学，北上工作",
+          "C. 考不上大学，北上工作",
+          "D. 考不上大学，在香港工作"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2015_C6_female_19960310-Q30",
+        "question_no": 30,
+        "question": "命主出身环境如何，以及哪一年父亲离世？",
+        "options": [
+          "A. 富裕，2012年",
+          "B. 富裕，2014年",
+          "C. 贫穷，2014年",
+          "D. 贫穷，2012年"
+        ],
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "person_id": "2015_C7_female_19590906",
+    "name": "1959年马来西亚出生女性",
+    "case_no": "7",
+    "profile": {
+      "birth": {
+        "year": 1959,
+        "month": 9,
+        "day": 6,
+        "hour": 22,
+        "minute": 0,
+        "place": "马来西亚",
+        "approximate": true,
+        "time_raw": "亥时",
+        "raw": "女命: 公历1959年 9月 6日，亥时（9-11pm） 出生地: 马来西亚"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "李袁鸣",
+      "method": "八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2015_C7_female_19590906-Q31",
+        "question_no": 31,
+        "question": "命主父亲死于肺癌，应在那一年？",
+        "options": [
+          "A. 1990庚午年",
+          "B. 1994甲戌年",
+          "C. 1997丁丑年",
+          "D. 1999己卯年"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2015_C7_female_19590906-Q32",
+        "question_no": 32,
+        "question": "命主是在那年结婚，那年离婚？",
+        "options": [
+          "A. 1970年结婚，1985年离婚。",
+          "B. 1977年结婚，1986年离婚。",
+          "C. 1978年结婚，1982年离婚。",
+          "D. 1979年结婚，1984年离婚。"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2015_C7_female_19590906-Q33",
+        "question_no": 33,
+        "question": "命主何年出来工作赚钱？",
+        "options": [
+          "A. 1973年",
+          "B. 1975年",
+          "C. 1977年",
+          "D. 1979年"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2015_C7_female_19590906-Q34",
+        "question_no": 34,
+        "question": "命主有一分工作从事到现在，是什么工作？",
+        "options": [
+          "A. 家庭管家",
+          "B. 学校老师",
+          "C. 手提袋师傅",
+          "D. 建筑公司主管"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2015_C7_female_19590906-Q35",
+        "question_no": 35,
+        "question": "命主 2013癸巳年发生何事？",
+        "options": [
+          "A. 出去外国赚钱",
+          "B. 母亲生病，中风",
+          "C. 花钱买第二间房子",
+          "D. 动手术，心脏血管阻塞"
+        ],
+        "answer": "D"
+      }
+    ]
+  }
+]

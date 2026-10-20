@@ -1,0 +1,319 @@
+[
+  {
+    "contest_id": "hkjfma_2011",
+    "current_year": "2011",
+    "edition": 2,
+    "title": "2011年度全球算命师比赛（第二届）",
+    "description": "香港青年术数家协会「全球算命师大赛」第2届真题。3 个命例 × 5 题 = 15 题，每题 5 个选项（A–E）。参赛者根据命主的出生资料选择最符合其命运情况的答案。",
+    "total_questions": 15,
+    "num_charts": 3,
+    "scoring": "答中题数；第一名中 8 题，第二名中 7 题，第三名中 6 题",
+    "answer_source": "official",
+    "sources": {
+      "questions": "https://hkjfma.org/?p=124",
+      "answers": "https://hkjfma.org/?p=124（同页答案段）"
+    },
+    "corrections": [
+      "Q15 选项 B「自杀不逐」→「自杀不遂」；选项 D「官司䜣讼」→「官司诉讼」（原文笔误）"
+    ]
+  },
+  {
+    "person_id": "2011_C1_male_19721102",
+    "name": "1972年中国大陆 唐山市出生男性",
+    "case_no": "1",
+    "profile": {
+      "birth": {
+        "year": 1972,
+        "month": 11,
+        "day": 2,
+        "hour": 10,
+        "minute": 0,
+        "place": "中国大陆 唐山市",
+        "approximate": true,
+        "time_raw": "巳时",
+        "raw": "出生时间：西元02-11-1972 巳时 / 农历一九七二年九月廿七日 巳时 / 壬子年 庚戌月 丁酉日 乙巳时 / 出生地点：中国大陆 唐山市"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": null,
+      "method": null
+    },
+    "context": [
+      "唐山大地震幸存者八字"
+    ],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2011_C1_male_19721102-Q1",
+        "question_no": 1,
+        "question": "1976丙辰年,唐山大地震中六亲情况?(命主最细,没有哥哥,只有三位姐姐)",
+        "options": [
+          "A. 父亲在地震中死亡 (母亲与三位姐姐健在)",
+          "B. 母亲在地震中死亡 (父亲与三位姐姐健在)",
+          "C. 三位姐姐其中有一,二,或三位姐姐在地震中死亡 (母亲与父亲健在)",
+          "D. 父母与姐姐全家死亡,只得命主幸存",
+          "E. 全家幸存,父母与姐姐都没有死亡"
+        ],
+        "answer": "E"
+      },
+      {
+        "question_id": "2011_C1_male_19721102-Q2",
+        "question_no": 2,
+        "question": "命主何年移民到香港定居?",
+        "options": [
+          "A. 西历1988年1月2x日 丁卯年丑月大寒后,戊辰立春前",
+          "B. 西历1992年1月2x日 辛未年丑月大寒后,壬申立春前",
+          "C. 西历1997年1月2x日 丙子年丑月大寒后,丁丑立春前",
+          "D. 西历2000年1月2x日 己卯年丑月大寒后,庚辰立春前",
+          "E. 西历2002年1月2x日 辛巳年丑月大寒后,壬午立春前"
+        ],
+        "answer": "E"
+      },
+      {
+        "question_id": "2011_C1_male_19721102-Q3",
+        "question_no": 3,
+        "question": "命主在何年结婚?",
+        "options": [
+          "A. 1992 壬申年",
+          "B. 1995 乙亥年",
+          "C. 1996 丙子年",
+          "D. 1997 丁丑年",
+          "E. 1999 己卯年"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2011_C1_male_19721102-Q4",
+        "question_no": 4,
+        "question": "命主第一胎出生之 BB 仔在何年?",
+        "options": [
+          "A. 2000 庚辰年",
+          "B. 2001 辛巳年",
+          "C. 2004 甲申年",
+          "D. 2007 丁亥年",
+          "E. 2009 己丑年"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2011_C1_male_19721102-Q5",
+        "question_no": 5,
+        "question": "2003癸未年发生何事?",
+        "options": [
+          "A. 得到沙士之病",
+          "B. 打架破相而引起官非",
+          "C. 买楼",
+          "D. 创业",
+          "E. 破产"
+        ],
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "person_id": "2011_C2_male_19810908",
+    "name": "1981年台湾出生男性",
+    "case_no": "2",
+    "profile": {
+      "birth": {
+        "year": 1981,
+        "month": 9,
+        "day": 8,
+        "hour": 20,
+        "minute": 0,
+        "place": "台湾",
+        "approximate": true,
+        "time_raw": "戌时",
+        "raw": "出生时间：西元1981年9月8日戌时 / 农历一九八一年八月十一日戌时 / 辛酉年 丁酉月 己丑日 甲戌时 / 出生地区：台湾"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": null,
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2011_C2_male_19810908-Q6",
+        "question_no": 6,
+        "question": "请问此造的学历程度？",
+        "options": [
+          "A. 小学",
+          "B. 中学",
+          "C. 大学",
+          "D. 小学以下",
+          "E. 硕士以上"
+        ],
+        "answer": "E"
+      },
+      {
+        "question_id": "2011_C2_male_19810908-Q7",
+        "question_no": 7,
+        "question": "请问此造于现在的婚姻关系？",
+        "options": [
+          "A. 曾经结过婚但已离婚",
+          "B. 未有结婚",
+          "C. 刚结婚",
+          "D. 同性恋者",
+          "E. 已结婚两次"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2011_C2_male_19810908-Q8",
+        "question_no": 8,
+        "question": "以下五点那样最切合命主？",
+        "options": [
+          "A. 喜欢讲话但有点口吃",
+          "B. 口才甚佳，口若悬河",
+          "C. 自闭之人",
+          "D. 喜欢出风头之人",
+          "E. 经常出口伤人"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2011_C2_male_19810908-Q9",
+        "question_no": 9,
+        "question": "1984年命主有甚么特别病患？",
+        "options": [
+          "A. 意外车祸",
+          "B. 肝炎",
+          "C. 肺炎",
+          "D. 血液有事",
+          "E. 肾病"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2011_C2_male_19810908-Q10",
+        "question_no": 10,
+        "question": "2003年1月1日有甚么特别之事？",
+        "options": [
+          "A. 车祸受伤",
+          "B. 女友说分手",
+          "C. 母亲有灾",
+          "D. 父母离婚",
+          "E. 突有横财"
+        ],
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "person_id": "2011_C3_male_19940828",
+    "name": "1994年香港出生男性",
+    "case_no": "3",
+    "profile": {
+      "birth": {
+        "year": 1994,
+        "month": 8,
+        "day": 28,
+        "hour": 2,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "丑时",
+        "raw": "出生时间：西元28-08-1994 丑时 / 农历一九九四年七月廿二日丑时 / 出生地区：香港 / 甲戌年 壬申月 丙戌日 己丑时"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": null,
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2011_C3_male_19940828-Q11",
+        "question_no": 11,
+        "question": "命主2011年时的家庭状况：",
+        "options": [
+          "A. 父亲坐牢",
+          "B. 母亲坐牢",
+          "C. 全家移民",
+          "D. 父母双亡",
+          "E. 父母破产"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2011_C3_male_19940828-Q12",
+        "question_no": 12,
+        "question": "命主的母亲于2010年时：",
+        "options": [
+          "A. 移民外地",
+          "B. 自杀",
+          "C. 开刀手术",
+          "D. 车祸",
+          "E. 随人改嫁"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2011_C3_male_19940828-Q13",
+        "question_no": 13,
+        "question": "命主的弟弟妹妹同于那一年身亡：",
+        "options": [
+          "A. 2007",
+          "B. 2008",
+          "C. 2009",
+          "D. 2010",
+          "E. 2011"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2011_C3_male_19940828-Q14",
+        "question_no": 14,
+        "question": "弟妹同年身亡原因：",
+        "options": [
+          "A. 被杀",
+          "B. 车祸",
+          "C. 传染病绝症",
+          "D. 溺死",
+          "E. 母腹夭折"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2011_C3_male_19940828-Q15",
+        "question_no": 15,
+        "question": "命主2011年曾经有那些经历：",
+        "options": [
+          "A. 开刀手术",
+          "B. 自杀不遂",
+          "C. 车祸不死",
+          "D. 官司诉讼",
+          "E. 移民外地"
+        ],
+        "answer": "B"
+      }
+    ]
+  }
+]

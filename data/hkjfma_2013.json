@@ -1,0 +1,352 @@
+[
+  {
+    "contest_id": "hkjfma_2013",
+    "current_year": "2013",
+    "edition": 4,
+    "title": "2013年第四届全球算命师大赛",
+    "description": "香港青年术数家协会「全球算命师大赛」第4届真题。3 个命例 × 5 题 + 1 道「由生平事件反推出生时辰」试点题 = 16 题，每题 4 个选项。参赛者根据命主的出生资料选择最符合其命运情况的答案。",
+    "total_questions": 16,
+    "num_charts": 4,
+    "scoring": "原页未公布计分细则",
+    "answer_source": "official",
+    "sources": {
+      "questions": "https://hkjfma.org/?p=412",
+      "answers": "https://hkjfma.org/?p=412（同页「答案公报」）"
+    },
+    "corrections": []
+  },
+  {
+    "person_id": "2013_C1_male_19680410",
+    "name": "1968年香港出生男性",
+    "case_no": "1",
+    "profile": {
+      "birth": {
+        "year": 1968,
+        "month": 4,
+        "day": 10,
+        "hour": 20,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "戌时",
+        "raw": "乾命: 西元1968年生男命4月10日戌时 香港出生"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "吴佩孚",
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2013_C1_male_19680410-Q1",
+        "question_no": 1,
+        "question": "这个命出身家境如何呢?",
+        "options": [
+          "A. 孤儿",
+          "B. 父母齐全大富之家",
+          "C. 父母离异大富之家",
+          "D. 父母离异家境很差"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2013_C1_male_19680410-Q2",
+        "question_no": 2,
+        "question": "这命学历高低如何?",
+        "options": [
+          "A. 初中毕业",
+          "B. 中学毕业",
+          "C. 大学毕业",
+          "D. 博士学位"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2013_C1_male_19680410-Q3",
+        "question_no": 3,
+        "question": "这个命职业类型?",
+        "options": [
+          "A. 地质学家",
+          "B. 财经专家",
+          "C. 汽车经纪",
+          "D. 地产经纪"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2013_C1_male_19680410-Q4",
+        "question_no": 4,
+        "question": "这命的婚姻结局形势?",
+        "options": [
+          "A. 命主至今未婚,但喜欢到处寻花问柳,女友很多很滥.",
+          "B. 命主已婚,妻子是专业人士政界中人",
+          "C. 命主已婚,妻子是妓女出身低贱",
+          "D. 命主已离过两次婚"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2013_C1_male_19680410-Q5",
+        "question_no": 5,
+        "question": "命主身患长期病症,究竟是何种病呢?",
+        "options": [
+          "A. 严重灰甲",
+          "B. 严重皮肤病",
+          "C. 情绪病",
+          "D. 胃溃疡"
+        ],
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "person_id": "2013_C2_female_19721106",
+    "name": "1972年香港出生女性",
+    "case_no": "2",
+    "profile": {
+      "birth": {
+        "year": 1972,
+        "month": 11,
+        "day": 6,
+        "hour": 19,
+        "minute": 15,
+        "place": "香港",
+        "approximate": false,
+        "time_raw": "19:15",
+        "raw": "坤命: 西元1972年11月6日19:15 戌时 香港出生"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "鼎大图书培哥",
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2013_C2_female_19721106-Q6",
+        "question_no": 6,
+        "question": "命主2012年的事业情况如何?",
+        "options": [
+          "A. 上班一族",
+          "B. 自己做生意",
+          "C. 家庭主妇",
+          "D. 电台DJ"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2013_C2_female_19721106-Q7",
+        "question_no": 7,
+        "question": "婚姻情况?",
+        "options": [
+          "A. 单身未婚,盛女",
+          "B. 已婚,有子女,婚姻美满",
+          "C. 夫亡",
+          "D. 被有妇之夫包养之情人"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2013_C2_female_19721106-Q8",
+        "question_no": 8,
+        "question": "命主学历情况?",
+        "options": [
+          "A. 中三 初中毕业",
+          "B. 中七 预科毕业",
+          "C. 大学以上",
+          "D. 因病而不能上学而只得小学"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2013_C2_female_19721106-Q9",
+        "question_no": 9,
+        "question": "2011辛卯年发生何事?",
+        "options": [
+          "A. 炒卖楼房得财",
+          "B. 交通意外受伤",
+          "C. 得到房屋处分配公屋",
+          "D. 打劫破财受伤"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2013_C2_female_19721106-Q10",
+        "question_no": 10,
+        "question": "1999己卯年工作情况?",
+        "options": [
+          "A. 转工升职加薪",
+          "B. 被公司开除",
+          "C. 盗用公司财物而引起官非",
+          "D. 辞职到外地进修"
+        ],
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "person_id": "2013_C3_male_19720115",
+    "name": "1972年香港出生男性",
+    "case_no": "3",
+    "profile": {
+      "birth": {
+        "year": 1972,
+        "month": 1,
+        "day": 15,
+        "hour": 0,
+        "minute": 30,
+        "place": "香港",
+        "approximate": false,
+        "time_raw": "00:30",
+        "raw": "男命 西历1972年1月15日 00：30AM 香港出生"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "顾臻明",
+      "method": null
+    },
+    "context": [
+      "出题者为首届算命师冠军及第三届亚军得主"
+    ],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2013_C3_male_19720115-Q11",
+        "question_no": 11,
+        "question": "命主在2012年工作方面情况？",
+        "options": [
+          "A. 无业，无收入。",
+          "B. 受薪工作，年薪在$300000以下",
+          "C. 受薪工作，年薪在$1000000以上",
+          "D. 自雇经营店铺，收入不稳定"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2013_C3_male_19720115-Q12",
+        "question_no": 12,
+        "question": "在2001年，命主发生了何事？",
+        "options": [
+          "A. 中六合彩二奖",
+          "B. 和拍拖十年的女友分手",
+          "C. 被劫受伤入院",
+          "D. 居住大厦发生三级大火"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2013_C3_male_19720115-Q13",
+        "question_no": 13,
+        "question": "以下那个答案最接近命主中学时期的状况？",
+        "options": [
+          "A. 学业成绩名列前茅",
+          "B. 无心向学，结交坏朋友",
+          "C. 成绩中等，有做义工习惯",
+          "D. 中途辍学，赚钱帮补家计"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2013_C3_male_19720115-Q14",
+        "question_no": 14,
+        "question": "命主13岁前所发生的严重事故？",
+        "options": [
+          "A. 父亲过身",
+          "B. 妹妹过身",
+          "C. 意外导致右眼失明",
+          "D. 意外导致右脚折断"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2013_C3_male_19720115-Q15",
+        "question_no": 15,
+        "question": "命主的性格特质？",
+        "options": [
+          "A. 口齿伶俐，平易近人，克勤克俭",
+          "B. 不擅言辞，容易开罪人，挥霍无节制",
+          "C. 口齿伶俐，平易近人，挥霍无节制",
+          "D. 不擅言辞，容易开罪人，克勤克俭"
+        ],
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "person_id": "2013_C4_female_19700814",
+    "name": "1970年香港出生女性",
+    "case_no": "4",
+    "profile": {
+      "birth": {
+        "year": 1970,
+        "month": 8,
+        "day": 14,
+        "hour": null,
+        "minute": null,
+        "place": "香港",
+        "approximate": null,
+        "time_raw": null,
+        "raw": "出生日期: 西元1970年8月14日 性别: 女 出生地: 香港（出生时辰即本题所问）"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "傅梓量",
+      "method": "奇门遁甲"
+    },
+    "context": [
+      "一生描述：1. 大学毕业；2. 父母健在；3. 现时职业为活动主任、文职工作一类。",
+      "发生事项：4. 西历1972壬子年2岁时得气管炎；5. 西元1997年11月8日注册，至12月6日结婚摆酒；6. 西元2002年7月生产一女婴；7. 西元2002年12月坐飞机到台湾，跟丈夫在当地生活到西元2004年1月才回香港工作、生活（在2003整整一年都没有工作），只是间中几次回香港处理一些杂务而已；8. 西元2007年4月辰月完成办理离婚手续；9. 西元2012年3月受公司高层公开表扬赞赏其工作表现（但没有升职及加人工）；10. 西元2008年1月份旧公司执笠，2008及2009年此两年间失业、工作、失业、工作，常找不到工作、找到亦做不长久、公司常常迟发薪金，此两年令命主的生活节奏出现不良的影响。",
+      "主办方注明：命主在香港出生，当天香港实行夏令时间；不论是否扣减夏令时间，答案都在同一时辰范围之内。"
+    ],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2013_C4_female_19700814-Q16",
+        "question_no": 16,
+        "question": "请问此命当天出生的,在那一个时辰呢?",
+        "options": [
+          "A. 01:00—03:00丑时",
+          "B. 03:00—05:00寅时",
+          "C. 15:00—17:00申时",
+          "D. 19:00—21:00戌时"
+        ],
+        "answer": "A"
+      }
+    ]
+  }
+]

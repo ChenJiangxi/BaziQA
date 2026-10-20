@@ -1,0 +1,776 @@
+[
+  {
+    "contest_id": "hkjfma_2026",
+    "current_year": "2026",
+    "edition": 17,
+    "title": "2026年第十七届 全球算命师大赛",
+    "description": "香港青年术数家协会「全球算命师大赛」第17届真题。8 位老师出题，8 个命例 × 5 题 = 40 题，每题 4 个选项。参赛者根据命主的出生资料选择最符合其命运情况的答案。",
+    "total_questions": 40,
+    "num_charts": 8,
+    "scoring": "每答对 1 题得 1 分；剔除最高及最低分命例各 5 题，以中间 30 题为最终成绩；冠军 2 人总分 31/40（中间 30 题得 23）",
+    "answer_source": "official",
+    "sources": {
+      "questions": "https://hkjfma.org/?p=13618（题目为 8 张图片，2026-07-08 按图录入）",
+      "answers": "https://hkjfma.org/wp-content/uploads/2026/08/IMG-20260808-WA0015.jpg（手写答案表「2026 年第十七届全球算命大赛 正确答案」）"
+    },
+    "corrections": []
+  },
+  {
+    "person_id": "2026_C1_male_19820612",
+    "name": "1982年香港出生男性",
+    "case_no": "1",
+    "profile": {
+      "birth": {
+        "year": 1982,
+        "month": 6,
+        "day": 12,
+        "hour": 6,
+        "minute": 50,
+        "place": "香港",
+        "approximate": false,
+        "time_raw": "06:50",
+        "raw": "西历 1982 年 6 月 12 日早上 6 点 50 分，香港出世"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "林千博",
+      "method": "子平八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2026_C1_male_19820612-Q1",
+        "question_no": 1,
+        "question": "此命学历如何？性格如何？",
+        "options": [
+          "A. 小学，脾气暴躁，好勇斗狠",
+          "B. 中五，沉默寡言，不喜欢交际",
+          "C. 大学，能言善辩，善于交际",
+          "D. 博士学历，温文尔雅，喜爱书法、茶艺"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C1_male_19820612-Q2",
+        "question_no": 2,
+        "question": "此命的婚姻如何？",
+        "options": [
+          "A. 一直单身，为同性恋者",
+          "B. 婚姻美满，育有一子一女",
+          "C. 已经离婚，现在单身，没有子女",
+          "D. 离婚后再婚，和前妻子与现妻女一起住宿生活"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2026_C1_male_19820612-Q3",
+        "question_no": 3,
+        "question": "2025 年 5 月份命主发生何事？",
+        "options": [
+          "A. 中六合彩二奖",
+          "B. 接受手术治疗",
+          "C. 移民欧洲",
+          "D. 遭骗徒诈骗财物三百万"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C1_male_19820612-Q4",
+        "question_no": 4,
+        "question": "命主拥有多少物业与事业情况如何？",
+        "options": [
+          "A. 没有物业，普通打工人士",
+          "B. 持有一间自住物业，任职医生",
+          "C. 持有多间物业，创业多年，为经商人士",
+          "D. 与亲人共同持有父母遗留物业，任职消防员"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2026_C1_male_19820612-Q5",
+        "question_no": 5,
+        "question": "此命有一位弟弟，其弟弟出生于何年？",
+        "options": [
+          "A. 1984 甲子年",
+          "B. 1986 丙寅年",
+          "C. 1988 戊辰年",
+          "D. 1990 庚午年"
+        ],
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "person_id": "2026_C2_female_19810120",
+    "name": "1981年香港出生女性",
+    "case_no": "2",
+    "profile": {
+      "birth": {
+        "year": 1981,
+        "month": 1,
+        "day": 20,
+        "hour": 20,
+        "minute": 5,
+        "place": "香港",
+        "approximate": false,
+        "time_raw": "20:05",
+        "raw": "西历 1981 年 1 月 20 日 20 时 05 分，香港出生"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "易龙",
+      "method": "子平八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2026_C2_female_19810120-Q6",
+        "question_no": 6,
+        "question": "曾在那一年与男朋友分手?",
+        "options": [
+          "A. 2000",
+          "B. 2002",
+          "C. 2005",
+          "D. 2008"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2026_C2_female_19810120-Q7",
+        "question_no": 7,
+        "question": "以上分手的原因？",
+        "options": [
+          "A. 命主出国留学",
+          "B. 男方家长反对",
+          "C. 男方有第三者",
+          "D. 自己有第三者"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2026_C2_female_19810120-Q8",
+        "question_no": 8,
+        "question": "命主毕业后至今从事什么工作？",
+        "options": [
+          "A. 空中服务员",
+          "B. 时装设计师",
+          "C. 地产经纪",
+          "D. 教师"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2026_C2_female_19810120-Q9",
+        "question_no": 9,
+        "question": "命主 2018 年发生什么事？",
+        "options": [
+          "A. 中六合彩",
+          "B. 结婚",
+          "C. 开刀手术",
+          "D. 买楼破财"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2026_C2_female_19810120-Q10",
+        "question_no": 10,
+        "question": "命主目前 2026 年婚姻状况？",
+        "options": [
+          "A. 已婚",
+          "B. 未婚",
+          "C. 离婚",
+          "D. 同性恋"
+        ],
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "person_id": "2026_C3_male_19560903",
+    "name": "1956年香港出生男性",
+    "case_no": "3",
+    "profile": {
+      "birth": {
+        "year": 1956,
+        "month": 9,
+        "day": 3,
+        "hour": 18,
+        "minute": 0,
+        "place": "香港",
+        "approximate": true,
+        "time_raw": "酉时",
+        "raw": "西历 1956 年 9 月 3 日 酉时，香港出生"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "梁真圣",
+      "method": "子平八字"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2026_C3_male_19560903-Q11",
+        "question_no": 11,
+        "question": "此命常年受哪种毛病影响？",
+        "options": [
+          "A. 肝脏",
+          "B. 心脏",
+          "C. 肺脏",
+          "D. 肾脏"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2026_C3_male_19560903-Q12",
+        "question_no": 12,
+        "question": "此命父母情况如何？",
+        "options": [
+          "A. 父缘差早死，母亲长寿",
+          "B. 父缘差早死，母亲早死",
+          "C. 父缘佳长寿，母亲长寿",
+          "D. 父缘佳长寿，母亲早死"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2026_C3_male_19560903-Q13",
+        "question_no": 13,
+        "question": "哪个时候被朋友骗财？",
+        "options": [
+          "A. 1996~1997",
+          "B. 1999~2000",
+          "C. 2002~2003",
+          "D. 2005~2006"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C3_male_19560903-Q14",
+        "question_no": 14,
+        "question": "此命的爱情生活如何？",
+        "options": [
+          "A. 同性恋，男朋友多，常常换男伴",
+          "B. 女性缘佳不缺女性但没有结婚",
+          "C. 女性缘佳常常被女性骗，己巳年结婚丁亥年离婚",
+          "D. 女性缘差但有一红颜知己终生有缘无分"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C3_male_19560903-Q15",
+        "question_no": 15,
+        "question": "此命性格如何？",
+        "options": [
+          "A. 沉静喜哲学爱写作",
+          "B. 活跃好动喜交际爱远足",
+          "C. 性格暴躁好胜心强，喜饮酒",
+          "D. 性格随和，喜交际，爱武术"
+        ],
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "person_id": "2026_C4_male_19511105",
+    "name": "1951年四川成都郊县出生男性",
+    "case_no": "4",
+    "profile": {
+      "birth": {
+        "year": 1951,
+        "month": 11,
+        "day": 5,
+        "hour": 5,
+        "minute": 30,
+        "place": "四川成都郊县",
+        "approximate": true,
+        "time_raw": "05:30",
+        "raw": "西历 1951 年 11 月 5 日 上午 5-6 点，出生于四川成都郊县"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "安公子",
+      "method": "八字"
+    },
+    "context": [],
+    "notes": [
+      "原文为「上午 5-6 点」，time 取区间中点。"
+    ],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2026_C4_male_19511105-Q16",
+        "question_no": 16,
+        "question": "命主出身及家庭情况？",
+        "options": [
+          "A. 父母为农民兼牲畜养殖。命主有两兄一妹。",
+          "B. 父亲曾为炮兵，转业到化肥厂，父母均为普通工人。命主有一姐一妹。",
+          "C. 父亲从事屠宰业，母亲为工人。命主有两妹一弟。",
+          "D. 父亲为矿厂工人，1970 年在地震中丧生，母亲为茶厂技师，仍在世。命主有一兄一弟。"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2026_C4_male_19511105-Q17",
+        "question_no": 17,
+        "question": "命主个性如何？",
+        "options": [
+          "A. 胆小内敛，温和聪明。",
+          "B. 性格刚强，自尊心强。",
+          "C. 恃才傲物，风流多情。",
+          "D. 平易近人，乐善好施。"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C4_male_19511105-Q18",
+        "question_no": 18,
+        "question": "命主的职业和经历？",
+        "options": [
+          "A. 学厨师，以餐饮为业，现有四家餐馆，资产虽不丰厚，但温饱有余。",
+          "B. 1978 年考取大专，先为教师，后从政，为市级干部。2004 年因事罢职，2012 年退休，2022 年移居海外。",
+          "C. 先后从事白酒、饲料等行业，2000 年做基建、装修，起起落落，现有资产千万。",
+          "D. 修过表，做过药材、食品加工，现以地产类业务为业，资产过亿。"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2026_C4_male_19511105-Q19",
+        "question_no": 19,
+        "question": "命主婚姻和子女情况？",
+        "options": [
+          "A. 命主婚姻美满。长子留学海外，现为国外大学教授，次子现无业。",
+          "B. 命主妻子 2017 年去世。两个女儿，长女目前患重病。",
+          "C. 命主有一子一女，2015 年有婚外情并生有私生子。",
+          "D. 妻子嗜赌，2003 年与朋友外遇而离婚。儿子为电力工程师，女儿为教师，患忧郁症，2023 年自杀去世。"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C4_male_19511105-Q20",
+        "question_no": 20,
+        "question": "命主人生中的两次重大事件？",
+        "options": [
+          "A. 1968 年参军失败，1992 年转行并大获其利。",
+          "B. 1985 年因事判监，2001-2003 年因城区拆迁而发财数百万。",
+          "C. 1977 年结婚，受岳父帮助事业起步。2024 年患胃癌。",
+          "D. 1983 年命主受电击断臂，2023 年被电信诈骗数十万。"
+        ],
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "person_id": "2026_C5_male_19870626",
+    "name": "1987年河北农村出生男性",
+    "case_no": "5",
+    "profile": {
+      "birth": {
+        "year": 1987,
+        "month": 6,
+        "day": 26,
+        "hour": 10,
+        "minute": 0,
+        "place": "河北农村",
+        "approximate": true,
+        "time_raw": "巳时",
+        "raw": "西历 1987 年 6 月 26 日 巳时出生，河北农村出生。"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "真一",
+      "method": null
+    },
+    "context": [
+      "出题人：真一（2019 年冠军）"
+    ],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2026_C5_male_19870626-Q21",
+        "question_no": 21,
+        "question": "此命母亲逝世是何年？",
+        "options": [
+          "A. 1998",
+          "B. 2004",
+          "C. 2007",
+          "D. 2013"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2026_C5_male_19870626-Q22",
+        "question_no": 22,
+        "question": "此命父亲逝世是何年？",
+        "options": [
+          "A. 1997",
+          "B. 2003",
+          "C. 2012",
+          "D. 2018"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2026_C5_male_19870626-Q23",
+        "question_no": 23,
+        "question": "此命哪年结婚？",
+        "options": [
+          "A. 2008 年",
+          "B. 2012 年",
+          "C. 2015 年",
+          "D. 2019 年"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2026_C5_male_19870626-Q24",
+        "question_no": 24,
+        "question": "此命的女儿于哪年出生？",
+        "options": [
+          "A. 2007",
+          "B. 2009",
+          "C. 2011",
+          "D. 2013"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C5_male_19870626-Q25",
+        "question_no": 25,
+        "question": "此命身高学历与性格?",
+        "options": [
+          "A. 180CM 上，大学毕业，非常自我自信，要别人听命自己",
+          "B. 180CM 上，大学未毕业，善于交际，豪气大方",
+          "C. 180CM 下，大学毕业，固执好勇心狠",
+          "D. 180CM 下，大学未毕业，勤劳随和，见别人易，自己难"
+        ],
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "person_id": "2026_C6_female_19611104",
+    "name": "1961年马来西亚出生女性",
+    "case_no": "6",
+    "profile": {
+      "birth": {
+        "year": 1961,
+        "month": 11,
+        "day": 4,
+        "hour": 10,
+        "minute": 0,
+        "place": "马来西亚",
+        "approximate": true,
+        "time_raw": "巳时",
+        "raw": "坤造 西历：1961 年 11 月 4 日巳时，马来西亚出生"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "张翊萱",
+      "method": "紫微斗数"
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2026_C6_female_19611104-Q26",
+        "question_no": 26,
+        "question": "命主的结婚年份?",
+        "options": [
+          "A. 1978 年",
+          "B. 1979 年",
+          "C. 1980 年",
+          "D. 1981 年"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C6_female_19611104-Q27",
+        "question_no": 27,
+        "question": "命主在 2022 年是发生了什么事?",
+        "options": [
+          "A. 丈夫往生",
+          "B. 丈夫外遇",
+          "C. 生病入院",
+          "D. 孩子入院"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2026_C6_female_19611104-Q28",
+        "question_no": 28,
+        "question": "命主目前的主要收入来源是什么?",
+        "options": [
+          "A. 投资家",
+          "B. 包租婆",
+          "C. 做些小生意",
+          "D. 家庭主妇，靠子女养"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C6_female_19611104-Q29",
+        "question_no": 29,
+        "question": "命主曾经于何年因为经济条件的原因而堕胎？",
+        "options": [
+          "A. 1980 年",
+          "B. 1983 年",
+          "C. 1988 年",
+          "D. 1989 年"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2026_C6_female_19611104-Q30",
+        "question_no": 30,
+        "question": "命主在何年突发血崩而进行切除子宫手术？",
+        "options": [
+          "A. 2010 年",
+          "B. 2011 年",
+          "C. 2012 年",
+          "D. 2013 年"
+        ],
+        "answer": "D"
+      }
+    ]
+  },
+  {
+    "person_id": "2026_C7_female_19990814",
+    "name": "1999年台湾高雄出生女性",
+    "case_no": "7",
+    "profile": {
+      "birth": {
+        "year": 1999,
+        "month": 8,
+        "day": 14,
+        "hour": 15,
+        "minute": 30,
+        "place": "台湾高雄",
+        "approximate": false,
+        "time_raw": "15:30",
+        "raw": "台湾高雄 西历：1999 年 8 月 14 日 15 点 30 分（申时）"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "子离",
+      "method": "紫微斗数"
+    },
+    "context": [],
+    "notes": [
+      "题面未印术数，惟 Q31/Q32 用「宫位星曜」「流年与原局冲合」等紫微斗数用语，故推断为紫微斗数。"
+    ],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2026_C7_female_19990814-Q31",
+        "question_no": 31,
+        "question": "体型特征辨识：依据命盘干支组合与宫位星曜特质，推断命主长相与体型特征",
+        "options": [
+          "A. 身材高挑，皮肤白皙，骨架纤细",
+          "B. 身形矮小，体态丰满，面色润泽",
+          "C. 中等身形，肌肉结实，肤色偏深",
+          "D. 瘦长体型，五官深邃，举动灵敏敏捷"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2026_C7_female_19990814-Q32",
+        "question_no": 32,
+        "question": "六亲重大变故：透过流年与原局冲合关系判断六亲状况，请问命主母亲于哪一年离世？",
+        "options": [
+          "A. 2012 年",
+          "B. 2017 年",
+          "C. 2024 年",
+          "D. 2025 年"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2026_C7_female_19990814-Q33",
+        "question_no": 33,
+        "question": "欠缺偏财感应能力，命主获得一笔意外庞大财富会发生于哪一年？",
+        "options": [
+          "A. 2021 年",
+          "B. 2022 年",
+          "C. 2023 年",
+          "D. 2025 年"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2026_C7_female_19990814-Q34",
+        "question_no": 34,
+        "question": "社会层次与现况判断？判断命主现时学历水平以及职业现状",
+        "options": [
+          "A. 硕士学历，现于知名企业担任管理职务",
+          "B. 本科学历，现从事艺术类自由职业",
+          "C. 高中学历，暂无固定职业，专职二级市场投资（炒股）",
+          "D. 国中学历，现经营自媒体工作室"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2026_C7_female_19990814-Q35",
+        "question_no": 35,
+        "question": "此女目前感情状况是如何呢？",
+        "options": [
+          "A. 结交异性对象，婚姻稳定。",
+          "B. 感情复杂，与多人纠缠不清。",
+          "C. 跟异性分手，现与同性交往。",
+          "D. 长期单身，没有感情经历。"
+        ],
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "person_id": "2026_C8_male_19811019",
+    "name": "1981年出生地不详出生男性",
+    "case_no": "8",
+    "profile": {
+      "birth": {
+        "year": 1981,
+        "month": 10,
+        "day": 19,
+        "hour": 22,
+        "minute": 0,
+        "place": null,
+        "approximate": false,
+        "time_raw": "22:00",
+        "raw": "西历：1981 年 10 月 19 日 晚上十点（亥时）"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "阮怀胜",
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2026_C8_male_19811019-Q36",
+        "question_no": 36,
+        "question": "请问适合嘅工作性质?",
+        "options": [
+          "A. 亥水有用泄丁火，亥属数字意象，戌为火库，适合从事电脑网路类工作",
+          "B. 日主庚金生比劫，取用庚辛，属于劳动类人员",
+          "C. 木失月令而生庚金，适合自行经营五金环保行业",
+          "D. 以上皆是"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2026_C8_male_19811019-Q37",
+        "question_no": 37,
+        "question": "此命何时离婚？",
+        "options": [
+          "A. 甲辰年",
+          "B. 乙巳年",
+          "C. 丙午年",
+          "D. 癸卯年"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2026_C8_male_19811019-Q38",
+        "question_no": 38,
+        "question": "自身性格特质?",
+        "options": [
+          "A. 生性愚钝，为人不懂变通",
+          "B. 不拘小节，处事大而化之",
+          "C. 容易钻牛角尖，心思多疑",
+          "D. 情绪不稳，有躁郁倾向"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2026_C8_male_19811019-Q39",
+        "question_no": 39,
+        "question": "今年丙午年，在工作上发生啥事?",
+        "options": [
+          "A. 贵人相助，升官发财",
+          "B. 小人当道，工作不顺利",
+          "C. 工作压力大，连续半年换了两份工作，但都是高薪高管工作",
+          "D. 失业在家，靠玩股票度日"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2026_C8_male_19811019-Q40",
+        "question_no": 40,
+        "question": "现今所处工作状态?",
+        "options": [
+          "A. 任职公职，协助政府相关工作",
+          "B. 自主创业，自行开设公司",
+          "C. 于跨国企业担任高层管理",
+          "D. 任职小型公司基层职员，薪资仅足维生"
+        ],
+        "answer": "C"
+      }
+    ]
+  }
+]

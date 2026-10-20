@@ -1,0 +1,304 @@
+[
+  {
+    "contest_id": "hkjfma_2012",
+    "current_year": "2012",
+    "edition": 3,
+    "title": "2012年度全球算命师比赛（第三届）",
+    "description": "香港青年术数家协会「全球算命师大赛」第3届真题。3 个命例 × 5 题 = 15 题，每题 4 个选项。参赛者根据命主的出生资料选择最符合其命运情况的答案。",
+    "total_questions": 15,
+    "num_charts": 3,
+    "scoring": "答中题数；双冠军中 8 题，五位亚军中 7 题，七位季军中 6 题",
+    "answer_source": "official",
+    "sources": {
+      "questions": "https://hkjfma.org/?p=131",
+      "answers": "https://hkjfma.org/?p=131（同页答案段）"
+    },
+    "corrections": [
+      "Q1 选项 C「蓬了几针」→「缝了几针」；Q4「皆层」→「阶层」；Q11「是个一个」→「是那一个」（原文笔误）"
+    ]
+  },
+  {
+    "person_id": "2012_C1_female_19791005",
+    "name": "1979年出生地不详出生女性",
+    "case_no": "1",
+    "profile": {
+      "birth": {
+        "year": 1979,
+        "month": 10,
+        "day": 5,
+        "hour": 20,
+        "minute": 0,
+        "place": null,
+        "approximate": true,
+        "time_raw": "戌时",
+        "raw": "第一条命例题目，西历1979年10月5日戌时 坤命 出题者：李文渊"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "李文渊",
+      "method": null
+    },
+    "context": [],
+    "notes": [
+      "出生地原文未写；Q4 以「在香港平均一个月收入」衡量，命主应在香港生活。"
+    ],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2012_C1_female_19791005-Q1",
+        "question_no": 1,
+        "question": "1992壬申年，有何特别事情发生？",
+        "options": [
+          "A. 外国升学",
+          "B. 肺结核病，食药半年",
+          "C. 失足意外，头部流血，而缝了几针",
+          "D. 官非，在学校打架，而被警察调查命主，是否三合会之会员"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2012_C1_female_19791005-Q2",
+        "question_no": 2,
+        "question": "此命在何年毕业，而投身社会工作？",
+        "options": [
+          "A. 1995乙亥",
+          "B. 1997丁丑",
+          "C. 1999己卯",
+          "D. 2002壬午"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2012_C1_female_19791005-Q3",
+        "question_no": 3,
+        "question": "推算命主何两个流年为拍拖分手之年份？",
+        "options": [
+          "A. 2004甲申与2009己丑",
+          "B. 2005乙酉与2008戊子",
+          "C. 2006丙戌与2011辛卯",
+          "D. 2007丁亥与2010庚寅"
+        ],
+        "answer": "C"
+      },
+      {
+        "question_id": "2012_C1_female_19791005-Q4",
+        "question_no": 4,
+        "question": "推算此命在2009己丑年事业成就，在香港平均一个月收入大约何阶层命格？",
+        "options": [
+          "A. $9000以下，底下阶层之收入",
+          "B. $9000—$25000，一般普通收入数",
+          "C. $25000—$90000，中产收入",
+          "D. $90000以上之高收入"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2012_C1_female_19791005-Q5",
+        "question_no": 5,
+        "question": "评论此命在2010庚寅年的事业状态？",
+        "options": [
+          "A. 一般打工仔",
+          "B. 是一位医生",
+          "C. 创业生意",
+          "D. 家庭主妇"
+        ],
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "person_id": "2012_C2_female_19830628",
+    "name": "1983年出生地不详出生女性",
+    "case_no": "2",
+    "profile": {
+      "birth": {
+        "year": 1983,
+        "month": 6,
+        "day": 28,
+        "hour": 8,
+        "minute": 0,
+        "place": null,
+        "approximate": true,
+        "time_raw": "辰时",
+        "raw": "第二条命例题目，西历1983年6月28日辰时 坤命 出题者：史宾沙"
+      },
+      "gender": "female"
+    },
+    "setter": {
+      "name": "史宾沙",
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2012_C2_female_19830628-Q6",
+        "question_no": 6,
+        "question": "以下那种是最贴近命主在5－15岁（丁卯年至丁丑年）之父母情况？",
+        "options": [
+          "A. 父母双亡，舅父养大",
+          "B. 父存母亡",
+          "C. 母有外情，然后离婚",
+          "D. 父有外情，然后离婚"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2012_C2_female_19830628-Q7",
+        "question_no": 7,
+        "question": "根据第6条题目，请问在第7条题目中，父母出事的年份是？",
+        "options": [
+          "A. 1987年丁卯年",
+          "B. 1991年辛未年",
+          "C. 1995年乙亥年",
+          "D. 1996年丙子年"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2012_C2_female_19830628-Q8",
+        "question_no": 8,
+        "question": "请问以下那种是最贴近命主之学业情况？",
+        "options": [
+          "A. 出外留学，大学毕业",
+          "B. 家境贫穷，所以在香港读至中五后便出来工作",
+          "C. 问题少女，中三后便辍学，之后做散工",
+          "D. 出外留学，但学业不成，不能读至大学，回港后工作"
+        ],
+        "answer": "A"
+      },
+      {
+        "question_id": "2012_C2_female_19830628-Q9",
+        "question_no": 9,
+        "question": "请问以下那种是最贴近命主在2001－2002年之感情状况？",
+        "options": [
+          "A. 男友出现第三者",
+          "B. 命主自己有第三者",
+          "C. 命主这两年间同时间有四位男友",
+          "D. 男友有第三者，自己又同时爱上一位有女友的男人"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2012_C2_female_19830628-Q10",
+        "question_no": 10,
+        "question": "请问以下那种是最贴近命主在2007年后之生活情况？",
+        "options": [
+          "A. 工作顺利，财源不错，且在外国有能力自己购置物业",
+          "B. 工作甚差，一般散工，经常失业",
+          "C. 有男人养，根本不用工作",
+          "D. 有父母大笔遗产，在香港靠炒股票过日子"
+        ],
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "person_id": "2012_C3_male_19550325",
+    "name": "1955年出生地不详出生男性",
+    "case_no": "3",
+    "profile": {
+      "birth": {
+        "year": 1955,
+        "month": 3,
+        "day": 25,
+        "hour": 4,
+        "minute": 0,
+        "place": null,
+        "approximate": true,
+        "time_raw": "寅时",
+        "raw": "第三条命例 西历1955年 3 月 25日寅时 乾命 出题目: 鼎大图书"
+      },
+      "gender": "male"
+    },
+    "setter": {
+      "name": "鼎大图书",
+      "method": null
+    },
+    "context": [],
+    "notes": [],
+    "categories": {
+      "感情": [],
+      "财富": [],
+      "六亲": [],
+      "事业": [],
+      "健康": []
+    },
+    "questions": [
+      {
+        "question_id": "2012_C3_male_19550325-Q11",
+        "question_no": 11,
+        "question": "最好的大运时间是那一个?",
+        "options": [
+          "A. 丁丑运 (1971年—1980年)",
+          "B. 丙子运 (1981年—1990年)",
+          "C. 乙亥运 (1991年—2000年)",
+          "D. 甲戌运 (2001年—2010年)"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2012_C3_male_19550325-Q12",
+        "question_no": 12,
+        "question": "现在为止,有几个小孩?",
+        "options": [
+          "A. 一子",
+          "B. 一女",
+          "C. 一子一女",
+          "D. 两女"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2012_C3_male_19550325-Q13",
+        "question_no": 13,
+        "question": "1999己卯年发生何事?",
+        "options": [
+          "A. 被劫",
+          "B. 破产",
+          "C. 父亡",
+          "D. 母亡"
+        ],
+        "answer": "B"
+      },
+      {
+        "question_id": "2012_C3_male_19550325-Q14",
+        "question_no": 14,
+        "question": "2004甲申年发生何事?",
+        "options": [
+          "A. 大病",
+          "B. 断脚",
+          "C. 破产",
+          "D. 流亡外国"
+        ],
+        "answer": "D"
+      },
+      {
+        "question_id": "2012_C3_male_19550325-Q15",
+        "question_no": 15,
+        "question": "那年正式签纸离婚?",
+        "options": [
+          "A. 1991辛未年 (乙亥运)",
+          "B. 1998戊寅年 (乙亥运)",
+          "C. 2005乙酉年 (甲戌运)",
+          "D. 2009 己丑年 (甲戌运)"
+        ],
+        "answer": "D"
+      }
+    ]
+  }
+]
