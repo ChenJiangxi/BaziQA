@@ -78,7 +78,7 @@ for f in sorted(glob.glob('data/hkjfma_*.json')) + sorted(glob.glob('data/contes
 
 ## 📈 模型成绩
 
-论文在 2021–2025 年 200 题上的结果（单次运行、不去高低分，数据为 v1.0.0 版本）：
+论文在 2021–2025 年 200 题上的结果（数据为 v1.0.0 版本；每年运行 5 次取平均，再对 5 年取宏平均，不去高低分；口径见 [`benchmark_report.md`](benchmark_report.md) 第 1.3 节）：
 
 | 模型 | 方法 | 平均准确率 |
 |------|------|-----------|
