@@ -1,0 +1,4457 @@
+{
+ "contest_id": "contest8_2024",
+ "engine": {
+  "bazi": "lunar-python 1.4.8",
+  "ziwei": "iztro 2.5.8"
+ },
+ "default_time_convention": "stated",
+ "charts": {
+  "guangdong_female_19800824_P001": {
+   "id": "guangdong_female_19800824_P001",
+   "input": {
+    "date": "1980-08-24",
+    "timeIndex": 8,
+    "gender": "女"
+   },
+   "lunar_date": "一九八〇年七月十四",
+   "chinese_date": "庚申 甲申 己巳 壬申",
+   "time": "申时",
+   "time_range": "15:00~17:00",
+   "five_elements_class": "火六局",
+   "soul": "贪狼",
+   "body": "天梁",
+   "soul_palace_branch": "子",
+   "body_palace_branch": "辰",
+   "palaces": [
+    {
+     "name": "福德",
+     "stem": "戊",
+     "branch": "寅",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "七杀",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文昌",
+       "brightness": "陷"
+      },
+      {
+       "name": "天马"
+      }
+     ],
+     "adjective_stars": [
+      "解神",
+      "恩光",
+      "凤阁",
+      "台辅",
+      "天巫",
+      "天厨",
+      "阴煞",
+      "天虚",
+      "年解"
+     ],
+     "changsheng12": "长生",
+     "decadal": {
+      "range": [
+       106,
+       115
+      ],
+      "stem": "戊",
+      "branch": "寅"
+     },
+     "ages": [
+      9,
+      21,
+      33,
+      45,
+      57,
+      69,
+      81,
+      93,
+      105,
+      117
+     ]
+    },
+    {
+     "name": "田宅",
+     "stem": "己",
+     "branch": "卯",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天同",
+       "brightness": "平",
+       "mutagen": "忌"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "地空"
+      }
+     ],
+     "adjective_stars": [
+      "八座",
+      "天刑"
+     ],
+     "changsheng12": "养",
+     "decadal": {
+      "range": [
+       96,
+       105
+      ],
+      "stem": "己",
+      "branch": "卯"
+     },
+     "ages": [
+      8,
+      20,
+      32,
+      44,
+      56,
+      68,
+      80,
+      92,
+      104,
+      116
+     ]
+    },
+    {
+     "name": "官禄",
+     "stem": "庚",
+     "branch": "辰",
+     "is_body_palace": true,
+     "major_stars": [
+      {
+       "name": "武曲",
+       "brightness": "庙",
+       "mutagen": "权"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "右弼"
+      }
+     ],
+     "adjective_stars": [
+      "华盖",
+      "蜚廉"
+     ],
+     "changsheng12": "胎",
+     "decadal": {
+      "range": [
+       86,
+       95
+      ],
+      "stem": "庚",
+      "branch": "辰"
+     },
+     "ages": [
+      7,
+      19,
+      31,
+      43,
+      55,
+      67,
+      79,
+      91,
+      103,
+      115
+     ]
+    },
+    {
+     "name": "仆役",
+     "stem": "辛",
+     "branch": "巳",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "太阳",
+       "brightness": "旺",
+       "mutagen": "禄"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "天德",
+      "天伤"
+     ],
+     "changsheng12": "绝",
+     "decadal": {
+      "range": [
+       76,
+       85
+      ],
+      "stem": "辛",
+      "branch": "巳"
+     },
+     "ages": [
+      6,
+      18,
+      30,
+      42,
+      54,
+      66,
+      78,
+      90,
+      102,
+      114
+     ]
+    },
+    {
+     "name": "迁移",
+     "stem": "壬",
+     "branch": "午",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "破军",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "铃星",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "天福",
+      "截路"
+     ],
+     "changsheng12": "墓",
+     "decadal": {
+      "range": [
+       66,
+       75
+      ],
+      "stem": "壬",
+      "branch": "午"
+     },
+     "ages": [
+      5,
+      17,
+      29,
+      41,
+      53,
+      65,
+      77,
+      89,
+      101,
+      113
+     ]
+    },
+    {
+     "name": "疾厄",
+     "stem": "癸",
+     "branch": "未",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天机",
+       "brightness": "陷"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天钺"
+      },
+      {
+       "name": "地劫"
+      },
+      {
+       "name": "陀罗",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "红鸾",
+      "天姚",
+      "空亡",
+      "寡宿",
+      "天使"
+     ],
+     "changsheng12": "死",
+     "decadal": {
+      "range": [
+       56,
+       65
+      ],
+      "stem": "癸",
+      "branch": "未"
+     },
+     "ages": [
+      4,
+      16,
+      28,
+      40,
+      52,
+      64,
+      76,
+      88,
+      100,
+      112
+     ]
+    },
+    {
+     "name": "财帛",
+     "stem": "甲",
+     "branch": "申",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "紫微",
+       "brightness": "旺"
+      },
+      {
+       "name": "天府",
+       "brightness": "得"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "禄存"
+      }
+     ],
+     "adjective_stars": [
+      "天才"
+     ],
+     "changsheng12": "病",
+     "decadal": {
+      "range": [
+       46,
+       55
+      ],
+      "stem": "甲",
+      "branch": "申"
+     },
+     "ages": [
+      3,
+      15,
+      27,
+      39,
+      51,
+      63,
+      75,
+      87,
+      99,
+      111
+     ]
+    },
+    {
+     "name": "子女",
+     "stem": "乙",
+     "branch": "酉",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "太阴",
+       "brightness": "不",
+       "mutagen": "科"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "擎羊",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "咸池",
+      "天空",
+      "破碎"
+     ],
+     "changsheng12": "衰",
+     "decadal": {
+      "range": [
+       36,
+       45
+      ],
+      "stem": "乙",
+      "branch": "酉"
+     },
+     "ages": [
+      2,
+      14,
+      26,
+      38,
+      50,
+      62,
+      74,
+      86,
+      98,
+      110
+     ]
+    },
+    {
+     "name": "夫妻",
+     "stem": "丙",
+     "branch": "戌",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "贪狼",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "左辅"
+      },
+      {
+       "name": "火星",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "封诰",
+      "天哭"
+     ],
+     "changsheng12": "帝旺",
+     "decadal": {
+      "range": [
+       26,
+       35
+      ],
+      "stem": "丙",
+      "branch": "戌"
+     },
+     "ages": [
+      1,
+      13,
+      25,
+      37,
+      49,
+      61,
+      73,
+      85,
+      97,
+      109
+     ]
+    },
+    {
+     "name": "兄弟",
+     "stem": "丁",
+     "branch": "亥",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "巨门",
+       "brightness": "旺"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "三台",
+      "天官",
+      "天月",
+      "孤辰"
+     ],
+     "changsheng12": "临官",
+     "decadal": {
+      "range": [
+       16,
+       25
+      ],
+      "stem": "丁",
+      "branch": "亥"
+     },
+     "ages": [
+      12,
+      24,
+      36,
+      48,
+      60,
+      72,
+      84,
+      96,
+      108,
+      120
+     ]
+    },
+    {
+     "name": "命宫",
+     "stem": "戊",
+     "branch": "子",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "廉贞",
+       "brightness": "平"
+      },
+      {
+       "name": "天相",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文曲",
+       "brightness": "得"
+      }
+     ],
+     "adjective_stars": [
+      "天贵",
+      "龙池",
+      "天寿",
+      "旬空"
+     ],
+     "changsheng12": "冠带",
+     "decadal": {
+      "range": [
+       6,
+       15
+      ],
+      "stem": "戊",
+      "branch": "子"
+     },
+     "ages": [
+      11,
+      23,
+      35,
+      47,
+      59,
+      71,
+      83,
+      95,
+      107,
+      119
+     ]
+    },
+    {
+     "name": "父母",
+     "stem": "己",
+     "branch": "丑",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天梁",
+       "brightness": "旺"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天魁"
+      }
+     ],
+     "adjective_stars": [
+      "天喜",
+      "月德"
+     ],
+     "changsheng12": "沐浴",
+     "decadal": {
+      "range": [
+       116,
+       125
+      ],
+      "stem": "己",
+      "branch": "丑"
+     },
+     "ages": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      118
+     ]
+    }
+   ]
+  },
+  "chaozhou_male_19720108_P002": {
+   "id": "chaozhou_male_19720108_P002",
+   "input": {
+    "date": "1972-01-08",
+    "timeIndex": 6,
+    "gender": "男"
+   },
+   "lunar_date": "一九七一年冬月廿二",
+   "chinese_date": "辛亥 庚子 戊戌 戊午",
+   "time": "午时",
+   "time_range": "11:00~13:00",
+   "five_elements_class": "金四局",
+   "soul": "破军",
+   "body": "天机",
+   "soul_palace_branch": "午",
+   "body_palace_branch": "午",
+   "palaces": [
+    {
+     "name": "财帛",
+     "stem": "庚",
+     "branch": "寅",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [
+      {
+       "name": "左辅"
+      },
+      {
+       "name": "天钺"
+      }
+     ],
+     "adjective_stars": [
+      "天巫",
+      "孤辰"
+     ],
+     "changsheng12": "临官",
+     "decadal": {
+      "range": [
+       44,
+       53
+      ],
+      "stem": "庚",
+      "branch": "寅"
+     },
+     "ages": [
+      2,
+      14,
+      26,
+      38,
+      50,
+      62,
+      74,
+      86,
+      98,
+      110
+     ]
+    },
+    {
+     "name": "子女",
+     "stem": "辛",
+     "branch": "卯",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [
+      {
+       "name": "火星",
+       "brightness": "利"
+      }
+     ],
+     "adjective_stars": [
+      "八座",
+      "龙池",
+      "旬空"
+     ],
+     "changsheng12": "冠带",
+     "decadal": {
+      "range": [
+       34,
+       43
+      ],
+      "stem": "辛",
+      "branch": "卯"
+     },
+     "ages": [
+      3,
+      15,
+      27,
+      39,
+      51,
+      63,
+      75,
+      87,
+      99,
+      111
+     ]
+    },
+    {
+     "name": "夫妻",
+     "stem": "壬",
+     "branch": "辰",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天同",
+       "brightness": "平"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文昌",
+       "brightness": "得",
+       "mutagen": "忌"
+      },
+      {
+       "name": "铃星",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "红鸾",
+      "月德",
+      "截路"
+     ],
+     "changsheng12": "沐浴",
+     "decadal": {
+      "range": [
+       24,
+       33
+      ],
+      "stem": "壬",
+      "branch": "辰"
+     },
+     "ages": [
+      4,
+      16,
+      28,
+      40,
+      52,
+      64,
+      76,
+      88,
+      100,
+      112
+     ]
+    },
+    {
+     "name": "兄弟",
+     "stem": "癸",
+     "branch": "巳",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "武曲",
+       "brightness": "平"
+      },
+      {
+       "name": "破军",
+       "brightness": "平"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天马"
+      },
+      {
+       "name": "地空"
+      },
+      {
+       "name": "地劫"
+      }
+     ],
+     "adjective_stars": [
+      "天才",
+      "天寿",
+      "天福",
+      "空亡",
+      "天虚"
+     ],
+     "changsheng12": "长生",
+     "decadal": {
+      "range": [
+       14,
+       23
+      ],
+      "stem": "癸",
+      "branch": "巳"
+     },
+     "ages": [
+      5,
+      17,
+      29,
+      41,
+      53,
+      65,
+      77,
+      89,
+      101,
+      113
+     ]
+    },
+    {
+     "name": "命宫",
+     "stem": "甲",
+     "branch": "午",
+     "is_body_palace": true,
+     "major_stars": [
+      {
+       "name": "太阳",
+       "brightness": "旺",
+       "mutagen": "权"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天魁"
+      }
+     ],
+     "adjective_stars": [
+      "解神",
+      "天贵",
+      "天厨",
+      "阴煞"
+     ],
+     "changsheng12": "养",
+     "decadal": {
+      "range": [
+       4,
+       13
+      ],
+      "stem": "甲",
+      "branch": "午"
+     },
+     "ages": [
+      6,
+      18,
+      30,
+      42,
+      54,
+      66,
+      78,
+      90,
+      102,
+      114
+     ]
+    },
+    {
+     "name": "父母",
+     "stem": "乙",
+     "branch": "未",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天府",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "华盖",
+      "天刑",
+      "天哭"
+     ],
+     "changsheng12": "胎",
+     "decadal": {
+      "range": [
+       114,
+       123
+      ],
+      "stem": "乙",
+      "branch": "未"
+     },
+     "ages": [
+      7,
+      19,
+      31,
+      43,
+      55,
+      67,
+      79,
+      91,
+      103,
+      115
+     ]
+    },
+    {
+     "name": "福德",
+     "stem": "丙",
+     "branch": "申",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天机",
+       "brightness": "得"
+      },
+      {
+       "name": "太阴",
+       "brightness": "利"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "陀罗",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "封诰",
+      "天德"
+     ],
+     "changsheng12": "绝",
+     "decadal": {
+      "range": [
+       104,
+       113
+      ],
+      "stem": "丙",
+      "branch": "申"
+     },
+     "ages": [
+      8,
+      20,
+      32,
+      44,
+      56,
+      68,
+      80,
+      92,
+      104,
+      116
+     ]
+    },
+    {
+     "name": "田宅",
+     "stem": "丁",
+     "branch": "酉",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "紫微",
+       "brightness": "旺"
+      },
+      {
+       "name": "贪狼",
+       "brightness": "利"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "禄存"
+      }
+     ],
+     "adjective_stars": [
+      "天官",
+      "破碎"
+     ],
+     "changsheng12": "墓",
+     "decadal": {
+      "range": [
+       94,
+       103
+      ],
+      "stem": "丁",
+      "branch": "酉"
+     },
+     "ages": [
+      9,
+      21,
+      33,
+      45,
+      57,
+      69,
+      81,
+      93,
+      105,
+      117
+     ]
+    },
+    {
+     "name": "官禄",
+     "stem": "戊",
+     "branch": "戌",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "巨门",
+       "brightness": "陷",
+       "mutagen": "禄"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文曲",
+       "brightness": "陷",
+       "mutagen": "科"
+      },
+      {
+       "name": "擎羊",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "天喜",
+      "天月",
+      "寡宿"
+     ],
+     "changsheng12": "死",
+     "decadal": {
+      "range": [
+       84,
+       93
+      ],
+      "stem": "戊",
+      "branch": "戌"
+     },
+     "ages": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      118
+     ]
+    },
+    {
+     "name": "仆役",
+     "stem": "己",
+     "branch": "亥",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天相",
+       "brightness": "得"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "天姚",
+      "三台",
+      "凤阁",
+      "天伤",
+      "年解"
+     ],
+     "changsheng12": "病",
+     "decadal": {
+      "range": [
+       74,
+       83
+      ],
+      "stem": "己",
+      "branch": "亥"
+     },
+     "ages": [
+      11,
+      23,
+      35,
+      47,
+      59,
+      71,
+      83,
+      95,
+      107,
+      119
+     ]
+    },
+    {
+     "name": "迁移",
+     "stem": "庚",
+     "branch": "子",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天梁",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "右弼"
+      }
+     ],
+     "adjective_stars": [
+      "咸池",
+      "恩光",
+      "台辅",
+      "天空"
+     ],
+     "changsheng12": "衰",
+     "decadal": {
+      "range": [
+       64,
+       73
+      ],
+      "stem": "庚",
+      "branch": "子"
+     },
+     "ages": [
+      12,
+      24,
+      36,
+      48,
+      60,
+      72,
+      84,
+      96,
+      108,
+      120
+     ]
+    },
+    {
+     "name": "疾厄",
+     "stem": "辛",
+     "branch": "丑",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "廉贞",
+       "brightness": "利"
+      },
+      {
+       "name": "七杀",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "蜚廉",
+      "天使"
+     ],
+     "changsheng12": "帝旺",
+     "decadal": {
+      "range": [
+       54,
+       63
+      ],
+      "stem": "辛",
+      "branch": "丑"
+     },
+     "ages": [
+      1,
+      13,
+      25,
+      37,
+      49,
+      61,
+      73,
+      85,
+      97,
+      109
+     ]
+    }
+   ]
+  },
+  "male_19611230_P003": {
+   "id": "male_19611230_P003",
+   "input": {
+    "date": "1961-12-30",
+    "timeIndex": 1,
+    "gender": "男"
+   },
+   "lunar_date": "一九六一年冬月廿三",
+   "chinese_date": "辛丑 庚子 丁酉 辛丑",
+   "time": "丑时",
+   "time_range": "01:00~03:00",
+   "five_elements_class": "木三局",
+   "soul": "巨门",
+   "body": "天相",
+   "soul_palace_branch": "亥",
+   "body_palace_branch": "丑",
+   "palaces": [
+    {
+     "name": "田宅",
+     "stem": "庚",
+     "branch": "寅",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "七杀",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "左辅"
+      },
+      {
+       "name": "天钺"
+      }
+     ],
+     "adjective_stars": [
+      "红鸾",
+      "八座",
+      "天贵",
+      "天寿",
+      "天巫",
+      "天空",
+      "孤辰"
+     ],
+     "changsheng12": "绝",
+     "decadal": {
+      "range": [
+       93,
+       102
+      ],
+      "stem": "庚",
+      "branch": "寅"
+     },
+     "ages": [
+      8,
+      20,
+      32,
+      44,
+      56,
+      68,
+      80,
+      92,
+      104,
+      116
+     ]
+    },
+    {
+     "name": "官禄",
+     "stem": "辛",
+     "branch": "卯",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天同",
+       "brightness": "平"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "封诰"
+     ],
+     "changsheng12": "墓",
+     "decadal": {
+      "range": [
+       83,
+       92
+      ],
+      "stem": "辛",
+      "branch": "卯"
+     },
+     "ages": [
+      9,
+      21,
+      33,
+      45,
+      57,
+      69,
+      81,
+      93,
+      105,
+      117
+     ]
+    },
+    {
+     "name": "仆役",
+     "stem": "壬",
+     "branch": "辰",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "武曲",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "火星",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "截路",
+      "天伤"
+     ],
+     "changsheng12": "死",
+     "decadal": {
+      "range": [
+       73,
+       82
+      ],
+      "stem": "壬",
+      "branch": "辰"
+     },
+     "ages": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      118
+     ]
+    },
+    {
+     "name": "迁移",
+     "stem": "癸",
+     "branch": "巳",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "太阳",
+       "brightness": "旺",
+       "mutagen": "权"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文曲",
+       "brightness": "庙",
+       "mutagen": "科"
+      }
+     ],
+     "adjective_stars": [
+      "龙池",
+      "天福",
+      "旬空",
+      "空亡",
+      "天哭"
+     ],
+     "changsheng12": "病",
+     "decadal": {
+      "range": [
+       63,
+       72
+      ],
+      "stem": "癸",
+      "branch": "巳"
+     },
+     "ages": [
+      11,
+      23,
+      35,
+      47,
+      59,
+      71,
+      83,
+      95,
+      107,
+      119
+     ]
+    },
+    {
+     "name": "疾厄",
+     "stem": "甲",
+     "branch": "午",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "破军",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天魁"
+      }
+     ],
+     "adjective_stars": [
+      "咸池",
+      "解神",
+      "恩光",
+      "天厨",
+      "月德",
+      "阴煞",
+      "天使"
+     ],
+     "changsheng12": "衰",
+     "decadal": {
+      "range": [
+       53,
+       62
+      ],
+      "stem": "甲",
+      "branch": "午"
+     },
+     "ages": [
+      12,
+      24,
+      36,
+      48,
+      60,
+      72,
+      84,
+      96,
+      108,
+      120
+     ]
+    },
+    {
+     "name": "财帛",
+     "stem": "乙",
+     "branch": "未",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天机",
+       "brightness": "陷"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "台辅",
+      "天刑",
+      "天虚"
+     ],
+     "changsheng12": "帝旺",
+     "decadal": {
+      "range": [
+       43,
+       52
+      ],
+      "stem": "乙",
+      "branch": "未"
+     },
+     "ages": [
+      1,
+      13,
+      25,
+      37,
+      49,
+      61,
+      73,
+      85,
+      97,
+      109
+     ]
+    },
+    {
+     "name": "子女",
+     "stem": "丙",
+     "branch": "申",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "紫微",
+       "brightness": "旺"
+      },
+      {
+       "name": "天府",
+       "brightness": "得"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "陀罗",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "天喜"
+     ],
+     "changsheng12": "临官",
+     "decadal": {
+      "range": [
+       33,
+       42
+      ],
+      "stem": "丙",
+      "branch": "申"
+     },
+     "ages": [
+      2,
+      14,
+      26,
+      38,
+      50,
+      62,
+      74,
+      86,
+      98,
+      110
+     ]
+    },
+    {
+     "name": "夫妻",
+     "stem": "丁",
+     "branch": "酉",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "太阴",
+       "brightness": "不"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文昌",
+       "brightness": "庙",
+       "mutagen": "忌"
+      },
+      {
+       "name": "禄存"
+      }
+     ],
+     "adjective_stars": [
+      "凤阁",
+      "天官",
+      "蜚廉",
+      "年解"
+     ],
+     "changsheng12": "冠带",
+     "decadal": {
+      "range": [
+       23,
+       32
+      ],
+      "stem": "丁",
+      "branch": "酉"
+     },
+     "ages": [
+      3,
+      15,
+      27,
+      39,
+      51,
+      63,
+      75,
+      87,
+      99,
+      111
+     ]
+    },
+    {
+     "name": "兄弟",
+     "stem": "戊",
+     "branch": "戌",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "贪狼",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "地空"
+      },
+      {
+       "name": "擎羊",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "天月",
+      "天德",
+      "寡宿"
+     ],
+     "changsheng12": "沐浴",
+     "decadal": {
+      "range": [
+       13,
+       22
+      ],
+      "stem": "戊",
+      "branch": "戌"
+     },
+     "ages": [
+      4,
+      16,
+      28,
+      40,
+      52,
+      64,
+      76,
+      88,
+      100,
+      112
+     ]
+    },
+    {
+     "name": "命宫",
+     "stem": "己",
+     "branch": "亥",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "巨门",
+       "brightness": "旺",
+       "mutagen": "禄"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天马"
+      },
+      {
+       "name": "铃星",
+       "brightness": "利"
+      }
+     ],
+     "adjective_stars": [
+      "天姚"
+     ],
+     "changsheng12": "长生",
+     "decadal": {
+      "range": [
+       3,
+       12
+      ],
+      "stem": "己",
+      "branch": "亥"
+     },
+     "ages": [
+      5,
+      17,
+      29,
+      41,
+      53,
+      65,
+      77,
+      89,
+      101,
+      113
+     ]
+    },
+    {
+     "name": "父母",
+     "stem": "庚",
+     "branch": "子",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "廉贞",
+       "brightness": "平"
+      },
+      {
+       "name": "天相",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "右弼"
+      },
+      {
+       "name": "地劫"
+      }
+     ],
+     "adjective_stars": [
+      "三台",
+      "天才"
+     ],
+     "changsheng12": "养",
+     "decadal": {
+      "range": [
+       113,
+       122
+      ],
+      "stem": "庚",
+      "branch": "子"
+     },
+     "ages": [
+      6,
+      18,
+      30,
+      42,
+      54,
+      66,
+      78,
+      90,
+      102,
+      114
+     ]
+    },
+    {
+     "name": "福德",
+     "stem": "辛",
+     "branch": "丑",
+     "is_body_palace": true,
+     "major_stars": [
+      {
+       "name": "天梁",
+       "brightness": "旺"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "华盖",
+      "破碎"
+     ],
+     "changsheng12": "胎",
+     "decadal": {
+      "range": [
+       103,
+       112
+      ],
+      "stem": "辛",
+      "branch": "丑"
+     },
+     "ages": [
+      7,
+      19,
+      31,
+      43,
+      55,
+      67,
+      79,
+      91,
+      103,
+      115
+     ]
+    }
+   ]
+  },
+  "female_19831028_P004": {
+   "id": "female_19831028_P004",
+   "input": {
+    "date": "1983-10-28",
+    "timeIndex": 1,
+    "gender": "女"
+   },
+   "lunar_date": "一九八三年九月廿三",
+   "chinese_date": "癸亥 壬戌 己丑 乙丑",
+   "time": "丑时",
+   "time_range": "01:00~03:00",
+   "five_elements_class": "木三局",
+   "soul": "文曲",
+   "body": "天机",
+   "soul_palace_branch": "酉",
+   "body_palace_branch": "亥",
+   "palaces": [
+    {
+     "name": "仆役",
+     "stem": "甲",
+     "branch": "寅",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "七杀",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "右弼"
+      }
+     ],
+     "adjective_stars": [
+      "天贵",
+      "天月",
+      "孤辰",
+      "天伤"
+     ],
+     "changsheng12": "临官",
+     "decadal": {
+      "range": [
+       53,
+       62
+      ],
+      "stem": "甲",
+      "branch": "寅"
+     },
+     "ages": [
+      12,
+      24,
+      36,
+      48,
+      60,
+      72,
+      84,
+      96,
+      108,
+      120
+     ]
+    },
+    {
+     "name": "迁移",
+     "stem": "乙",
+     "branch": "卯",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天同",
+       "brightness": "平"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天魁"
+      }
+     ],
+     "adjective_stars": [
+      "龙池",
+      "封诰"
+     ],
+     "changsheng12": "帝旺",
+     "decadal": {
+      "range": [
+       63,
+       72
+      ],
+      "stem": "乙",
+      "branch": "卯"
+     },
+     "ages": [
+      11,
+      23,
+      35,
+      47,
+      59,
+      71,
+      83,
+      95,
+      107,
+      119
+     ]
+    },
+    {
+     "name": "疾厄",
+     "stem": "丙",
+     "branch": "辰",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "武曲",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "红鸾",
+      "解神",
+      "八座",
+      "月德",
+      "天使"
+     ],
+     "changsheng12": "衰",
+     "decadal": {
+      "range": [
+       73,
+       82
+      ],
+      "stem": "丙",
+      "branch": "辰"
+     },
+     "ages": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      118
+     ]
+    },
+    {
+     "name": "财帛",
+     "stem": "丁",
+     "branch": "巳",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "太阳",
+       "brightness": "旺"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文曲",
+       "brightness": "庙"
+      },
+      {
+       "name": "天钺"
+      },
+      {
+       "name": "天马"
+      }
+     ],
+     "adjective_stars": [
+      "天巫",
+      "天福",
+      "天刑",
+      "天虚"
+     ],
+     "changsheng12": "病",
+     "decadal": {
+      "range": [
+       83,
+       92
+      ],
+      "stem": "丁",
+      "branch": "巳"
+     },
+     "ages": [
+      9,
+      21,
+      33,
+      45,
+      57,
+      69,
+      81,
+      93,
+      105,
+      117
+     ]
+    },
+    {
+     "name": "子女",
+     "stem": "戊",
+     "branch": "午",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "破军",
+       "brightness": "庙",
+       "mutagen": "禄"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "恩光",
+      "天官"
+     ],
+     "changsheng12": "死",
+     "decadal": {
+      "range": [
+       93,
+       102
+      ],
+      "stem": "戊",
+      "branch": "午"
+     },
+     "ages": [
+      8,
+      20,
+      32,
+      44,
+      56,
+      68,
+      80,
+      92,
+      104,
+      116
+     ]
+    },
+    {
+     "name": "夫妻",
+     "stem": "己",
+     "branch": "未",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天机",
+       "brightness": "陷"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "台辅",
+      "华盖",
+      "天哭"
+     ],
+     "changsheng12": "墓",
+     "decadal": {
+      "range": [
+       103,
+       112
+      ],
+      "stem": "己",
+      "branch": "未"
+     },
+     "ages": [
+      7,
+      19,
+      31,
+      43,
+      55,
+      67,
+      79,
+      91,
+      103,
+      115
+     ]
+    },
+    {
+     "name": "兄弟",
+     "stem": "庚",
+     "branch": "申",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "紫微",
+       "brightness": "旺"
+      },
+      {
+       "name": "天府",
+       "brightness": "得"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "天才",
+      "天德"
+     ],
+     "changsheng12": "绝",
+     "decadal": {
+      "range": [
+       113,
+       122
+      ],
+      "stem": "庚",
+      "branch": "申"
+     },
+     "ages": [
+      6,
+      18,
+      30,
+      42,
+      54,
+      66,
+      78,
+      90,
+      102,
+      114
+     ]
+    },
+    {
+     "name": "命宫",
+     "stem": "辛",
+     "branch": "酉",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "太阴",
+       "brightness": "不",
+       "mutagen": "科"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文昌",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "天姚",
+      "破碎"
+     ],
+     "changsheng12": "胎",
+     "decadal": {
+      "range": [
+       3,
+       12
+      ],
+      "stem": "辛",
+      "branch": "酉"
+     },
+     "ages": [
+      5,
+      17,
+      29,
+      41,
+      53,
+      65,
+      77,
+      89,
+      101,
+      113
+     ]
+    },
+    {
+     "name": "父母",
+     "stem": "壬",
+     "branch": "戌",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "贪狼",
+       "brightness": "庙",
+       "mutagen": "忌"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "地空"
+      },
+      {
+       "name": "火星",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "天喜",
+      "三台",
+      "天寿",
+      "寡宿",
+      "阴煞"
+     ],
+     "changsheng12": "养",
+     "decadal": {
+      "range": [
+       13,
+       22
+      ],
+      "stem": "壬",
+      "branch": "戌"
+     },
+     "ages": [
+      4,
+      16,
+      28,
+      40,
+      52,
+      64,
+      76,
+      88,
+      100,
+      112
+     ]
+    },
+    {
+     "name": "福德",
+     "stem": "癸",
+     "branch": "亥",
+     "is_body_palace": true,
+     "major_stars": [
+      {
+       "name": "巨门",
+       "brightness": "旺",
+       "mutagen": "权"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "铃星",
+       "brightness": "利"
+      },
+      {
+       "name": "陀罗",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "凤阁",
+      "天厨",
+      "年解"
+     ],
+     "changsheng12": "长生",
+     "decadal": {
+      "range": [
+       23,
+       32
+      ],
+      "stem": "癸",
+      "branch": "亥"
+     },
+     "ages": [
+      3,
+      15,
+      27,
+      39,
+      51,
+      63,
+      75,
+      87,
+      99,
+      111
+     ]
+    },
+    {
+     "name": "田宅",
+     "stem": "甲",
+     "branch": "子",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "廉贞",
+       "brightness": "平"
+      },
+      {
+       "name": "天相",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "左辅"
+      },
+      {
+       "name": "禄存"
+      },
+      {
+       "name": "地劫"
+      }
+     ],
+     "adjective_stars": [
+      "咸池",
+      "天空",
+      "截路"
+     ],
+     "changsheng12": "沐浴",
+     "decadal": {
+      "range": [
+       33,
+       42
+      ],
+      "stem": "甲",
+      "branch": "子"
+     },
+     "ages": [
+      2,
+      14,
+      26,
+      38,
+      50,
+      62,
+      74,
+      86,
+      98,
+      110
+     ]
+    },
+    {
+     "name": "官禄",
+     "stem": "乙",
+     "branch": "丑",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天梁",
+       "brightness": "旺"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "擎羊",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "旬空",
+      "空亡",
+      "蜚廉"
+     ],
+     "changsheng12": "冠带",
+     "decadal": {
+      "range": [
+       43,
+       52
+      ],
+      "stem": "乙",
+      "branch": "丑"
+     },
+     "ages": [
+      1,
+      13,
+      25,
+      37,
+      49,
+      61,
+      73,
+      85,
+      97,
+      109
+     ]
+    }
+   ]
+  },
+  "female_19710412_P005": {
+   "id": "female_19710412_P005",
+   "input": {
+    "date": "1971-04-12",
+    "timeIndex": 8,
+    "gender": "女"
+   },
+   "lunar_date": "一九七一年三月十七",
+   "chinese_date": "辛亥 壬辰 丁卯 戊申",
+   "time": "申时",
+   "time_range": "15:00~17:00",
+   "five_elements_class": "火六局",
+   "soul": "廉贞",
+   "body": "天机",
+   "soul_palace_branch": "申",
+   "body_palace_branch": "子",
+   "palaces": [
+    {
+     "name": "迁移",
+     "stem": "庚",
+     "branch": "寅",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天机",
+       "brightness": "得"
+      },
+      {
+       "name": "太阴",
+       "brightness": "旺"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文昌",
+       "brightness": "陷",
+       "mutagen": "忌"
+      },
+      {
+       "name": "天钺"
+      }
+     ],
+     "adjective_stars": [
+      "台辅",
+      "天巫",
+      "孤辰"
+     ],
+     "changsheng12": "长生",
+     "decadal": {
+      "range": [
+       66,
+       75
+      ],
+      "stem": "庚",
+      "branch": "寅"
+     },
+     "ages": [
+      12,
+      24,
+      36,
+      48,
+      60,
+      72,
+      84,
+      96,
+      108,
+      120
+     ]
+    },
+    {
+     "name": "疾厄",
+     "stem": "辛",
+     "branch": "卯",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "紫微",
+       "brightness": "旺"
+      },
+      {
+       "name": "贪狼",
+       "brightness": "利"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "地空"
+      }
+     ],
+     "adjective_stars": [
+      "天姚",
+      "天贵",
+      "龙池",
+      "旬空",
+      "天使"
+     ],
+     "changsheng12": "沐浴",
+     "decadal": {
+      "range": [
+       76,
+       85
+      ],
+      "stem": "辛",
+      "branch": "卯"
+     },
+     "ages": [
+      11,
+      23,
+      35,
+      47,
+      59,
+      71,
+      83,
+      95,
+      107,
+      119
+     ]
+    },
+    {
+     "name": "财帛",
+     "stem": "壬",
+     "branch": "辰",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "巨门",
+       "brightness": "陷",
+       "mutagen": "禄"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "红鸾",
+      "八座",
+      "天月",
+      "月德",
+      "截路"
+     ],
+     "changsheng12": "冠带",
+     "decadal": {
+      "range": [
+       86,
+       95
+      ],
+      "stem": "壬",
+      "branch": "辰"
+     },
+     "ages": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      118
+     ]
+    },
+    {
+     "name": "子女",
+     "stem": "癸",
+     "branch": "巳",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天相",
+       "brightness": "得"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天马"
+      },
+      {
+       "name": "火星",
+       "brightness": "得"
+      }
+     ],
+     "adjective_stars": [
+      "恩光",
+      "天福",
+      "空亡",
+      "天虚"
+     ],
+     "changsheng12": "临官",
+     "decadal": {
+      "range": [
+       96,
+       105
+      ],
+      "stem": "癸",
+      "branch": "巳"
+     },
+     "ages": [
+      9,
+      21,
+      33,
+      45,
+      57,
+      69,
+      81,
+      93,
+      105,
+      117
+     ]
+    },
+    {
+     "name": "夫妻",
+     "stem": "甲",
+     "branch": "午",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天梁",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "左辅"
+      },
+      {
+       "name": "天魁"
+      },
+      {
+       "name": "铃星",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "天厨"
+     ],
+     "changsheng12": "帝旺",
+     "decadal": {
+      "range": [
+       106,
+       115
+      ],
+      "stem": "甲",
+      "branch": "午"
+     },
+     "ages": [
+      8,
+      20,
+      32,
+      44,
+      56,
+      68,
+      80,
+      92,
+      104,
+      116
+     ]
+    },
+    {
+     "name": "兄弟",
+     "stem": "乙",
+     "branch": "未",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "廉贞",
+       "brightness": "利"
+      },
+      {
+       "name": "七杀",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "地劫"
+      }
+     ],
+     "adjective_stars": [
+      "天才",
+      "华盖",
+      "天哭"
+     ],
+     "changsheng12": "衰",
+     "decadal": {
+      "range": [
+       116,
+       125
+      ],
+      "stem": "乙",
+      "branch": "未"
+     },
+     "ages": [
+      7,
+      19,
+      31,
+      43,
+      55,
+      67,
+      79,
+      91,
+      103,
+      115
+     ]
+    },
+    {
+     "name": "命宫",
+     "stem": "丙",
+     "branch": "申",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [
+      {
+       "name": "右弼"
+      },
+      {
+       "name": "陀罗",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "天德"
+     ],
+     "changsheng12": "病",
+     "decadal": {
+      "range": [
+       6,
+       15
+      ],
+      "stem": "丙",
+      "branch": "申"
+     },
+     "ages": [
+      6,
+      18,
+      30,
+      42,
+      54,
+      66,
+      78,
+      90,
+      102,
+      114
+     ]
+    },
+    {
+     "name": "父母",
+     "stem": "丁",
+     "branch": "酉",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [
+      {
+       "name": "禄存"
+      }
+     ],
+     "adjective_stars": [
+      "天官",
+      "破碎"
+     ],
+     "changsheng12": "死",
+     "decadal": {
+      "range": [
+       16,
+       25
+      ],
+      "stem": "丁",
+      "branch": "酉"
+     },
+     "ages": [
+      5,
+      17,
+      29,
+      41,
+      53,
+      65,
+      77,
+      89,
+      101,
+      113
+     ]
+    },
+    {
+     "name": "福德",
+     "stem": "戊",
+     "branch": "戌",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天同",
+       "brightness": "平"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "擎羊",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "天喜",
+      "解神",
+      "三台",
+      "封诰",
+      "寡宿",
+      "阴煞"
+     ],
+     "changsheng12": "墓",
+     "decadal": {
+      "range": [
+       26,
+       35
+      ],
+      "stem": "戊",
+      "branch": "戌"
+     },
+     "ages": [
+      4,
+      16,
+      28,
+      40,
+      52,
+      64,
+      76,
+      88,
+      100,
+      112
+     ]
+    },
+    {
+     "name": "田宅",
+     "stem": "己",
+     "branch": "亥",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "武曲",
+       "brightness": "平"
+      },
+      {
+       "name": "破军",
+       "brightness": "平"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "凤阁",
+      "天寿",
+      "天刑",
+      "年解"
+     ],
+     "changsheng12": "绝",
+     "decadal": {
+      "range": [
+       36,
+       45
+      ],
+      "stem": "己",
+      "branch": "亥"
+     },
+     "ages": [
+      3,
+      15,
+      27,
+      39,
+      51,
+      63,
+      75,
+      87,
+      99,
+      111
+     ]
+    },
+    {
+     "name": "官禄",
+     "stem": "庚",
+     "branch": "子",
+     "is_body_palace": true,
+     "major_stars": [
+      {
+       "name": "太阳",
+       "brightness": "陷",
+       "mutagen": "权"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文曲",
+       "brightness": "得",
+       "mutagen": "科"
+      }
+     ],
+     "adjective_stars": [
+      "咸池",
+      "天空"
+     ],
+     "changsheng12": "胎",
+     "decadal": {
+      "range": [
+       46,
+       55
+      ],
+      "stem": "庚",
+      "branch": "子"
+     },
+     "ages": [
+      2,
+      14,
+      26,
+      38,
+      50,
+      62,
+      74,
+      86,
+      98,
+      110
+     ]
+    },
+    {
+     "name": "仆役",
+     "stem": "辛",
+     "branch": "丑",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天府",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "蜚廉",
+      "天伤"
+     ],
+     "changsheng12": "养",
+     "decadal": {
+      "range": [
+       56,
+       65
+      ],
+      "stem": "辛",
+      "branch": "丑"
+     },
+     "ages": [
+      1,
+      13,
+      25,
+      37,
+      49,
+      61,
+      73,
+      85,
+      97,
+      109
+     ]
+    }
+   ]
+  },
+  "female_19830326_P006": {
+   "id": "female_19830326_P006",
+   "input": {
+    "date": "1983-03-26",
+    "timeIndex": 7,
+    "gender": "女"
+   },
+   "lunar_date": "一九八三年二月十二",
+   "chinese_date": "癸亥 乙卯 癸丑 己未",
+   "time": "未时",
+   "time_range": "13:00~15:00",
+   "five_elements_class": "木三局",
+   "soul": "廉贞",
+   "body": "天机",
+   "soul_palace_branch": "申",
+   "body_palace_branch": "戌",
+   "palaces": [
+    {
+     "name": "迁移",
+     "stem": "甲",
+     "branch": "寅",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "太阳",
+       "brightness": "旺"
+      },
+      {
+       "name": "巨门",
+       "brightness": "庙",
+       "mutagen": "权"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "天姚",
+      "孤辰"
+     ],
+     "changsheng12": "临官",
+     "decadal": {
+      "range": [
+       63,
+       72
+      ],
+      "stem": "甲",
+      "branch": "寅"
+     },
+     "ages": [
+      12,
+      24,
+      36,
+      48,
+      60,
+      72,
+      84,
+      96,
+      108,
+      120
+     ]
+    },
+    {
+     "name": "疾厄",
+     "stem": "乙",
+     "branch": "卯",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天相",
+       "brightness": "陷"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文昌",
+       "brightness": "利"
+      },
+      {
+       "name": "天魁"
+      }
+     ],
+     "adjective_stars": [
+      "龙池",
+      "天使"
+     ],
+     "changsheng12": "帝旺",
+     "decadal": {
+      "range": [
+       73,
+       82
+      ],
+      "stem": "乙",
+      "branch": "卯"
+     },
+     "ages": [
+      11,
+      23,
+      35,
+      47,
+      59,
+      71,
+      83,
+      95,
+      107,
+      119
+     ]
+    },
+    {
+     "name": "财帛",
+     "stem": "丙",
+     "branch": "辰",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天机",
+       "brightness": "利"
+      },
+      {
+       "name": "天梁",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "地空"
+      },
+      {
+       "name": "火星",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "红鸾",
+      "三台",
+      "月德"
+     ],
+     "changsheng12": "衰",
+     "decadal": {
+      "range": [
+       83,
+       92
+      ],
+      "stem": "丙",
+      "branch": "辰"
+     },
+     "ages": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      118
+     ]
+    },
+    {
+     "name": "子女",
+     "stem": "丁",
+     "branch": "巳",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "紫微",
+       "brightness": "旺"
+      },
+      {
+       "name": "七杀",
+       "brightness": "平"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "左辅"
+      },
+      {
+       "name": "天钺"
+      },
+      {
+       "name": "天马"
+      },
+      {
+       "name": "铃星",
+       "brightness": "得"
+      }
+     ],
+     "adjective_stars": [
+      "天福",
+      "天月",
+      "天虚"
+     ],
+     "changsheng12": "病",
+     "decadal": {
+      "range": [
+       93,
+       102
+      ],
+      "stem": "丁",
+      "branch": "巳"
+     },
+     "ages": [
+      9,
+      21,
+      33,
+      45,
+      57,
+      69,
+      81,
+      93,
+      105,
+      117
+     ]
+    },
+    {
+     "name": "夫妻",
+     "stem": "戊",
+     "branch": "午",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [
+      {
+       "name": "地劫"
+      }
+     ],
+     "adjective_stars": [
+      "天官"
+     ],
+     "changsheng12": "死",
+     "decadal": {
+      "range": [
+       103,
+       112
+      ],
+      "stem": "戊",
+      "branch": "午"
+     },
+     "ages": [
+      8,
+      20,
+      32,
+      44,
+      56,
+      68,
+      80,
+      92,
+      104,
+      116
+     ]
+    },
+    {
+     "name": "兄弟",
+     "stem": "己",
+     "branch": "未",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [],
+     "adjective_stars": [
+      "天才",
+      "华盖",
+      "天哭"
+     ],
+     "changsheng12": "墓",
+     "decadal": {
+      "range": [
+       113,
+       122
+      ],
+      "stem": "己",
+      "branch": "未"
+     },
+     "ages": [
+      7,
+      19,
+      31,
+      43,
+      55,
+      67,
+      79,
+      91,
+      103,
+      115
+     ]
+    },
+    {
+     "name": "命宫",
+     "stem": "庚",
+     "branch": "申",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [],
+     "adjective_stars": [
+      "解神",
+      "天巫",
+      "天德"
+     ],
+     "changsheng12": "绝",
+     "decadal": {
+      "range": [
+       3,
+       12
+      ],
+      "stem": "庚",
+      "branch": "申"
+     },
+     "ages": [
+      6,
+      18,
+      30,
+      42,
+      54,
+      66,
+      78,
+      90,
+      102,
+      114
+     ]
+    },
+    {
+     "name": "父母",
+     "stem": "辛",
+     "branch": "酉",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "廉贞",
+       "brightness": "平"
+      },
+      {
+       "name": "破军",
+       "brightness": "陷",
+       "mutagen": "禄"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "右弼"
+      }
+     ],
+     "adjective_stars": [
+      "天贵",
+      "天寿",
+      "封诰",
+      "破碎"
+     ],
+     "changsheng12": "胎",
+     "decadal": {
+      "range": [
+       13,
+       22
+      ],
+      "stem": "辛",
+      "branch": "酉"
+     },
+     "ages": [
+      5,
+      17,
+      29,
+      41,
+      53,
+      65,
+      77,
+      89,
+      101,
+      113
+     ]
+    },
+    {
+     "name": "福德",
+     "stem": "壬",
+     "branch": "戌",
+     "is_body_palace": true,
+     "major_stars": [],
+     "minor_stars": [],
+     "adjective_stars": [
+      "天喜",
+      "八座",
+      "寡宿",
+      "天刑"
+     ],
+     "changsheng12": "养",
+     "decadal": {
+      "range": [
+       23,
+       32
+      ],
+      "stem": "壬",
+      "branch": "戌"
+     },
+     "ages": [
+      4,
+      16,
+      28,
+      40,
+      52,
+      64,
+      76,
+      88,
+      100,
+      112
+     ]
+    },
+    {
+     "name": "田宅",
+     "stem": "癸",
+     "branch": "亥",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天府",
+       "brightness": "得"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文曲",
+       "brightness": "旺"
+      },
+      {
+       "name": "陀罗",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "凤阁",
+      "天厨",
+      "年解"
+     ],
+     "changsheng12": "长生",
+     "decadal": {
+      "range": [
+       33,
+       42
+      ],
+      "stem": "癸",
+      "branch": "亥"
+     },
+     "ages": [
+      3,
+      15,
+      27,
+      39,
+      51,
+      63,
+      75,
+      87,
+      99,
+      111
+     ]
+    },
+    {
+     "name": "官禄",
+     "stem": "甲",
+     "branch": "子",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天同",
+       "brightness": "旺"
+      },
+      {
+       "name": "太阴",
+       "brightness": "庙",
+       "mutagen": "科"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "禄存"
+      }
+     ],
+     "adjective_stars": [
+      "咸池",
+      "天空",
+      "截路",
+      "阴煞"
+     ],
+     "changsheng12": "沐浴",
+     "decadal": {
+      "range": [
+       43,
+       52
+      ],
+      "stem": "甲",
+      "branch": "子"
+     },
+     "ages": [
+      2,
+      14,
+      26,
+      38,
+      50,
+      62,
+      74,
+      86,
+      98,
+      110
+     ]
+    },
+    {
+     "name": "仆役",
+     "stem": "乙",
+     "branch": "丑",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "武曲",
+       "brightness": "庙"
+      },
+      {
+       "name": "贪狼",
+       "brightness": "庙",
+       "mutagen": "忌"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "擎羊",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "恩光",
+      "台辅",
+      "旬空",
+      "空亡",
+      "蜚廉",
+      "天伤"
+     ],
+     "changsheng12": "冠带",
+     "decadal": {
+      "range": [
+       53,
+       62
+      ],
+      "stem": "乙",
+      "branch": "丑"
+     },
+     "ages": [
+      1,
+      13,
+      25,
+      37,
+      49,
+      61,
+      73,
+      85,
+      97,
+      109
+     ]
+    }
+   ]
+  },
+  "female_19800921_P007": {
+   "id": "female_19800921_P007",
+   "input": {
+    "date": "1980-09-21",
+    "timeIndex": 6,
+    "gender": "女"
+   },
+   "lunar_date": "一九八〇年八月十三",
+   "chinese_date": "庚申 乙酉 丁酉 丙午",
+   "time": "午时",
+   "time_range": "11:00~13:00",
+   "five_elements_class": "土五局",
+   "soul": "文曲",
+   "body": "天梁",
+   "soul_palace_branch": "卯",
+   "body_palace_branch": "卯",
+   "palaces": [
+    {
+     "name": "兄弟",
+     "stem": "戊",
+     "branch": "寅",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "武曲",
+       "brightness": "得",
+       "mutagen": "权"
+      },
+      {
+       "name": "天相",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天马"
+      }
+     ],
+     "adjective_stars": [
+      "解神",
+      "凤阁",
+      "天厨",
+      "天虚",
+      "年解"
+     ],
+     "changsheng12": "病",
+     "decadal": {
+      "range": [
+       15,
+       24
+      ],
+      "stem": "戊",
+      "branch": "寅"
+     },
+     "ages": [
+      9,
+      21,
+      33,
+      45,
+      57,
+      69,
+      81,
+      93,
+      105,
+      117
+     ]
+    },
+    {
+     "name": "命宫",
+     "stem": "己",
+     "branch": "卯",
+     "is_body_palace": true,
+     "major_stars": [
+      {
+       "name": "太阳",
+       "brightness": "庙",
+       "mutagen": "禄"
+      },
+      {
+       "name": "天梁",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "右弼"
+      }
+     ],
+     "adjective_stars": [
+      "八座",
+      "恩光"
+     ],
+     "changsheng12": "衰",
+     "decadal": {
+      "range": [
+       5,
+       14
+      ],
+      "stem": "己",
+      "branch": "卯"
+     },
+     "ages": [
+      8,
+      20,
+      32,
+      44,
+      56,
+      68,
+      80,
+      92,
+      104,
+      116
+     ]
+    },
+    {
+     "name": "父母",
+     "stem": "庚",
+     "branch": "辰",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "七杀",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文昌",
+       "brightness": "得"
+      },
+      {
+       "name": "铃星",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "华盖",
+      "蜚廉",
+      "天刑"
+     ],
+     "changsheng12": "帝旺",
+     "decadal": {
+      "range": [
+       115,
+       124
+      ],
+      "stem": "庚",
+      "branch": "辰"
+     },
+     "ages": [
+      7,
+      19,
+      31,
+      43,
+      55,
+      67,
+      79,
+      91,
+      103,
+      115
+     ]
+    },
+    {
+     "name": "福德",
+     "stem": "辛",
+     "branch": "巳",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天机",
+       "brightness": "平"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "地空"
+      },
+      {
+       "name": "地劫"
+      }
+     ],
+     "adjective_stars": [
+      "天德"
+     ],
+     "changsheng12": "临官",
+     "decadal": {
+      "range": [
+       105,
+       114
+      ],
+      "stem": "辛",
+      "branch": "巳"
+     },
+     "ages": [
+      6,
+      18,
+      30,
+      42,
+      54,
+      66,
+      78,
+      90,
+      102,
+      114
+     ]
+    },
+    {
+     "name": "田宅",
+     "stem": "壬",
+     "branch": "午",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "紫微",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "天福",
+      "截路"
+     ],
+     "changsheng12": "冠带",
+     "decadal": {
+      "range": [
+       95,
+       104
+      ],
+      "stem": "壬",
+      "branch": "午"
+     },
+     "ages": [
+      5,
+      17,
+      29,
+      41,
+      53,
+      65,
+      77,
+      89,
+      101,
+      113
+     ]
+    },
+    {
+     "name": "官禄",
+     "stem": "癸",
+     "branch": "未",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [
+      {
+       "name": "天钺"
+      },
+      {
+       "name": "陀罗",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "红鸾",
+      "天月",
+      "空亡",
+      "寡宿"
+     ],
+     "changsheng12": "沐浴",
+     "decadal": {
+      "range": [
+       85,
+       94
+      ],
+      "stem": "癸",
+      "branch": "未"
+     },
+     "ages": [
+      4,
+      16,
+      28,
+      40,
+      52,
+      64,
+      76,
+      88,
+      100,
+      112
+     ]
+    },
+    {
+     "name": "仆役",
+     "stem": "甲",
+     "branch": "申",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "破军",
+       "brightness": "得"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "禄存"
+      },
+      {
+       "name": "火星",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "天姚",
+      "封诰",
+      "天伤"
+     ],
+     "changsheng12": "长生",
+     "decadal": {
+      "range": [
+       75,
+       84
+      ],
+      "stem": "甲",
+      "branch": "申"
+     },
+     "ages": [
+      3,
+      15,
+      27,
+      39,
+      51,
+      63,
+      75,
+      87,
+      99,
+      111
+     ]
+    },
+    {
+     "name": "迁移",
+     "stem": "乙",
+     "branch": "酉",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [
+      {
+       "name": "擎羊",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "咸池",
+      "天贵",
+      "天空",
+      "破碎"
+     ],
+     "changsheng12": "养",
+     "decadal": {
+      "range": [
+       65,
+       74
+      ],
+      "stem": "乙",
+      "branch": "酉"
+     },
+     "ages": [
+      2,
+      14,
+      26,
+      38,
+      50,
+      62,
+      74,
+      86,
+      98,
+      110
+     ]
+    },
+    {
+     "name": "疾厄",
+     "stem": "丙",
+     "branch": "戌",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "廉贞",
+       "brightness": "利"
+      },
+      {
+       "name": "天府",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文曲",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "天哭",
+      "天使"
+     ],
+     "changsheng12": "胎",
+     "decadal": {
+      "range": [
+       55,
+       64
+      ],
+      "stem": "丙",
+      "branch": "戌"
+     },
+     "ages": [
+      1,
+      13,
+      25,
+      37,
+      49,
+      61,
+      73,
+      85,
+      97,
+      109
+     ]
+    },
+    {
+     "name": "财帛",
+     "stem": "丁",
+     "branch": "亥",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "太阴",
+       "brightness": "庙",
+       "mutagen": "科"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "左辅"
+      }
+     ],
+     "adjective_stars": [
+      "三台",
+      "天才",
+      "天寿",
+      "天巫",
+      "天官",
+      "孤辰"
+     ],
+     "changsheng12": "绝",
+     "decadal": {
+      "range": [
+       45,
+       54
+      ],
+      "stem": "丁",
+      "branch": "亥"
+     },
+     "ages": [
+      12,
+      24,
+      36,
+      48,
+      60,
+      72,
+      84,
+      96,
+      108,
+      120
+     ]
+    },
+    {
+     "name": "子女",
+     "stem": "戊",
+     "branch": "子",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "贪狼",
+       "brightness": "旺"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "龙池",
+      "台辅",
+      "旬空",
+      "阴煞"
+     ],
+     "changsheng12": "墓",
+     "decadal": {
+      "range": [
+       35,
+       44
+      ],
+      "stem": "戊",
+      "branch": "子"
+     },
+     "ages": [
+      11,
+      23,
+      35,
+      47,
+      59,
+      71,
+      83,
+      95,
+      107,
+      119
+     ]
+    },
+    {
+     "name": "夫妻",
+     "stem": "己",
+     "branch": "丑",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天同",
+       "brightness": "不",
+       "mutagen": "忌"
+      },
+      {
+       "name": "巨门",
+       "brightness": "不"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天魁"
+      }
+     ],
+     "adjective_stars": [
+      "天喜",
+      "月德"
+     ],
+     "changsheng12": "死",
+     "decadal": {
+      "range": [
+       25,
+       34
+      ],
+      "stem": "己",
+      "branch": "丑"
+     },
+     "ages": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      118
+     ]
+    }
+   ]
+  },
+  "male_20070131_P008": {
+   "id": "male_20070131_P008",
+   "input": {
+    "date": "2007-01-31",
+    "timeIndex": 5,
+    "gender": "男"
+   },
+   "lunar_date": "二〇〇六年腊月十三",
+   "chinese_date": "丙戌 辛丑 乙丑 辛巳",
+   "time": "巳时",
+   "time_range": "09:00~11:00",
+   "five_elements_class": "火六局",
+   "soul": "廉贞",
+   "body": "文昌",
+   "soul_palace_branch": "申",
+   "body_palace_branch": "午",
+   "palaces": [
+    {
+     "name": "迁移",
+     "stem": "庚",
+     "branch": "寅",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [],
+     "adjective_stars": [
+      "龙池",
+      "天月"
+     ],
+     "changsheng12": "长生",
+     "decadal": {
+      "range": [
+       66,
+       75
+      ],
+      "stem": "庚",
+      "branch": "寅"
+     },
+     "ages": [
+      11,
+      23,
+      35,
+      47,
+      59,
+      71,
+      83,
+      95,
+      107,
+      119
+     ]
+    },
+    {
+     "name": "疾厄",
+     "stem": "辛",
+     "branch": "卯",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "廉贞",
+       "brightness": "平",
+       "mutagen": "忌"
+      },
+      {
+       "name": "破军",
+       "brightness": "陷"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "左辅"
+      }
+     ],
+     "adjective_stars": [
+      "咸池",
+      "三台",
+      "月德",
+      "天使"
+     ],
+     "changsheng12": "沐浴",
+     "decadal": {
+      "range": [
+       76,
+       85
+      ],
+      "stem": "辛",
+      "branch": "卯"
+     },
+     "ages": [
+      12,
+      24,
+      36,
+      48,
+      60,
+      72,
+      84,
+      96,
+      108,
+      120
+     ]
+    },
+    {
+     "name": "财帛",
+     "stem": "壬",
+     "branch": "辰",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [
+      {
+       "name": "地劫"
+      },
+      {
+       "name": "陀罗",
+       "brightness": "庙"
+      }
+     ],
+     "adjective_stars": [
+      "恩光",
+      "天寿",
+      "截路",
+      "阴煞",
+      "天虚"
+     ],
+     "changsheng12": "冠带",
+     "decadal": {
+      "range": [
+       86,
+       95
+      ],
+      "stem": "壬",
+      "branch": "辰"
+     },
+     "ages": [
+      1,
+      13,
+      25,
+      37,
+      49,
+      61,
+      73,
+      85,
+      97,
+      109
+     ]
+    },
+    {
+     "name": "子女",
+     "stem": "癸",
+     "branch": "巳",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天府",
+       "brightness": "得"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文昌",
+       "brightness": "庙",
+       "mutagen": "科"
+      },
+      {
+       "name": "禄存"
+      }
+     ],
+     "adjective_stars": [
+      "红鸾",
+      "天官",
+      "空亡"
+     ],
+     "changsheng12": "临官",
+     "decadal": {
+      "range": [
+       96,
+       105
+      ],
+      "stem": "癸",
+      "branch": "巳"
+     },
+     "ages": [
+      2,
+      14,
+      26,
+      38,
+      50,
+      62,
+      74,
+      86,
+      98,
+      110
+     ]
+    },
+    {
+     "name": "夫妻",
+     "stem": "甲",
+     "branch": "午",
+     "is_body_palace": true,
+     "major_stars": [
+      {
+       "name": "天同",
+       "brightness": "陷",
+       "mutagen": "禄"
+      },
+      {
+       "name": "太阴",
+       "brightness": "不"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "地空"
+      },
+      {
+       "name": "火星",
+       "brightness": "庙"
+      },
+      {
+       "name": "擎羊",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "解神",
+      "天才",
+      "旬空"
+     ],
+     "changsheng12": "帝旺",
+     "decadal": {
+      "range": [
+       106,
+       115
+      ],
+      "stem": "甲",
+      "branch": "午"
+     },
+     "ages": [
+      3,
+      15,
+      27,
+      39,
+      51,
+      63,
+      75,
+      87,
+      99,
+      111
+     ]
+    },
+    {
+     "name": "兄弟",
+     "stem": "乙",
+     "branch": "未",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "武曲",
+       "brightness": "庙"
+      },
+      {
+       "name": "贪狼",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "封诰",
+      "天德",
+      "寡宿"
+     ],
+     "changsheng12": "衰",
+     "decadal": {
+      "range": [
+       116,
+       125
+      ],
+      "stem": "乙",
+      "branch": "未"
+     },
+     "ages": [
+      4,
+      16,
+      28,
+      40,
+      52,
+      64,
+      76,
+      88,
+      100,
+      112
+     ]
+    },
+    {
+     "name": "命宫",
+     "stem": "丙",
+     "branch": "申",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "太阳",
+       "brightness": "得"
+      },
+      {
+       "name": "巨门",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "天马"
+      },
+      {
+       "name": "铃星",
+       "brightness": "陷"
+      }
+     ],
+     "adjective_stars": [
+      "天贵",
+      "天刑",
+      "天哭"
+     ],
+     "changsheng12": "病",
+     "decadal": {
+      "range": [
+       6,
+       15
+      ],
+      "stem": "丙",
+      "branch": "申"
+     },
+     "ages": [
+      5,
+      17,
+      29,
+      41,
+      53,
+      65,
+      77,
+      89,
+      101,
+      113
+     ]
+    },
+    {
+     "name": "父母",
+     "stem": "丁",
+     "branch": "酉",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天相",
+       "brightness": "陷"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "文曲",
+       "brightness": "庙"
+      },
+      {
+       "name": "天钺"
+      }
+     ],
+     "adjective_stars": [],
+     "changsheng12": "死",
+     "decadal": {
+      "range": [
+       16,
+       25
+      ],
+      "stem": "丁",
+      "branch": "酉"
+     },
+     "ages": [
+      6,
+      18,
+      30,
+      42,
+      54,
+      66,
+      78,
+      90,
+      102,
+      114
+     ]
+    },
+    {
+     "name": "福德",
+     "stem": "戊",
+     "branch": "戌",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "天机",
+       "brightness": "利",
+       "mutagen": "权"
+      },
+      {
+       "name": "天梁",
+       "brightness": "庙"
+      }
+     ],
+     "minor_stars": [],
+     "adjective_stars": [
+      "华盖"
+     ],
+     "changsheng12": "墓",
+     "decadal": {
+      "range": [
+       26,
+       35
+      ],
+      "stem": "戊",
+      "branch": "戌"
+     },
+     "ages": [
+      7,
+      19,
+      31,
+      43,
+      55,
+      67,
+      79,
+      91,
+      103,
+      115
+     ]
+    },
+    {
+     "name": "田宅",
+     "stem": "己",
+     "branch": "亥",
+     "is_body_palace": false,
+     "major_stars": [
+      {
+       "name": "紫微",
+       "brightness": "旺"
+      },
+      {
+       "name": "七杀",
+       "brightness": "平"
+      }
+     ],
+     "minor_stars": [
+      {
+       "name": "右弼"
+      },
+      {
+       "name": "天魁"
+      }
+     ],
+     "adjective_stars": [
+      "天喜",
+      "八座",
+      "台辅",
+      "天巫",
+      "天空",
+      "孤辰"
+     ],
+     "changsheng12": "绝",
+     "decadal": {
+      "range": [
+       36,
+       45
+      ],
+      "stem": "己",
+      "branch": "亥"
+     },
+     "ages": [
+      8,
+      20,
+      32,
+      44,
+      56,
+      68,
+      80,
+      92,
+      104,
+      116
+     ]
+    },
+    {
+     "name": "官禄",
+     "stem": "庚",
+     "branch": "子",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [],
+     "adjective_stars": [
+      "天姚",
+      "凤阁",
+      "天福",
+      "天厨",
+      "蜚廉",
+      "年解"
+     ],
+     "changsheng12": "胎",
+     "decadal": {
+      "range": [
+       46,
+       55
+      ],
+      "stem": "庚",
+      "branch": "子"
+     },
+     "ages": [
+      9,
+      21,
+      33,
+      45,
+      57,
+      69,
+      81,
+      93,
+      105,
+      117
+     ]
+    },
+    {
+     "name": "仆役",
+     "stem": "辛",
+     "branch": "丑",
+     "is_body_palace": false,
+     "major_stars": [],
+     "minor_stars": [],
+     "adjective_stars": [
+      "破碎",
+      "天伤"
+     ],
+     "changsheng12": "养",
+     "decadal": {
+      "range": [
+       56,
+       65
+      ],
+      "stem": "辛",
+      "branch": "丑"
+     },
+     "ages": [
+      10,
+      22,
+      34,
+      46,
+      58,
+      70,
+      82,
+      94,
+      106,
+      118
+     ]
+    }
+   ]
+  }
+ }
+}

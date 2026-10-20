@@ -1,0 +1,2250 @@
+{
+ "contest_id": "hkjfma_2018",
+ "engine": {
+  "bazi": "lunar-python 1.4.8",
+  "ziwei": "iztro 2.5.8"
+ },
+ "default_time_convention": "stated",
+ "charts": {
+  "2018_C1a_male_19941104": {
+   "case_no": "1a",
+   "gender": "male",
+   "time": {
+    "place": "香港",
+    "lon": 114.17,
+    "lat": 22.32,
+    "location_precision": "city",
+    "timezone": "Asia/Hong_Kong",
+    "dst_minutes": 0,
+    "standard_utc_offset_minutes": 480,
+    "stated": {
+     "datetime": "1994-11-04 08:00",
+     "shichen": "辰",
+     "basis": "时辰 as written (辰时); hour set to its midpoint"
+    },
+    "clock": null,
+    "true_solar": null
+   },
+   "chart": {
+    "datetime": "1994-11-04 08:00",
+    "lunar_date": "一九九四年十月初二",
+    "pillars": {
+     "year": {
+      "ganzhi": "甲戌",
+      "gan_shishen": "比肩",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "偏财"
+       },
+       {
+        "gan": "辛",
+        "shishen": "正官"
+       },
+       {
+        "gan": "丁",
+        "shishen": "伤官"
+       }
+      ],
+      "nayin": "山头火",
+      "dishi": "养",
+      "xunkong": "申酉"
+     },
+     "month": {
+      "ganzhi": "甲戌",
+      "gan_shishen": "比肩",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "偏财"
+       },
+       {
+        "gan": "辛",
+        "shishen": "正官"
+       },
+       {
+        "gan": "丁",
+        "shishen": "伤官"
+       }
+      ],
+      "nayin": "山头火",
+      "dishi": "养",
+      "xunkong": "申酉"
+     },
+     "day": {
+      "ganzhi": "甲午",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "丁",
+        "shishen": "伤官"
+       },
+       {
+        "gan": "己",
+        "shishen": "正财"
+       }
+      ],
+      "nayin": "沙中金",
+      "dishi": "死",
+      "xunkong": "辰巳"
+     },
+     "hour": {
+      "ganzhi": "戊辰",
+      "gan_shishen": "偏财",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "偏财"
+       },
+       {
+        "gan": "乙",
+        "shishen": "劫财"
+       },
+       {
+        "gan": "癸",
+        "shishen": "正印"
+       }
+      ],
+      "nayin": "大林木",
+      "dishi": "衰",
+      "xunkong": "戌亥"
+     }
+    },
+    "day_master": "甲",
+    "taiyuan": "乙丑",
+    "minggong": "丁卯",
+    "shengong": "丁卯",
+    "qiyun": {
+     "after_years": 1,
+     "after_months": 2,
+     "after_days": 10,
+     "start_date": "1996-01-14",
+     "direction": "forward"
+    },
+    "dayun": [
+     {
+      "index": 1,
+      "ganzhi": "乙亥",
+      "start_year": 1996,
+      "end_year": 2005,
+      "start_age": 3,
+      "end_age": 12
+     },
+     {
+      "index": 2,
+      "ganzhi": "丙子",
+      "start_year": 2006,
+      "end_year": 2015,
+      "start_age": 13,
+      "end_age": 22
+     },
+     {
+      "index": 3,
+      "ganzhi": "丁丑",
+      "start_year": 2016,
+      "end_year": 2025,
+      "start_age": 23,
+      "end_age": 32
+     },
+     {
+      "index": 4,
+      "ganzhi": "戊寅",
+      "start_year": 2026,
+      "end_year": 2035,
+      "start_age": 33,
+      "end_age": 42
+     },
+     {
+      "index": 5,
+      "ganzhi": "己卯",
+      "start_year": 2036,
+      "end_year": 2045,
+      "start_age": 43,
+      "end_age": 52
+     },
+     {
+      "index": 6,
+      "ganzhi": "庚辰",
+      "start_year": 2046,
+      "end_year": 2055,
+      "start_age": 53,
+      "end_age": 62
+     },
+     {
+      "index": 7,
+      "ganzhi": "辛巳",
+      "start_year": 2056,
+      "end_year": 2065,
+      "start_age": 63,
+      "end_age": 72
+     },
+     {
+      "index": 8,
+      "ganzhi": "壬午",
+      "start_year": 2066,
+      "end_year": 2075,
+      "start_age": 73,
+      "end_age": 82
+     },
+     {
+      "index": 9,
+      "ganzhi": "癸未",
+      "start_year": 2076,
+      "end_year": 2085,
+      "start_age": 83,
+      "end_age": 92
+     }
+    ],
+    "liunian": {
+     "1994": "甲戌",
+     "1995": "乙亥",
+     "1996": "丙子",
+     "1997": "丁丑",
+     "1998": "戊寅",
+     "1999": "己卯",
+     "2000": "庚辰",
+     "2001": "辛巳",
+     "2002": "壬午",
+     "2003": "癸未",
+     "2004": "甲申",
+     "2005": "乙酉",
+     "2006": "丙戌",
+     "2007": "丁亥",
+     "2008": "戊子",
+     "2009": "己丑",
+     "2010": "庚寅",
+     "2011": "辛卯",
+     "2012": "壬辰",
+     "2013": "癸巳",
+     "2014": "甲午",
+     "2015": "乙未",
+     "2016": "丙申",
+     "2017": "丁酉",
+     "2018": "戊戌",
+     "2019": "己亥",
+     "2020": "庚子"
+    }
+   },
+   "alternatives": {},
+   "hour_pillar_varies": false,
+   "day_pillar_varies": false
+  },
+  "2018_C1b_female_19730607": {
+   "case_no": "1b",
+   "gender": "female",
+   "time": {
+    "place": "香港",
+    "lon": 114.17,
+    "lat": 22.32,
+    "location_precision": "city",
+    "timezone": "Asia/Hong_Kong",
+    "dst_minutes": 60,
+    "standard_utc_offset_minutes": 480,
+    "stated": {
+     "datetime": "1973-06-07 06:00",
+     "shichen": "卯",
+     "basis": "时辰 as written (卯时); hour set to its midpoint"
+    },
+    "clock": null,
+    "true_solar": null
+   },
+   "chart": {
+    "datetime": "1973-06-07 06:00",
+    "lunar_date": "一九七三年五月初七",
+    "pillars": {
+     "year": {
+      "ganzhi": "癸丑",
+      "gan_shishen": "正印",
+      "zhi_canggan": [
+       {
+        "gan": "己",
+        "shishen": "正财"
+       },
+       {
+        "gan": "癸",
+        "shishen": "正印"
+       },
+       {
+        "gan": "辛",
+        "shishen": "正官"
+       }
+      ],
+      "nayin": "桑柘木",
+      "dishi": "冠带",
+      "xunkong": "寅卯"
+     },
+     "month": {
+      "ganzhi": "戊午",
+      "gan_shishen": "偏财",
+      "zhi_canggan": [
+       {
+        "gan": "丁",
+        "shishen": "伤官"
+       },
+       {
+        "gan": "己",
+        "shishen": "正财"
+       }
+      ],
+      "nayin": "天上火",
+      "dishi": "死",
+      "xunkong": "子丑"
+     },
+     "day": {
+      "ganzhi": "甲戌",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "偏财"
+       },
+       {
+        "gan": "辛",
+        "shishen": "正官"
+       },
+       {
+        "gan": "丁",
+        "shishen": "伤官"
+       }
+      ],
+      "nayin": "山头火",
+      "dishi": "养",
+      "xunkong": "申酉"
+     },
+     "hour": {
+      "ganzhi": "丁卯",
+      "gan_shishen": "伤官",
+      "zhi_canggan": [
+       {
+        "gan": "乙",
+        "shishen": "劫财"
+       }
+      ],
+      "nayin": "炉中火",
+      "dishi": "帝旺",
+      "xunkong": "戌亥"
+     }
+    },
+    "day_master": "甲",
+    "taiyuan": "己酉",
+    "minggong": "庚申",
+    "shengong": "壬戌",
+    "qiyun": {
+     "after_years": 10,
+     "after_months": 1,
+     "after_days": 10,
+     "start_date": "1983-07-17",
+     "direction": "forward"
+    },
+    "dayun": [
+     {
+      "index": 1,
+      "ganzhi": "己未",
+      "start_year": 1983,
+      "end_year": 1992,
+      "start_age": 11,
+      "end_age": 20
+     },
+     {
+      "index": 2,
+      "ganzhi": "庚申",
+      "start_year": 1993,
+      "end_year": 2002,
+      "start_age": 21,
+      "end_age": 30
+     },
+     {
+      "index": 3,
+      "ganzhi": "辛酉",
+      "start_year": 2003,
+      "end_year": 2012,
+      "start_age": 31,
+      "end_age": 40
+     },
+     {
+      "index": 4,
+      "ganzhi": "壬戌",
+      "start_year": 2013,
+      "end_year": 2022,
+      "start_age": 41,
+      "end_age": 50
+     },
+     {
+      "index": 5,
+      "ganzhi": "癸亥",
+      "start_year": 2023,
+      "end_year": 2032,
+      "start_age": 51,
+      "end_age": 60
+     },
+     {
+      "index": 6,
+      "ganzhi": "甲子",
+      "start_year": 2033,
+      "end_year": 2042,
+      "start_age": 61,
+      "end_age": 70
+     },
+     {
+      "index": 7,
+      "ganzhi": "乙丑",
+      "start_year": 2043,
+      "end_year": 2052,
+      "start_age": 71,
+      "end_age": 80
+     },
+     {
+      "index": 8,
+      "ganzhi": "丙寅",
+      "start_year": 2053,
+      "end_year": 2062,
+      "start_age": 81,
+      "end_age": 90
+     },
+     {
+      "index": 9,
+      "ganzhi": "丁卯",
+      "start_year": 2063,
+      "end_year": 2072,
+      "start_age": 91,
+      "end_age": 100
+     }
+    ],
+    "liunian": {
+     "1973": "癸丑",
+     "1974": "甲寅",
+     "1975": "乙卯",
+     "1976": "丙辰",
+     "1977": "丁巳",
+     "1978": "戊午",
+     "1979": "己未",
+     "1980": "庚申",
+     "1981": "辛酉",
+     "1982": "壬戌",
+     "1983": "癸亥",
+     "1984": "甲子",
+     "1985": "乙丑",
+     "1986": "丙寅",
+     "1987": "丁卯",
+     "1988": "戊辰",
+     "1989": "己巳",
+     "1990": "庚午",
+     "1991": "辛未",
+     "1992": "壬申",
+     "1993": "癸酉",
+     "1994": "甲戌",
+     "1995": "乙亥",
+     "1996": "丙子",
+     "1997": "丁丑",
+     "1998": "戊寅",
+     "1999": "己卯",
+     "2000": "庚辰",
+     "2001": "辛巳",
+     "2002": "壬午",
+     "2003": "癸未",
+     "2004": "甲申",
+     "2005": "乙酉",
+     "2006": "丙戌",
+     "2007": "丁亥",
+     "2008": "戊子",
+     "2009": "己丑",
+     "2010": "庚寅",
+     "2011": "辛卯",
+     "2012": "壬辰",
+     "2013": "癸巳",
+     "2014": "甲午",
+     "2015": "乙未",
+     "2016": "丙申",
+     "2017": "丁酉",
+     "2018": "戊戌",
+     "2019": "己亥",
+     "2020": "庚子"
+    }
+   },
+   "alternatives": {},
+   "hour_pillar_varies": false,
+   "day_pillar_varies": false
+  },
+  "2018_C2_male_19720126": {
+   "case_no": "2",
+   "gender": "male",
+   "time": {
+    "place": "香港",
+    "lon": 114.17,
+    "lat": 22.32,
+    "location_precision": "city",
+    "timezone": "Asia/Hong_Kong",
+    "dst_minutes": 0,
+    "standard_utc_offset_minutes": 480,
+    "stated": {
+     "datetime": "1972-01-26 06:00",
+     "shichen": "卯",
+     "basis": "时辰 as written (卯时); hour set to its midpoint"
+    },
+    "clock": null,
+    "true_solar": null
+   },
+   "chart": {
+    "datetime": "1972-01-26 06:00",
+    "lunar_date": "一九七一年腊月十一",
+    "pillars": {
+     "year": {
+      "ganzhi": "辛亥",
+      "gan_shishen": "正财",
+      "zhi_canggan": [
+       {
+        "gan": "壬",
+        "shishen": "七杀"
+       },
+       {
+        "gan": "甲",
+        "shishen": "偏印"
+       }
+      ],
+      "nayin": "钗钏金",
+      "dishi": "绝",
+      "xunkong": "寅卯"
+     },
+     "month": {
+      "ganzhi": "辛丑",
+      "gan_shishen": "正财",
+      "zhi_canggan": [
+       {
+        "gan": "己",
+        "shishen": "伤官"
+       },
+       {
+        "gan": "癸",
+        "shishen": "正官"
+       },
+       {
+        "gan": "辛",
+        "shishen": "正财"
+       }
+      ],
+      "nayin": "壁上土",
+      "dishi": "养",
+      "xunkong": "辰巳"
+     },
+     "day": {
+      "ganzhi": "丙辰",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "食神"
+       },
+       {
+        "gan": "乙",
+        "shishen": "正印"
+       },
+       {
+        "gan": "癸",
+        "shishen": "正官"
+       }
+      ],
+      "nayin": "沙中土",
+      "dishi": "冠带",
+      "xunkong": "子丑"
+     },
+     "hour": {
+      "ganzhi": "辛卯",
+      "gan_shishen": "正财",
+      "zhi_canggan": [
+       {
+        "gan": "乙",
+        "shishen": "正印"
+       }
+      ],
+      "nayin": "松柏木",
+      "dishi": "沐浴",
+      "xunkong": "午未"
+     }
+    },
+    "day_master": "丙",
+    "taiyuan": "壬辰",
+    "minggong": "辛丑",
+    "shengong": "癸巳",
+    "qiyun": {
+     "after_years": 6,
+     "after_months": 6,
+     "after_days": 20,
+     "start_date": "1978-08-15",
+     "direction": "backward"
+    },
+    "dayun": [
+     {
+      "index": 1,
+      "ganzhi": "庚子",
+      "start_year": 1978,
+      "end_year": 1987,
+      "start_age": 7,
+      "end_age": 16
+     },
+     {
+      "index": 2,
+      "ganzhi": "己亥",
+      "start_year": 1988,
+      "end_year": 1997,
+      "start_age": 17,
+      "end_age": 26
+     },
+     {
+      "index": 3,
+      "ganzhi": "戊戌",
+      "start_year": 1998,
+      "end_year": 2007,
+      "start_age": 27,
+      "end_age": 36
+     },
+     {
+      "index": 4,
+      "ganzhi": "丁酉",
+      "start_year": 2008,
+      "end_year": 2017,
+      "start_age": 37,
+      "end_age": 46
+     },
+     {
+      "index": 5,
+      "ganzhi": "丙申",
+      "start_year": 2018,
+      "end_year": 2027,
+      "start_age": 47,
+      "end_age": 56
+     },
+     {
+      "index": 6,
+      "ganzhi": "乙未",
+      "start_year": 2028,
+      "end_year": 2037,
+      "start_age": 57,
+      "end_age": 66
+     },
+     {
+      "index": 7,
+      "ganzhi": "甲午",
+      "start_year": 2038,
+      "end_year": 2047,
+      "start_age": 67,
+      "end_age": 76
+     },
+     {
+      "index": 8,
+      "ganzhi": "癸巳",
+      "start_year": 2048,
+      "end_year": 2057,
+      "start_age": 77,
+      "end_age": 86
+     },
+     {
+      "index": 9,
+      "ganzhi": "壬辰",
+      "start_year": 2058,
+      "end_year": 2067,
+      "start_age": 87,
+      "end_age": 96
+     }
+    ],
+    "liunian": {
+     "1972": "壬子",
+     "1973": "癸丑",
+     "1974": "甲寅",
+     "1975": "乙卯",
+     "1976": "丙辰",
+     "1977": "丁巳",
+     "1978": "戊午",
+     "1979": "己未",
+     "1980": "庚申",
+     "1981": "辛酉",
+     "1982": "壬戌",
+     "1983": "癸亥",
+     "1984": "甲子",
+     "1985": "乙丑",
+     "1986": "丙寅",
+     "1987": "丁卯",
+     "1988": "戊辰",
+     "1989": "己巳",
+     "1990": "庚午",
+     "1991": "辛未",
+     "1992": "壬申",
+     "1993": "癸酉",
+     "1994": "甲戌",
+     "1995": "乙亥",
+     "1996": "丙子",
+     "1997": "丁丑",
+     "1998": "戊寅",
+     "1999": "己卯",
+     "2000": "庚辰",
+     "2001": "辛巳",
+     "2002": "壬午",
+     "2003": "癸未",
+     "2004": "甲申",
+     "2005": "乙酉",
+     "2006": "丙戌",
+     "2007": "丁亥",
+     "2008": "戊子",
+     "2009": "己丑",
+     "2010": "庚寅",
+     "2011": "辛卯",
+     "2012": "壬辰",
+     "2013": "癸巳",
+     "2014": "甲午",
+     "2015": "乙未",
+     "2016": "丙申",
+     "2017": "丁酉",
+     "2018": "戊戌",
+     "2019": "己亥",
+     "2020": "庚子"
+    }
+   },
+   "alternatives": {},
+   "hour_pillar_varies": false,
+   "day_pillar_varies": false
+  },
+  "2018_C3_male_19540205": {
+   "case_no": "3",
+   "gender": "male",
+   "time": {
+    "place": "香港",
+    "lon": 114.17,
+    "lat": 22.32,
+    "location_precision": "city",
+    "timezone": "Asia/Hong_Kong",
+    "dst_minutes": 0,
+    "standard_utc_offset_minutes": 480,
+    "stated": {
+     "datetime": "1954-02-05 10:00",
+     "shichen": "巳",
+     "basis": "时辰 as written (巳时); hour set to its midpoint"
+    },
+    "clock": null,
+    "true_solar": null
+   },
+   "chart": {
+    "datetime": "1954-02-05 10:00",
+    "lunar_date": "一九五四年正月初三",
+    "pillars": {
+     "year": {
+      "ganzhi": "甲午",
+      "gan_shishen": "食神",
+      "zhi_canggan": [
+       {
+        "gan": "丁",
+        "shishen": "正财"
+       },
+       {
+        "gan": "己",
+        "shishen": "正官"
+       }
+      ],
+      "nayin": "沙中金",
+      "dishi": "胎",
+      "xunkong": "辰巳"
+     },
+     "month": {
+      "ganzhi": "丙寅",
+      "gan_shishen": "偏财",
+      "zhi_canggan": [
+       {
+        "gan": "甲",
+        "shishen": "食神"
+       },
+       {
+        "gan": "丙",
+        "shishen": "偏财"
+       },
+       {
+        "gan": "戊",
+        "shishen": "七杀"
+       }
+      ],
+      "nayin": "炉中火",
+      "dishi": "病",
+      "xunkong": "戌亥"
+     },
+     "day": {
+      "ganzhi": "壬辰",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "七杀"
+       },
+       {
+        "gan": "乙",
+        "shishen": "伤官"
+       },
+       {
+        "gan": "癸",
+        "shishen": "劫财"
+       }
+      ],
+      "nayin": "长流水",
+      "dishi": "墓",
+      "xunkong": "午未"
+     },
+     "hour": {
+      "ganzhi": "乙巳",
+      "gan_shishen": "伤官",
+      "zhi_canggan": [
+       {
+        "gan": "丙",
+        "shishen": "偏财"
+       },
+       {
+        "gan": "庚",
+        "shishen": "偏印"
+       },
+       {
+        "gan": "戊",
+        "shishen": "七杀"
+       }
+      ],
+      "nayin": "覆灯火",
+      "dishi": "绝",
+      "xunkong": "寅卯"
+     }
+    },
+    "day_master": "壬",
+    "taiyuan": "丁巳",
+    "minggong": "甲戌",
+    "shengong": "壬申",
+    "qiyun": {
+     "after_years": 9,
+     "after_months": 8,
+     "after_days": 0,
+     "start_date": "1963-10-05",
+     "direction": "forward"
+    },
+    "dayun": [
+     {
+      "index": 1,
+      "ganzhi": "丁卯",
+      "start_year": 1963,
+      "end_year": 1972,
+      "start_age": 10,
+      "end_age": 19
+     },
+     {
+      "index": 2,
+      "ganzhi": "戊辰",
+      "start_year": 1973,
+      "end_year": 1982,
+      "start_age": 20,
+      "end_age": 29
+     },
+     {
+      "index": 3,
+      "ganzhi": "己巳",
+      "start_year": 1983,
+      "end_year": 1992,
+      "start_age": 30,
+      "end_age": 39
+     },
+     {
+      "index": 4,
+      "ganzhi": "庚午",
+      "start_year": 1993,
+      "end_year": 2002,
+      "start_age": 40,
+      "end_age": 49
+     },
+     {
+      "index": 5,
+      "ganzhi": "辛未",
+      "start_year": 2003,
+      "end_year": 2012,
+      "start_age": 50,
+      "end_age": 59
+     },
+     {
+      "index": 6,
+      "ganzhi": "壬申",
+      "start_year": 2013,
+      "end_year": 2022,
+      "start_age": 60,
+      "end_age": 69
+     },
+     {
+      "index": 7,
+      "ganzhi": "癸酉",
+      "start_year": 2023,
+      "end_year": 2032,
+      "start_age": 70,
+      "end_age": 79
+     },
+     {
+      "index": 8,
+      "ganzhi": "甲戌",
+      "start_year": 2033,
+      "end_year": 2042,
+      "start_age": 80,
+      "end_age": 89
+     },
+     {
+      "index": 9,
+      "ganzhi": "乙亥",
+      "start_year": 2043,
+      "end_year": 2052,
+      "start_age": 90,
+      "end_age": 99
+     }
+    ],
+    "liunian": {
+     "1954": "甲午",
+     "1955": "乙未",
+     "1956": "丙申",
+     "1957": "丁酉",
+     "1958": "戊戌",
+     "1959": "己亥",
+     "1960": "庚子",
+     "1961": "辛丑",
+     "1962": "壬寅",
+     "1963": "癸卯",
+     "1964": "甲辰",
+     "1965": "乙巳",
+     "1966": "丙午",
+     "1967": "丁未",
+     "1968": "戊申",
+     "1969": "己酉",
+     "1970": "庚戌",
+     "1971": "辛亥",
+     "1972": "壬子",
+     "1973": "癸丑",
+     "1974": "甲寅",
+     "1975": "乙卯",
+     "1976": "丙辰",
+     "1977": "丁巳",
+     "1978": "戊午",
+     "1979": "己未",
+     "1980": "庚申",
+     "1981": "辛酉",
+     "1982": "壬戌",
+     "1983": "癸亥",
+     "1984": "甲子",
+     "1985": "乙丑",
+     "1986": "丙寅",
+     "1987": "丁卯",
+     "1988": "戊辰",
+     "1989": "己巳",
+     "1990": "庚午",
+     "1991": "辛未",
+     "1992": "壬申",
+     "1993": "癸酉",
+     "1994": "甲戌",
+     "1995": "乙亥",
+     "1996": "丙子",
+     "1997": "丁丑",
+     "1998": "戊寅",
+     "1999": "己卯",
+     "2000": "庚辰",
+     "2001": "辛巳",
+     "2002": "壬午",
+     "2003": "癸未",
+     "2004": "甲申",
+     "2005": "乙酉",
+     "2006": "丙戌",
+     "2007": "丁亥",
+     "2008": "戊子",
+     "2009": "己丑",
+     "2010": "庚寅",
+     "2011": "辛卯",
+     "2012": "壬辰",
+     "2013": "癸巳",
+     "2014": "甲午",
+     "2015": "乙未",
+     "2016": "丙申",
+     "2017": "丁酉",
+     "2018": "戊戌",
+     "2019": "己亥",
+     "2020": "庚子"
+    }
+   },
+   "alternatives": {},
+   "hour_pillar_varies": false,
+   "day_pillar_varies": false
+  },
+  "2018_C4_male_19600529": {
+   "case_no": "4",
+   "gender": "male",
+   "time": {
+    "place": "马来西亚",
+    "lon": 101.69,
+    "lat": 3.14,
+    "location_precision": "region",
+    "timezone": "Asia/Kuala_Lumpur",
+    "dst_minutes": 0,
+    "standard_utc_offset_minutes": 450,
+    "stated": {
+     "datetime": "1960-05-29 22:00",
+     "shichen": "亥",
+     "basis": "时辰 as written (亥时); hour set to its midpoint"
+    },
+    "clock": null,
+    "true_solar": null
+   },
+   "chart": {
+    "datetime": "1960-05-29 22:00",
+    "lunar_date": "一九六〇年五月初五",
+    "pillars": {
+     "year": {
+      "ganzhi": "庚子",
+      "gan_shishen": "正财",
+      "zhi_canggan": [
+       {
+        "gan": "癸",
+        "shishen": "七杀"
+       }
+      ],
+      "nayin": "壁上土",
+      "dishi": "绝",
+      "xunkong": "辰巳"
+     },
+     "month": {
+      "ganzhi": "辛巳",
+      "gan_shishen": "偏财",
+      "zhi_canggan": [
+       {
+        "gan": "丙",
+        "shishen": "劫财"
+       },
+       {
+        "gan": "庚",
+        "shishen": "正财"
+       },
+       {
+        "gan": "戊",
+        "shishen": "伤官"
+       }
+      ],
+      "nayin": "白蜡金",
+      "dishi": "帝旺",
+      "xunkong": "申酉"
+     },
+     "day": {
+      "ganzhi": "丁巳",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "丙",
+        "shishen": "劫财"
+       },
+       {
+        "gan": "庚",
+        "shishen": "正财"
+       },
+       {
+        "gan": "戊",
+        "shishen": "伤官"
+       }
+      ],
+      "nayin": "沙中土",
+      "dishi": "帝旺",
+      "xunkong": "子丑"
+     },
+     "hour": {
+      "ganzhi": "辛亥",
+      "gan_shishen": "偏财",
+      "zhi_canggan": [
+       {
+        "gan": "壬",
+        "shishen": "正官"
+       },
+       {
+        "gan": "甲",
+        "shishen": "正印"
+       }
+      ],
+      "nayin": "钗钏金",
+      "dishi": "胎",
+      "xunkong": "寅卯"
+     }
+    },
+    "day_master": "丁",
+    "taiyuan": "壬申",
+    "minggong": "己丑",
+    "shengong": "辛巳",
+    "qiyun": {
+     "after_years": 2,
+     "after_months": 4,
+     "after_days": 10,
+     "start_date": "1962-10-09",
+     "direction": "forward"
+    },
+    "dayun": [
+     {
+      "index": 1,
+      "ganzhi": "壬午",
+      "start_year": 1962,
+      "end_year": 1971,
+      "start_age": 3,
+      "end_age": 12
+     },
+     {
+      "index": 2,
+      "ganzhi": "癸未",
+      "start_year": 1972,
+      "end_year": 1981,
+      "start_age": 13,
+      "end_age": 22
+     },
+     {
+      "index": 3,
+      "ganzhi": "甲申",
+      "start_year": 1982,
+      "end_year": 1991,
+      "start_age": 23,
+      "end_age": 32
+     },
+     {
+      "index": 4,
+      "ganzhi": "乙酉",
+      "start_year": 1992,
+      "end_year": 2001,
+      "start_age": 33,
+      "end_age": 42
+     },
+     {
+      "index": 5,
+      "ganzhi": "丙戌",
+      "start_year": 2002,
+      "end_year": 2011,
+      "start_age": 43,
+      "end_age": 52
+     },
+     {
+      "index": 6,
+      "ganzhi": "丁亥",
+      "start_year": 2012,
+      "end_year": 2021,
+      "start_age": 53,
+      "end_age": 62
+     },
+     {
+      "index": 7,
+      "ganzhi": "戊子",
+      "start_year": 2022,
+      "end_year": 2031,
+      "start_age": 63,
+      "end_age": 72
+     },
+     {
+      "index": 8,
+      "ganzhi": "己丑",
+      "start_year": 2032,
+      "end_year": 2041,
+      "start_age": 73,
+      "end_age": 82
+     },
+     {
+      "index": 9,
+      "ganzhi": "庚寅",
+      "start_year": 2042,
+      "end_year": 2051,
+      "start_age": 83,
+      "end_age": 92
+     }
+    ],
+    "liunian": {
+     "1960": "庚子",
+     "1961": "辛丑",
+     "1962": "壬寅",
+     "1963": "癸卯",
+     "1964": "甲辰",
+     "1965": "乙巳",
+     "1966": "丙午",
+     "1967": "丁未",
+     "1968": "戊申",
+     "1969": "己酉",
+     "1970": "庚戌",
+     "1971": "辛亥",
+     "1972": "壬子",
+     "1973": "癸丑",
+     "1974": "甲寅",
+     "1975": "乙卯",
+     "1976": "丙辰",
+     "1977": "丁巳",
+     "1978": "戊午",
+     "1979": "己未",
+     "1980": "庚申",
+     "1981": "辛酉",
+     "1982": "壬戌",
+     "1983": "癸亥",
+     "1984": "甲子",
+     "1985": "乙丑",
+     "1986": "丙寅",
+     "1987": "丁卯",
+     "1988": "戊辰",
+     "1989": "己巳",
+     "1990": "庚午",
+     "1991": "辛未",
+     "1992": "壬申",
+     "1993": "癸酉",
+     "1994": "甲戌",
+     "1995": "乙亥",
+     "1996": "丙子",
+     "1997": "丁丑",
+     "1998": "戊寅",
+     "1999": "己卯",
+     "2000": "庚辰",
+     "2001": "辛巳",
+     "2002": "壬午",
+     "2003": "癸未",
+     "2004": "甲申",
+     "2005": "乙酉",
+     "2006": "丙戌",
+     "2007": "丁亥",
+     "2008": "戊子",
+     "2009": "己丑",
+     "2010": "庚寅",
+     "2011": "辛卯",
+     "2012": "壬辰",
+     "2013": "癸巳",
+     "2014": "甲午",
+     "2015": "乙未",
+     "2016": "丙申",
+     "2017": "丁酉",
+     "2018": "戊戌",
+     "2019": "己亥",
+     "2020": "庚子"
+    }
+   },
+   "alternatives": {},
+   "hour_pillar_varies": false,
+   "day_pillar_varies": false
+  },
+  "2018_C5_female_19401013": {
+   "case_no": "5",
+   "gender": "female",
+   "time": {
+    "place": "台湾",
+    "lon": 121.56,
+    "lat": 25.04,
+    "location_precision": "region",
+    "timezone": "Asia/Taipei",
+    "dst_minutes": 0,
+    "standard_utc_offset_minutes": 540,
+    "stated": {
+     "datetime": "1940-10-13 14:00",
+     "shichen": "未",
+     "basis": "时辰 as written (未时); hour set to its midpoint"
+    },
+    "clock": null,
+    "true_solar": null
+   },
+   "chart": {
+    "datetime": "1940-10-13 14:00",
+    "lunar_date": "一九四〇年九月十三",
+    "pillars": {
+     "year": {
+      "ganzhi": "庚辰",
+      "gan_shishen": "伤官",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "劫财"
+       },
+       {
+        "gan": "乙",
+        "shishen": "七杀"
+       },
+       {
+        "gan": "癸",
+        "shishen": "偏财"
+       }
+      ],
+      "nayin": "白蜡金",
+      "dishi": "衰",
+      "xunkong": "申酉"
+     },
+     "month": {
+      "ganzhi": "丙戌",
+      "gan_shishen": "正印",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "劫财"
+       },
+       {
+        "gan": "辛",
+        "shishen": "食神"
+       },
+       {
+        "gan": "丁",
+        "shishen": "偏印"
+       }
+      ],
+      "nayin": "屋上土",
+      "dishi": "养",
+      "xunkong": "午未"
+     },
+     "day": {
+      "ganzhi": "己丑",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "己",
+        "shishen": "比肩"
+       },
+       {
+        "gan": "癸",
+        "shishen": "偏财"
+       },
+       {
+        "gan": "辛",
+        "shishen": "食神"
+       }
+      ],
+      "nayin": "霹雳火",
+      "dishi": "墓",
+      "xunkong": "午未"
+     },
+     "hour": {
+      "ganzhi": "辛未",
+      "gan_shishen": "食神",
+      "zhi_canggan": [
+       {
+        "gan": "己",
+        "shishen": "比肩"
+       },
+       {
+        "gan": "丁",
+        "shishen": "偏印"
+       },
+       {
+        "gan": "乙",
+        "shishen": "七杀"
+       }
+      ],
+      "nayin": "路旁土",
+      "dishi": "冠带",
+      "xunkong": "戌亥"
+     }
+    },
+    "day_master": "己",
+    "taiyuan": "丁丑",
+    "minggong": "戊子",
+    "shengong": "壬午",
+    "qiyun": {
+     "after_years": 1,
+     "after_months": 7,
+     "after_days": 10,
+     "start_date": "1942-05-23",
+     "direction": "backward"
+    },
+    "dayun": [
+     {
+      "index": 1,
+      "ganzhi": "乙酉",
+      "start_year": 1942,
+      "end_year": 1951,
+      "start_age": 3,
+      "end_age": 12
+     },
+     {
+      "index": 2,
+      "ganzhi": "甲申",
+      "start_year": 1952,
+      "end_year": 1961,
+      "start_age": 13,
+      "end_age": 22
+     },
+     {
+      "index": 3,
+      "ganzhi": "癸未",
+      "start_year": 1962,
+      "end_year": 1971,
+      "start_age": 23,
+      "end_age": 32
+     },
+     {
+      "index": 4,
+      "ganzhi": "壬午",
+      "start_year": 1972,
+      "end_year": 1981,
+      "start_age": 33,
+      "end_age": 42
+     },
+     {
+      "index": 5,
+      "ganzhi": "辛巳",
+      "start_year": 1982,
+      "end_year": 1991,
+      "start_age": 43,
+      "end_age": 52
+     },
+     {
+      "index": 6,
+      "ganzhi": "庚辰",
+      "start_year": 1992,
+      "end_year": 2001,
+      "start_age": 53,
+      "end_age": 62
+     },
+     {
+      "index": 7,
+      "ganzhi": "己卯",
+      "start_year": 2002,
+      "end_year": 2011,
+      "start_age": 63,
+      "end_age": 72
+     },
+     {
+      "index": 8,
+      "ganzhi": "戊寅",
+      "start_year": 2012,
+      "end_year": 2021,
+      "start_age": 73,
+      "end_age": 82
+     },
+     {
+      "index": 9,
+      "ganzhi": "丁丑",
+      "start_year": 2022,
+      "end_year": 2031,
+      "start_age": 83,
+      "end_age": 92
+     }
+    ],
+    "liunian": {
+     "1940": "庚辰",
+     "1941": "辛巳",
+     "1942": "壬午",
+     "1943": "癸未",
+     "1944": "甲申",
+     "1945": "乙酉",
+     "1946": "丙戌",
+     "1947": "丁亥",
+     "1948": "戊子",
+     "1949": "己丑",
+     "1950": "庚寅",
+     "1951": "辛卯",
+     "1952": "壬辰",
+     "1953": "癸巳",
+     "1954": "甲午",
+     "1955": "乙未",
+     "1956": "丙申",
+     "1957": "丁酉",
+     "1958": "戊戌",
+     "1959": "己亥",
+     "1960": "庚子",
+     "1961": "辛丑",
+     "1962": "壬寅",
+     "1963": "癸卯",
+     "1964": "甲辰",
+     "1965": "乙巳",
+     "1966": "丙午",
+     "1967": "丁未",
+     "1968": "戊申",
+     "1969": "己酉",
+     "1970": "庚戌",
+     "1971": "辛亥",
+     "1972": "壬子",
+     "1973": "癸丑",
+     "1974": "甲寅",
+     "1975": "乙卯",
+     "1976": "丙辰",
+     "1977": "丁巳",
+     "1978": "戊午",
+     "1979": "己未",
+     "1980": "庚申",
+     "1981": "辛酉",
+     "1982": "壬戌",
+     "1983": "癸亥",
+     "1984": "甲子",
+     "1985": "乙丑",
+     "1986": "丙寅",
+     "1987": "丁卯",
+     "1988": "戊辰",
+     "1989": "己巳",
+     "1990": "庚午",
+     "1991": "辛未",
+     "1992": "壬申",
+     "1993": "癸酉",
+     "1994": "甲戌",
+     "1995": "乙亥",
+     "1996": "丙子",
+     "1997": "丁丑",
+     "1998": "戊寅",
+     "1999": "己卯",
+     "2000": "庚辰",
+     "2001": "辛巳",
+     "2002": "壬午",
+     "2003": "癸未",
+     "2004": "甲申",
+     "2005": "乙酉",
+     "2006": "丙戌",
+     "2007": "丁亥",
+     "2008": "戊子",
+     "2009": "己丑",
+     "2010": "庚寅",
+     "2011": "辛卯",
+     "2012": "壬辰",
+     "2013": "癸巳",
+     "2014": "甲午",
+     "2015": "乙未",
+     "2016": "丙申",
+     "2017": "丁酉",
+     "2018": "戊戌",
+     "2019": "己亥",
+     "2020": "庚子"
+    }
+   },
+   "alternatives": {},
+   "hour_pillar_varies": false,
+   "day_pillar_varies": false
+  },
+  "2018_C6_female_19930817": {
+   "case_no": "6",
+   "gender": "female",
+   "time": {
+    "place": "香港",
+    "lon": 114.17,
+    "lat": 22.32,
+    "location_precision": "city",
+    "timezone": "Asia/Hong_Kong",
+    "dst_minutes": 0,
+    "standard_utc_offset_minutes": 480,
+    "stated": {
+     "datetime": "1993-08-17 16:00",
+     "shichen": "申",
+     "basis": "clock time (no summer time in force)"
+    },
+    "clock": {
+     "datetime": "1993-08-17 16:00",
+     "shichen": "申",
+     "basis": "as written"
+    },
+    "true_solar": {
+     "datetime": "1993-08-17 15:32",
+     "shichen": "申",
+     "basis": "standard time -23 min longitude -4.4 min equation of time",
+     "correction_minutes": -27.8
+    }
+   },
+   "chart": {
+    "datetime": "1993-08-17 16:00",
+    "lunar_date": "一九九三年六月三十",
+    "pillars": {
+     "year": {
+      "ganzhi": "癸酉",
+      "gan_shishen": "伤官",
+      "zhi_canggan": [
+       {
+        "gan": "辛",
+        "shishen": "劫财"
+       }
+      ],
+      "nayin": "剑锋金",
+      "dishi": "帝旺",
+      "xunkong": "戌亥"
+     },
+     "month": {
+      "ganzhi": "庚申",
+      "gan_shishen": "比肩",
+      "zhi_canggan": [
+       {
+        "gan": "庚",
+        "shishen": "比肩"
+       },
+       {
+        "gan": "壬",
+        "shishen": "食神"
+       },
+       {
+        "gan": "戊",
+        "shishen": "偏印"
+       }
+      ],
+      "nayin": "石榴木",
+      "dishi": "临官",
+      "xunkong": "子丑"
+     },
+     "day": {
+      "ganzhi": "庚午",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "丁",
+        "shishen": "正官"
+       },
+       {
+        "gan": "己",
+        "shishen": "正印"
+       }
+      ],
+      "nayin": "路旁土",
+      "dishi": "沐浴",
+      "xunkong": "戌亥"
+     },
+     "hour": {
+      "ganzhi": "甲申",
+      "gan_shishen": "偏财",
+      "zhi_canggan": [
+       {
+        "gan": "庚",
+        "shishen": "比肩"
+       },
+       {
+        "gan": "壬",
+        "shishen": "食神"
+       },
+       {
+        "gan": "戊",
+        "shishen": "偏印"
+       }
+      ],
+      "nayin": "泉中水",
+      "dishi": "临官",
+      "xunkong": "午未"
+     }
+    },
+    "day_master": "庚",
+    "taiyuan": "辛亥",
+    "minggong": "乙丑",
+    "shengong": "丁巳",
+    "qiyun": {
+     "after_years": 7,
+     "after_months": 1,
+     "after_days": 0,
+     "start_date": "2000-09-17",
+     "direction": "forward"
+    },
+    "dayun": [
+     {
+      "index": 1,
+      "ganzhi": "辛酉",
+      "start_year": 2000,
+      "end_year": 2009,
+      "start_age": 8,
+      "end_age": 17
+     },
+     {
+      "index": 2,
+      "ganzhi": "壬戌",
+      "start_year": 2010,
+      "end_year": 2019,
+      "start_age": 18,
+      "end_age": 27
+     },
+     {
+      "index": 3,
+      "ganzhi": "癸亥",
+      "start_year": 2020,
+      "end_year": 2029,
+      "start_age": 28,
+      "end_age": 37
+     },
+     {
+      "index": 4,
+      "ganzhi": "甲子",
+      "start_year": 2030,
+      "end_year": 2039,
+      "start_age": 38,
+      "end_age": 47
+     },
+     {
+      "index": 5,
+      "ganzhi": "乙丑",
+      "start_year": 2040,
+      "end_year": 2049,
+      "start_age": 48,
+      "end_age": 57
+     },
+     {
+      "index": 6,
+      "ganzhi": "丙寅",
+      "start_year": 2050,
+      "end_year": 2059,
+      "start_age": 58,
+      "end_age": 67
+     },
+     {
+      "index": 7,
+      "ganzhi": "丁卯",
+      "start_year": 2060,
+      "end_year": 2069,
+      "start_age": 68,
+      "end_age": 77
+     },
+     {
+      "index": 8,
+      "ganzhi": "戊辰",
+      "start_year": 2070,
+      "end_year": 2079,
+      "start_age": 78,
+      "end_age": 87
+     },
+     {
+      "index": 9,
+      "ganzhi": "己巳",
+      "start_year": 2080,
+      "end_year": 2089,
+      "start_age": 88,
+      "end_age": 97
+     }
+    ],
+    "liunian": {
+     "1993": "癸酉",
+     "1994": "甲戌",
+     "1995": "乙亥",
+     "1996": "丙子",
+     "1997": "丁丑",
+     "1998": "戊寅",
+     "1999": "己卯",
+     "2000": "庚辰",
+     "2001": "辛巳",
+     "2002": "壬午",
+     "2003": "癸未",
+     "2004": "甲申",
+     "2005": "乙酉",
+     "2006": "丙戌",
+     "2007": "丁亥",
+     "2008": "戊子",
+     "2009": "己丑",
+     "2010": "庚寅",
+     "2011": "辛卯",
+     "2012": "壬辰",
+     "2013": "癸巳",
+     "2014": "甲午",
+     "2015": "乙未",
+     "2016": "丙申",
+     "2017": "丁酉",
+     "2018": "戊戌",
+     "2019": "己亥",
+     "2020": "庚子"
+    }
+   },
+   "alternatives": {
+    "clock": {
+     "datetime": "1993-08-17 16:00",
+     "pillars": [
+      "癸酉",
+      "庚申",
+      "庚午",
+      "甲申"
+     ]
+    },
+    "true_solar": {
+     "datetime": "1993-08-17 15:32",
+     "pillars": [
+      "癸酉",
+      "庚申",
+      "庚午",
+      "甲申"
+     ]
+    }
+   },
+   "hour_pillar_varies": false,
+   "day_pillar_varies": false
+  },
+  "2018_C7_female_19610325": {
+   "case_no": "7",
+   "gender": "female",
+   "time": {
+    "place": "香港",
+    "lon": 114.17,
+    "lat": 22.32,
+    "location_precision": "city",
+    "timezone": "Asia/Hong_Kong",
+    "dst_minutes": 60,
+    "standard_utc_offset_minutes": 480,
+    "stated": {
+     "datetime": "1961-03-25 12:00",
+     "shichen": "午",
+     "basis": "时辰 as written (午时); hour set to its midpoint"
+    },
+    "clock": null,
+    "true_solar": null
+   },
+   "chart": {
+    "datetime": "1961-03-25 12:00",
+    "lunar_date": "一九六一年二月初九",
+    "pillars": {
+     "year": {
+      "ganzhi": "辛丑",
+      "gan_shishen": "偏财",
+      "zhi_canggan": [
+       {
+        "gan": "己",
+        "shishen": "食神"
+       },
+       {
+        "gan": "癸",
+        "shishen": "七杀"
+       },
+       {
+        "gan": "辛",
+        "shishen": "偏财"
+       }
+      ],
+      "nayin": "壁上土",
+      "dishi": "墓",
+      "xunkong": "辰巳"
+     },
+     "month": {
+      "ganzhi": "辛卯",
+      "gan_shishen": "偏财",
+      "zhi_canggan": [
+       {
+        "gan": "乙",
+        "shishen": "偏印"
+       }
+      ],
+      "nayin": "松柏木",
+      "dishi": "病",
+      "xunkong": "午未"
+     },
+     "day": {
+      "ganzhi": "丁巳",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "丙",
+        "shishen": "劫财"
+       },
+       {
+        "gan": "庚",
+        "shishen": "正财"
+       },
+       {
+        "gan": "戊",
+        "shishen": "伤官"
+       }
+      ],
+      "nayin": "沙中土",
+      "dishi": "帝旺",
+      "xunkong": "子丑"
+     },
+     "hour": {
+      "ganzhi": "丙午",
+      "gan_shishen": "劫财",
+      "zhi_canggan": [
+       {
+        "gan": "丁",
+        "shishen": "比肩"
+       },
+       {
+        "gan": "己",
+        "shishen": "食神"
+       }
+      ],
+      "nayin": "天河水",
+      "dishi": "临官",
+      "xunkong": "寅卯"
+     }
+    },
+    "day_master": "丁",
+    "taiyuan": "壬午",
+    "minggong": "丙申",
+    "shengong": "戊戌",
+    "qiyun": {
+     "after_years": 3,
+     "after_months": 7,
+     "after_days": 10,
+     "start_date": "1964-11-04",
+     "direction": "forward"
+    },
+    "dayun": [
+     {
+      "index": 1,
+      "ganzhi": "壬辰",
+      "start_year": 1964,
+      "end_year": 1973,
+      "start_age": 4,
+      "end_age": 13
+     },
+     {
+      "index": 2,
+      "ganzhi": "癸巳",
+      "start_year": 1974,
+      "end_year": 1983,
+      "start_age": 14,
+      "end_age": 23
+     },
+     {
+      "index": 3,
+      "ganzhi": "甲午",
+      "start_year": 1984,
+      "end_year": 1993,
+      "start_age": 24,
+      "end_age": 33
+     },
+     {
+      "index": 4,
+      "ganzhi": "乙未",
+      "start_year": 1994,
+      "end_year": 2003,
+      "start_age": 34,
+      "end_age": 43
+     },
+     {
+      "index": 5,
+      "ganzhi": "丙申",
+      "start_year": 2004,
+      "end_year": 2013,
+      "start_age": 44,
+      "end_age": 53
+     },
+     {
+      "index": 6,
+      "ganzhi": "丁酉",
+      "start_year": 2014,
+      "end_year": 2023,
+      "start_age": 54,
+      "end_age": 63
+     },
+     {
+      "index": 7,
+      "ganzhi": "戊戌",
+      "start_year": 2024,
+      "end_year": 2033,
+      "start_age": 64,
+      "end_age": 73
+     },
+     {
+      "index": 8,
+      "ganzhi": "己亥",
+      "start_year": 2034,
+      "end_year": 2043,
+      "start_age": 74,
+      "end_age": 83
+     },
+     {
+      "index": 9,
+      "ganzhi": "庚子",
+      "start_year": 2044,
+      "end_year": 2053,
+      "start_age": 84,
+      "end_age": 93
+     }
+    ],
+    "liunian": {
+     "1961": "辛丑",
+     "1962": "壬寅",
+     "1963": "癸卯",
+     "1964": "甲辰",
+     "1965": "乙巳",
+     "1966": "丙午",
+     "1967": "丁未",
+     "1968": "戊申",
+     "1969": "己酉",
+     "1970": "庚戌",
+     "1971": "辛亥",
+     "1972": "壬子",
+     "1973": "癸丑",
+     "1974": "甲寅",
+     "1975": "乙卯",
+     "1976": "丙辰",
+     "1977": "丁巳",
+     "1978": "戊午",
+     "1979": "己未",
+     "1980": "庚申",
+     "1981": "辛酉",
+     "1982": "壬戌",
+     "1983": "癸亥",
+     "1984": "甲子",
+     "1985": "乙丑",
+     "1986": "丙寅",
+     "1987": "丁卯",
+     "1988": "戊辰",
+     "1989": "己巳",
+     "1990": "庚午",
+     "1991": "辛未",
+     "1992": "壬申",
+     "1993": "癸酉",
+     "1994": "甲戌",
+     "1995": "乙亥",
+     "1996": "丙子",
+     "1997": "丁丑",
+     "1998": "戊寅",
+     "1999": "己卯",
+     "2000": "庚辰",
+     "2001": "辛巳",
+     "2002": "壬午",
+     "2003": "癸未",
+     "2004": "甲申",
+     "2005": "乙酉",
+     "2006": "丙戌",
+     "2007": "丁亥",
+     "2008": "戊子",
+     "2009": "己丑",
+     "2010": "庚寅",
+     "2011": "辛卯",
+     "2012": "壬辰",
+     "2013": "癸巳",
+     "2014": "甲午",
+     "2015": "乙未",
+     "2016": "丙申",
+     "2017": "丁酉",
+     "2018": "戊戌",
+     "2019": "己亥",
+     "2020": "庚子"
+    }
+   },
+   "alternatives": {},
+   "hour_pillar_varies": false,
+   "day_pillar_varies": false
+  },
+  "2018_C8_female_19580416": {
+   "case_no": "8",
+   "gender": "female",
+   "time": {
+    "place": "香港",
+    "lon": 114.17,
+    "lat": 22.32,
+    "location_precision": "city",
+    "timezone": "Asia/Hong_Kong",
+    "dst_minutes": 60,
+    "standard_utc_offset_minutes": 480,
+    "stated": {
+     "datetime": "1958-04-16 14:00",
+     "shichen": "未",
+     "basis": "时辰 as written (未时); hour set to its midpoint"
+    },
+    "clock": null,
+    "true_solar": null
+   },
+   "chart": {
+    "datetime": "1958-04-16 14:00",
+    "lunar_date": "一九五八年二月廿八",
+    "pillars": {
+     "year": {
+      "ganzhi": "戊戌",
+      "gan_shishen": "正官",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "正官"
+       },
+       {
+        "gan": "辛",
+        "shishen": "偏印"
+       },
+       {
+        "gan": "丁",
+        "shishen": "偏财"
+       }
+      ],
+      "nayin": "平地木",
+      "dishi": "衰",
+      "xunkong": "辰巳"
+     },
+     "month": {
+      "ganzhi": "丙辰",
+      "gan_shishen": "正财",
+      "zhi_canggan": [
+       {
+        "gan": "戊",
+        "shishen": "正官"
+       },
+       {
+        "gan": "乙",
+        "shishen": "食神"
+       },
+       {
+        "gan": "癸",
+        "shishen": "比肩"
+       }
+      ],
+      "nayin": "沙中土",
+      "dishi": "养",
+      "xunkong": "子丑"
+     },
+     "day": {
+      "ganzhi": "癸亥",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "壬",
+        "shishen": "劫财"
+       },
+       {
+        "gan": "甲",
+        "shishen": "伤官"
+       }
+      ],
+      "nayin": "大海水",
+      "dishi": "帝旺",
+      "xunkong": "子丑"
+     },
+     "hour": {
+      "ganzhi": "己未",
+      "gan_shishen": "七杀",
+      "zhi_canggan": [
+       {
+        "gan": "己",
+        "shishen": "七杀"
+       },
+       {
+        "gan": "丁",
+        "shishen": "偏财"
+       },
+       {
+        "gan": "乙",
+        "shishen": "食神"
+       }
+      ],
+      "nayin": "天上火",
+      "dishi": "墓",
+      "xunkong": "子丑"
+     }
+    },
+    "day_master": "癸",
+    "taiyuan": "丁未",
+    "minggong": "戊午",
+    "shengong": "甲子",
+    "qiyun": {
+     "after_years": 3,
+     "after_months": 7,
+     "after_days": 20,
+     "start_date": "1961-12-06",
+     "direction": "backward"
+    },
+    "dayun": [
+     {
+      "index": 1,
+      "ganzhi": "乙卯",
+      "start_year": 1961,
+      "end_year": 1970,
+      "start_age": 4,
+      "end_age": 13
+     },
+     {
+      "index": 2,
+      "ganzhi": "甲寅",
+      "start_year": 1971,
+      "end_year": 1980,
+      "start_age": 14,
+      "end_age": 23
+     },
+     {
+      "index": 3,
+      "ganzhi": "癸丑",
+      "start_year": 1981,
+      "end_year": 1990,
+      "start_age": 24,
+      "end_age": 33
+     },
+     {
+      "index": 4,
+      "ganzhi": "壬子",
+      "start_year": 1991,
+      "end_year": 2000,
+      "start_age": 34,
+      "end_age": 43
+     },
+     {
+      "index": 5,
+      "ganzhi": "辛亥",
+      "start_year": 2001,
+      "end_year": 2010,
+      "start_age": 44,
+      "end_age": 53
+     },
+     {
+      "index": 6,
+      "ganzhi": "庚戌",
+      "start_year": 2011,
+      "end_year": 2020,
+      "start_age": 54,
+      "end_age": 63
+     },
+     {
+      "index": 7,
+      "ganzhi": "己酉",
+      "start_year": 2021,
+      "end_year": 2030,
+      "start_age": 64,
+      "end_age": 73
+     },
+     {
+      "index": 8,
+      "ganzhi": "戊申",
+      "start_year": 2031,
+      "end_year": 2040,
+      "start_age": 74,
+      "end_age": 83
+     },
+     {
+      "index": 9,
+      "ganzhi": "丁未",
+      "start_year": 2041,
+      "end_year": 2050,
+      "start_age": 84,
+      "end_age": 93
+     }
+    ],
+    "liunian": {
+     "1958": "戊戌",
+     "1959": "己亥",
+     "1960": "庚子",
+     "1961": "辛丑",
+     "1962": "壬寅",
+     "1963": "癸卯",
+     "1964": "甲辰",
+     "1965": "乙巳",
+     "1966": "丙午",
+     "1967": "丁未",
+     "1968": "戊申",
+     "1969": "己酉",
+     "1970": "庚戌",
+     "1971": "辛亥",
+     "1972": "壬子",
+     "1973": "癸丑",
+     "1974": "甲寅",
+     "1975": "乙卯",
+     "1976": "丙辰",
+     "1977": "丁巳",
+     "1978": "戊午",
+     "1979": "己未",
+     "1980": "庚申",
+     "1981": "辛酉",
+     "1982": "壬戌",
+     "1983": "癸亥",
+     "1984": "甲子",
+     "1985": "乙丑",
+     "1986": "丙寅",
+     "1987": "丁卯",
+     "1988": "戊辰",
+     "1989": "己巳",
+     "1990": "庚午",
+     "1991": "辛未",
+     "1992": "壬申",
+     "1993": "癸酉",
+     "1994": "甲戌",
+     "1995": "乙亥",
+     "1996": "丙子",
+     "1997": "丁丑",
+     "1998": "戊寅",
+     "1999": "己卯",
+     "2000": "庚辰",
+     "2001": "辛巳",
+     "2002": "壬午",
+     "2003": "癸未",
+     "2004": "甲申",
+     "2005": "乙酉",
+     "2006": "丙戌",
+     "2007": "丁亥",
+     "2008": "戊子",
+     "2009": "己丑",
+     "2010": "庚寅",
+     "2011": "辛卯",
+     "2012": "壬辰",
+     "2013": "癸巳",
+     "2014": "甲午",
+     "2015": "乙未",
+     "2016": "丙申",
+     "2017": "丁酉",
+     "2018": "戊戌",
+     "2019": "己亥",
+     "2020": "庚子"
+    }
+   },
+   "alternatives": {},
+   "hour_pillar_varies": false,
+   "day_pillar_varies": false
+  }
+ }
+}

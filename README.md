@@ -19,7 +19,7 @@ BaziQA 收录香港青年術數家協會「全球算命師大賽」**2010–2026
 - **有人类对照**：历届冠军的正确率在 43%–78% 之间，随机猜测是 25%（见下图）。模型的成绩可以直接放进人类排名里看。
 - **逐题可追溯**：每道题都写明出处链接；原始网页文字、题目图片、答案表都存档在 [`sources/`](sources/)。官方答案已无存档的年份单独标注，可以一键排除。
 - **排盘信息完整**：出生地、原文时间写法、时辰、出生时刻的 UTC 偏移和夏令时都已标出；117 个出生资料里有 35 个不是普通的 UTC+8。
-- **能复现、能自查**：逐题转写稿和生成脚本在 [`tools/`](tools/)，`python tools/verify.py` 会把每道题对回原文、把每个命例对回排盘。
+- **开箱即评**：每个命例的八字盘和紫微盘都已排好，附排盘引擎、计分脚本和论文基线；`python tools/verify.py` 会把每道题对回原文、把每个命例对回排盘。
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/human_champion_accuracy_dark.png">
@@ -199,26 +199,28 @@ Celebrity50包含50位名人的详细信息：
 ]
 ```
 
-## 🧮 评测与计分
+## 🧮 排盘与评测
 
-```python
-def is_correct(question, model_answer):
-    return model_answer.upper() in question.get('accepted_answers', [question['answer']])
+所有命例都已排好盘，评测工具可以直接用：
 
-def evaluate(persons, model_answers):
-    """model_answers: {question_id: 'A'|'B'|...}；返回原始正确率与官方式去高低分成绩。"""
-    per_case, correct, total = {}, 0, 0
-    for p in persons:
-        case = str(p.get('case_no', p['person_id'])).rstrip('ab')    # 7a/7b 合并为一个命例
-        for q in p['questions']:
-            ok = is_correct(q, model_answers.get(q['question_id'], ''))
-            correct, total = correct + ok, total + 1
-            per_case[case] = per_case.get(case, 0) + ok
-    s = sorted(per_case.values())
-    return correct / total, sum(s[1:-1])                             # 2015 年起的官方赛制
+| 目录 | 内容 |
+|---|---|
+| [`charts/`](charts/) | 全部 117 个命例的**八字盘**和**紫微斗数盘**。八字含四柱十神、藏干、纳音、十二长生、起运、大运、流年；紫微含十二宫星曜、亮度、四化、大限 |
+| [`paipan/`](paipan/) | 排盘引擎：八字用 lunar-python，紫微用 iztro，均为 MIT 开源。还有出生时间换算：去夏令时、历史时区、真太阳时。[口径说明](paipan/README.md) |
+| [`eval/`](eval/) | 计分脚本 `score.py`、论文多轮问答基线 `run_baseline.py`、评测口径。[说明](eval/README.md) |
+
+```bash
+pip install -r requirements.txt
+python eval/run_baseline.py --files contest8_2026 --dry-run          # 看模型会收到的提示词
+python eval/run_baseline.py --files contest8_2025 contest8_2026 --model <模型> --base-url <接口> --runs 3 --out preds.jsonl
+python eval/score.py preds.jsonl                                    # 默认赛道 2021–2026，宏平均 + 官方去高低分成绩
 ```
 
-计分规则逐年不同（见元信息 `scoring`）：2010–2013 年按答对题数，2014 年只去掉最高分命例，2015–2017 年最高、最低各去一个（剩 5 个命例），2018 年起剩 6 个命例共 30 题。
+报告成绩时请写明数据版本、赛道、运行次数、排盘口径和是否附紫微盘，详见 [`eval/README.md`](eval/README.md)。
+
+**排盘口径**：默认用原文给的时辰；原文给了钟点的，扣掉当时的夏令时。另附原样钟点和真太阳时两种口径。117 个命例中有 12 个的时柱会因口径不同而变化，数据里已标出。八字和紫微两个引擎各自算出的日柱、时柱，除 5 个晚子时命例（两派换日时刻不同）外全部一致。
+
+**计分规则**逐年不同（见元信息 `scoring`）：2010–2013 年按答对题数；2014 年只去掉最高分命例；2015–2017 年最高、最低各去一个，剩 5 个命例；2018 年起去掉最高、最低后剩 6 个命例共 30 题。`score.py` 已按年实现。
 
 ## 🛠 重新生成与自查
 
@@ -265,6 +267,11 @@ python tools/verify.py          # 文字对原文、选项顺序、命例对排�
 - [论文 arXiv:2602.12889](https://arxiv.org/abs/2602.12889)
 
 ## 📊 更新日志
+
+### v2.2.0（2026-10-20，排盘与评测公开）
+- ✅ 新增 `charts/`：全部 117 个命例的八字盘与紫微斗数盘，含三种出生时间口径
+- ✅ 新增 `paipan/` 排盘引擎（lunar-python + iztro）与 `eval/` 评测工具（计分、论文多轮基线、评测口径）
+- 📝 修正 README 中论文成绩的统计口径说明（每年 5 次运行取平均，再对 5 年取宏平均）
 
 ### v2.1.0（2026-10-20，深度核对）
 - 🔧 2021–2025 年按官方题图、官方网页原文和逐字转载重新转写，修正 32 处改变题意的文字错误和 2 个命例错误（详见「数据质量与版本」）；论文所用原版保留为 `v1.0.0` 标签

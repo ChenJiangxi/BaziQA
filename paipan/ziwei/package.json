@@ -1,0 +1,9 @@
+{
+  "name": "baziqa-ziwei",
+  "private": true,
+  "description": "Zi Wei Dou Shu charts for BaziQA, cast with iztro (MIT, github.com/SylarLong/iztro)",
+  "type": "module",
+  "dependencies": {
+    "iztro": "2.5.8"
+  }
+}

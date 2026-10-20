@@ -1,0 +1,7 @@
+# data rebuild and self-check
+opencc>=1.1
+lunar-python==1.4.8
+# evaluation baseline (OpenAI-compatible API client)
+openai>=1.0
+# README chart (optional)
+matplotlib>=3.8

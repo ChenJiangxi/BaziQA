@@ -47,6 +47,17 @@ Each file is a JSON array: element 0 is contest metadata, the rest are birth cha
 - 2010, 2011 and the first case of 2020 have five options per question; all others have four.
 - Several cases were set with Zi Wei Dou Shu or Qi Men Dun Jia; filter on `setter.method` for BaZi-only evaluation.
 
+## Charts and evaluation
+
+- [`charts/`](charts/): BaZi and Zi Wei Dou Shu charts for all 117 birth records, cast with [lunar-python](https://github.com/6tail/lunar-python) and [iztro](https://github.com/SylarLong/iztro) (both MIT); engine and time conventions in [`paipan/`](paipan/README.md). The default reading uses the written two-hour period, or the clock time minus summer time; clock-time and apparent-solar-time pillars are included, and the 12 charts whose hour pillar depends on the choice are flagged.
+- [`eval/`](eval/README.md): `score.py` (per-year accuracy, the contest's trimmed score, majority vote, macro average), the paper's multi-turn baseline `run_baseline.py` for any OpenAI-compatible API, and the reporting rules (data version, track, number of runs, time convention).
+
+```bash
+pip install -r requirements.txt
+python eval/run_baseline.py --files contest8_2026 --model <model> --base-url <url> --runs 3 --out preds.jsonl
+python eval/score.py preds.jsonl
+```
+
 ## Versions
 
 Version 2 re-transcribed every question from the earliest source available (official question images and web pages first). Against the 2021–2025 data used in the paper (tag [`v1.0.0`](https://github.com/ChenJiangxi/BaziQA/tree/v1.0.0/data)), it fixes 32 wording errors that changed a question's meaning (9 of them in the correct option or the question stem) and 2 wrong birth charts (one wrong hour, one wrong gender). Answer keys were correct. Use `v1.0.0` to reproduce the paper; use the current data for new work. Details: [`sources/README.md`](sources/README.md).

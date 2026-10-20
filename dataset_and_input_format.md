@@ -366,31 +366,18 @@ result/{model}/contest8_{year}_eval_*.json   评测结果
 
 ## 6. 复现指南
 
-### 6.1 生成排盘结果
+> 下面第 2–5 节描述的是论文当年的排盘工具（xuan-utils-pro，Java）和输入格式。论文的原始评测脚本没有公开。
 
-排盘结果需通过外部八字排盘服务生成。如果需要为新数据集生成排盘：
+公开仓库提供了等价的工具，可以直接使用：
 
-1. 准备出生信息（公历日期时间、性别、出生地）
-2. 调用排盘 API 或本地排盘工具
-3. 将结果保存为 `result/bazi-results/{dataset}_bazi_results.json`
-
-### 6.2 运行评测
+- 排盘：`python paipan/build_charts.py` 会生成 `charts/bazi/` 和 `charts/ziwei/`。八字用 lunar-python，紫微用 iztro，口径见 `paipan/README.md`。
+- 输入格式化：`eval/prompt.py`。
+- 论文的多轮问答基线：`eval/run_baseline.py`。
+- 计分：`eval/score.py`。
 
 ```bash
-# Multi-turn 评测
-python acc_test/bazi_eval_multiturn.py data/contest8_2025.json --model deepseek-chat
-
-# Structured 评测
-python acc_test/bazi_eval_structured.py data/contest8_2025.json --model deepseek-r1
-```
-
-### 6.3 查看格式化输出
-
-如需查看实际的模型输入内容，可在评测脚本中添加调试输出：
-
-```python
-bazi_text = format_bazi_for_ai(bazi, anonymous_id="命主001")
-print(bazi_text)
+python eval/run_baseline.py --files contest8_2025 --model <模型> --base-url <接口> --runs 5 --out preds.jsonl
+python eval/score.py preds.jsonl --years 2021-2025
 ```
 
 ---
