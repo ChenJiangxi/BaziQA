@@ -1,4 +1,4 @@
-# BaziQA：全球算命師大賽 17 屆真題命理推理基準
+# BaziQA：全球算命師大賽歷屆真題命理推理基準
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Paper](https://img.shields.io/badge/arXiv-2602.12889-b31b1b.svg)](https://arxiv.org/abs/2602.12889)
