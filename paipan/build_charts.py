@@ -8,7 +8,7 @@ Output (one file per contest year, keyed by person_id):
   charts/ziwei/<file>.json  iztro chart cast from the ``stated`` 时辰
 
 Self-check printed at the end: iztro computes its own day and hour pillars; they must equal the
-BaZi engine's. (Year and month pillars may differ by design: Zi Wei turns the year at lunar New
+BaZi engine's (both change the day at 23:00). (Year and month pillars may differ by design: Zi Wei turns the year at lunar New
 Year and counts lunar months, BaZi turns at 立春 and counts solar terms.)
 """
 from __future__ import annotations
@@ -73,11 +73,10 @@ def main() -> None:
                                       'pillars': pillars_only(cast(conv[name]['datetime'], gender))}
                 entry['alternatives'] = alts
                 if conv['stated']['datetime'][11:13] == '23':
-                    # 晚子时: schools that change the day at 23:00 use the next day's pillar
-                    d1 = (datetime.strptime(conv['stated']['datetime'], '%Y-%m-%d %H:%M') + timedelta(days=1))
-                    alts['day_changes_at_23h'] = {'datetime': conv['stated']['datetime'],
-                                                  'day_pillar': pillars_only(cast(d1.strftime('%Y-%m-%d') + ' 00:30', gender))[2],
-                                                  'note': '晚子时：若按 23:00 换日，日柱取次日'}
+                    # 晚子时: the default changes the day at 23:00; give the other school's day pillar too
+                    alts['day_kept_at_23h'] = {'datetime': conv['stated']['datetime'],
+                                               'day_pillar': pillars_only(cast(conv['stated']['datetime'], gender, sect=2))[2],
+                                               'note': '晚子时：若按「晚子时日柱算当天」，日柱取当天（本仓库默认 23:00 换日）'}
                 base = pillars_only(entry['chart'])
                 entry['hour_pillar_varies'] = any(a['pillars'][3] != base[3] for a in alts.values() if 'pillars' in a)
                 entry['day_pillar_varies'] = any(a['pillars'][2] != base[2] for a in alts.values() if 'pillars' in a)
@@ -97,10 +96,9 @@ def main() -> None:
         for pid, z in ziwei_out.items():
             zi = z['chinese_date'].split()
             bz = pillars_only(bazi_out[pid]['chart'])
-            late = bazi_out[pid]['alternatives'].get('day_changes_at_23h')
-            if zi[3] != bz[3] or zi[2] != (late['day_pillar'] if late else bz[2]):
+            if zi[2:4] != bz[2:4]:
                 mismatches.append(f"{f.stem} {pid}: iztro {zi} vs bazi {bz}")
-            elif late:
+            if 'day_kept_at_23h' in bazi_out[pid]['alternatives']:
                 late_zi.append(f"{f.stem} {pid}")
         meta = {'contest_id': data[0]['contest_id'], 'engine': engines, 'default_time_convention': 'stated'}
         (ROOT / 'charts' / 'bazi' / f.name).write_text(
@@ -109,7 +107,7 @@ def main() -> None:
             json.dumps({**meta, 'charts': ziwei_out}, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
     print(f'{total} charts cast with {engines}')
     print(f'hour pillar differs between time conventions in {len(varies)} charts: {", ".join(varies)}')
-    print(f'晚子时 births (iztro changes the day at 23:00, BaZi default keeps it): {len(late_zi)}')
+    print(f'晚子时 births (day pillar changes at 23:00 in both engines): {len(late_zi)}')
     print(f'unexpected iztro vs BaZi day/hour pillar mismatches: {len(mismatches)}')
     for m in mismatches:
         print('  ', m)

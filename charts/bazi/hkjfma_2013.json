@@ -770,13 +770,13 @@
      "pillars": [
       "辛亥",
       "辛丑",
-      "甲辰",
+      "乙巳",
       "丙子"
      ]
     }
    },
    "hour_pillar_varies": false,
-   "day_pillar_varies": true
+   "day_pillar_varies": false
   },
   "2013_C4_female_19700814": {
    "case_no": "4",

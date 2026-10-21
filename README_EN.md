@@ -49,7 +49,7 @@ Each file is a JSON array: element 0 is contest metadata, the rest are birth cha
 
 ## Charts and evaluation
 
-- [`charts/`](charts/): BaZi and Zi Wei Dou Shu charts for all 117 birth records, cast with [lunar-python](https://github.com/6tail/lunar-python) and [iztro](https://github.com/SylarLong/iztro) (both MIT); engine and time conventions in [`paipan/`](paipan/README.md). The default reading uses the written two-hour period, or the clock time minus summer time; clock-time and apparent-solar-time pillars are included, and the 12 charts whose hour pillar depends on the choice are flagged.
+- [`charts/`](charts/): BaZi and Zi Wei Dou Shu charts for all 117 birth records, cast with [lunar-python](https://github.com/6tail/lunar-python) and [iztro](https://github.com/SylarLong/iztro) (both MIT); engine and time conventions in [`paipan/`](paipan/README.md). The default reading uses the written two-hour period, or the clock time minus summer time; clock-time and apparent-solar-time pillars are included, and the 12 charts whose hour pillar depends on the choice are flagged. The day pillar changes at 23:00, so a birth at 23:00–23:59 takes the next day's pillar, as the contest setters do (changed in `v2.3.0`; the same-day pillar is kept in `alternatives.day_kept_at_23h`).
 - [`eval/`](eval/README.md): `score.py` (per-year accuracy, the contest's trimmed score, majority vote, macro average), a multi-turn baseline `run_baseline.py` for any OpenAI-compatible API (it follows the paper's multi-turn flow with shortened prompts and this repo's charts, so its scores are not directly comparable with the paper's table), and the reporting rules (data version, track, number of runs, time convention).
 
 ```bash

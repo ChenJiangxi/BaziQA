@@ -2,8 +2,11 @@
 
 Conventions (the library defaults, the same family of algorithms as lunar-javascript):
 * year pillar changes at 立春, month pillar at each solar term (节);
-* a birth between 23:00 and 23:59 keeps the same day pillar (晚子时日柱算当天, sect 2);
-* luck-pillar start age by the 3-days-per-year rule (sect 1).
+* the day pillar changes at 23:00 (子初换日, lunar-python EightChar sect 1): a birth between 23:00 and
+  23:59 takes the next day's day pillar, matching the hour pillar, which already starts the next day.
+  Pass ``sect=2`` for the other school (晚子时日柱算当天); the library's default is 2, and with it the
+  day stem and the 子-hour stem come from different days;
+* luck-pillar start age by the 3-days-per-year rule (yun sect 1).
 """
 from __future__ import annotations
 
@@ -20,11 +23,14 @@ def year_ganzhi(year: int) -> str:
     return GAN[(year - 4) % 10] + ZHI[(year - 4) % 12]
 
 
-def cast(dt_str: str, gender: str, liunian_until: int | None = None) -> dict:
-    """Cast a chart for 'YYYY-MM-DD HH:MM' local time; gender 'male' / 'female'."""
+def cast(dt_str: str, gender: str, liunian_until: int | None = None, sect: int = 1) -> dict:
+    """Cast a chart for 'YYYY-MM-DD HH:MM' local time; gender 'male' / 'female'.
+
+    sect 1 (default): the day changes at 23:00. sect 2: a 23:00–23:59 birth keeps the same day."""
     dt = datetime.strptime(dt_str, '%Y-%m-%d %H:%M')
     lunar = Solar.fromYmdHms(dt.year, dt.month, dt.day, dt.hour, dt.minute, 0).getLunar()
     ec = lunar.getEightChar()
+    ec.setSect(sect)
 
     def pillar(name: str) -> dict:
         g = getattr(ec, f'get{name}')

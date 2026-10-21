@@ -319,78 +319,74 @@
     "pillars": {
      "year": {
       "ganzhi": "庚申",
-      "gan_shishen": "伤官",
+      "gan_shishen": "比肩",
       "zhi_canggan": [
        {
         "gan": "庚",
-        "shishen": "伤官"
+        "shishen": "比肩"
        },
        {
         "gan": "壬",
-        "shishen": "正财"
+        "shishen": "食神"
        },
        {
         "gan": "戊",
-        "shishen": "劫财"
+        "shishen": "偏印"
        }
       ],
       "nayin": "石榴木",
-      "dishi": "沐浴",
+      "dishi": "临官",
       "xunkong": "子丑"
      },
      "month": {
       "ganzhi": "壬午",
-      "gan_shishen": "正财",
+      "gan_shishen": "食神",
       "zhi_canggan": [
        {
         "gan": "丁",
-        "shishen": "偏印"
+        "shishen": "正官"
        },
        {
         "gan": "己",
-        "shishen": "比肩"
+        "shishen": "正印"
        }
       ],
       "nayin": "杨柳木",
-      "dishi": "临官",
+      "dishi": "沐浴",
       "xunkong": "申酉"
      },
      "day": {
-      "ganzhi": "己巳",
+      "ganzhi": "庚午",
       "gan_shishen": "日主",
       "zhi_canggan": [
        {
-        "gan": "丙",
+        "gan": "丁",
+        "shishen": "正官"
+       },
+       {
+        "gan": "己",
         "shishen": "正印"
-       },
-       {
-        "gan": "庚",
-        "shishen": "伤官"
-       },
-       {
-        "gan": "戊",
-        "shishen": "劫财"
        }
       ],
-      "nayin": "大林木",
-      "dishi": "帝旺",
+      "nayin": "路旁土",
+      "dishi": "沐浴",
       "xunkong": "戌亥"
      },
      "hour": {
       "ganzhi": "丙子",
-      "gan_shishen": "正印",
+      "gan_shishen": "七杀",
       "zhi_canggan": [
        {
         "gan": "癸",
-        "shishen": "偏财"
+        "shishen": "伤官"
        }
       ],
       "nayin": "涧下水",
-      "dishi": "绝",
+      "dishi": "死",
       "xunkong": "申酉"
      }
     },
-    "day_master": "己",
+    "day_master": "庚",
     "taiyuan": "癸酉",
     "minggong": "丁亥",
     "shengong": "癸未",
@@ -524,7 +520,7 @@
      "pillars": [
       "庚申",
       "壬午",
-      "己巳",
+      "庚午",
       "丙子"
      ]
     },
@@ -533,14 +529,14 @@
      "pillars": [
       "庚申",
       "壬午",
-      "己巳",
+      "庚午",
       "丙子"
      ]
     },
-    "day_changes_at_23h": {
+    "day_kept_at_23h": {
      "datetime": "1980-06-25 23:20",
-     "day_pillar": "庚午",
-     "note": "晚子时：若按 23:00 换日，日柱取次日"
+     "day_pillar": "己巳",
+     "note": "晚子时：若按「晚子时日柱算当天」，日柱取当天（本仓库默认 23:00 换日）"
     }
    },
    "hour_pillar_varies": false,
@@ -1806,13 +1802,13 @@
      "pillars": [
       "庚寅",
       "己丑",
-      "癸亥",
+      "甲子",
       "甲子"
      ]
     }
    },
    "hour_pillar_varies": false,
-   "day_pillar_varies": true
+   "day_pillar_varies": false
   },
   "2017_C7b_female_19510124": {
    "case_no": "7b",
@@ -1848,74 +1844,82 @@
     "pillars": {
      "year": {
       "ganzhi": "庚寅",
-      "gan_shishen": "七杀",
+      "gan_shishen": "正官",
       "zhi_canggan": [
        {
         "gan": "甲",
-        "shishen": "比肩"
+        "shishen": "劫财"
        },
        {
         "gan": "丙",
-        "shishen": "食神"
+        "shishen": "伤官"
        },
        {
         "gan": "戊",
-        "shishen": "偏财"
+        "shishen": "正财"
        }
       ],
       "nayin": "松柏木",
-      "dishi": "临官",
+      "dishi": "帝旺",
       "xunkong": "午未"
      },
      "month": {
       "ganzhi": "己丑",
-      "gan_shishen": "正财",
+      "gan_shishen": "偏财",
       "zhi_canggan": [
        {
         "gan": "己",
-        "shishen": "正财"
+        "shishen": "偏财"
        },
        {
         "gan": "癸",
-        "shishen": "正印"
+        "shishen": "偏印"
        },
        {
         "gan": "辛",
-        "shishen": "正官"
+        "shishen": "七杀"
        }
       ],
       "nayin": "霹雳火",
-      "dishi": "冠带",
+      "dishi": "衰",
       "xunkong": "午未"
      },
      "day": {
-      "ganzhi": "甲子",
+      "ganzhi": "乙丑",
       "gan_shishen": "日主",
       "zhi_canggan": [
        {
+        "gan": "己",
+        "shishen": "偏财"
+       },
+       {
         "gan": "癸",
-        "shishen": "正印"
+        "shishen": "偏印"
+       },
+       {
+        "gan": "辛",
+        "shishen": "七杀"
        }
       ],
       "nayin": "海中金",
-      "dishi": "沐浴",
+      "dishi": "衰",
       "xunkong": "戌亥"
      },
      "hour": {
       "ganzhi": "丙子",
-      "gan_shishen": "食神",
+      "gan_shishen": "伤官",
       "zhi_canggan": [
        {
         "gan": "癸",
-        "shishen": "正印"
+        "shishen": "偏印"
        }
       ],
       "nayin": "涧下水",
-      "dishi": "沐浴",
+      "dishi": "病",
       "xunkong": "申酉"
      }
     },
-    "day_master": "甲",
+    "day_master": "乙",
     "taiyuan": "庚辰",
     "minggong": "庚辰",
     "shengong": "戊寅",
@@ -2078,7 +2082,7 @@
      "pillars": [
       "庚寅",
       "己丑",
-      "甲子",
+      "乙丑",
       "丙子"
      ]
     },
@@ -2091,14 +2095,14 @@
       "乙亥"
      ]
     },
-    "day_changes_at_23h": {
+    "day_kept_at_23h": {
      "datetime": "1951-01-24 23:30",
-     "day_pillar": "乙丑",
-     "note": "晚子时：若按 23:00 换日，日柱取次日"
+     "day_pillar": "甲子",
+     "note": "晚子时：若按「晚子时日柱算当天」，日柱取当天（本仓库默认 23:00 换日）"
     }
    },
    "hour_pillar_varies": true,
-   "day_pillar_varies": false
+   "day_pillar_varies": true
   }
  }
 }

@@ -46,7 +46,7 @@ python eval/score.py run1.jsonl run2.jsonl --json report.json
 
 ## 3. 报告成绩时必须写明
 
-1. **数据版本**：git 标签，如 `v2.2.1`；论文数字对应 `v1.0.0`。
+1. **数据版本**：git 标签，如 `v2.3.0`；论文数字对应 `v1.0.0`。
 2. **赛道与筛选**：`contest8` / `full` / `official`，是否 `--bazi-only`。
 3. **运行次数与汇总方式**：建议至少 3 次。单次运行同一套题的波动可达 ±3 题（约 ±7.5 个百分点）。
 4. **排盘口径**：`charts/` 和本基线都用 `stated`。自己的管线改用 `clock` 或 `true_solar` 时要注明，可以用 `paipan/bazi.py` 的 `cast()` 按其他口径重排。见 [`../paipan/README.md`](../paipan/README.md)。

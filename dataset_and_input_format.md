@@ -15,7 +15,7 @@
 | 来源 | 专业命理竞赛真题；逐年出处见 `sources/README.md` |
 
 > 论文实验使用的是 2021–2025 年 200 题的 v1.0.0 版本（git 标签 `v1.0.0`），下文的排盘与模型输入说明描述的就是那个版本。
-> 当前版本（v2，标签 `v2.2.1`）的 17 年文件统一了字段：在原有字段之外多了 `answer_source`、`sources`、`corrections`、`case_no`、`setter`、`context`、`notes`、`question_no`、`accepted_answers`，以及出生资料里的 `time_raw`、`timezone`、`utc_offset`、`dst`，含义见 README「数据格式」。
+> 当前版本（v2，标签 `v2.3.0`）的 17 年文件统一了字段：在原有字段之外多了 `answer_source`、`sources`、`corrections`、`case_no`、`setter`、`context`、`notes`、`question_no`、`accepted_answers`，以及出生资料里的 `time_raw`、`timezone`、`utc_offset`、`dst`，含义见 README「数据格式」。
 > v2 按原始出处重新转写了 2021–2025 年，修正了题目文字和两个命例；ID 沿用 v1（2024 年第 5 命例除外）。差异清单见 `sources/README.md`。
 
 ---

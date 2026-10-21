@@ -293,74 +293,82 @@
     "pillars": {
      "year": {
       "ganzhi": "己未",
-      "gan_shishen": "食神",
+      "gan_shishen": "劫财",
       "zhi_canggan": [
        {
         "gan": "己",
-        "shishen": "食神"
+        "shishen": "劫财"
        },
        {
         "gan": "丁",
-        "shishen": "比肩"
+        "shishen": "正印"
        },
        {
         "gan": "乙",
-        "shishen": "偏印"
+        "shishen": "正官"
        }
       ],
       "nayin": "天上火",
-      "dishi": "冠带",
+      "dishi": "衰",
       "xunkong": "子丑"
      },
      "month": {
       "ganzhi": "丙寅",
-      "gan_shishen": "劫财",
+      "gan_shishen": "偏印",
       "zhi_canggan": [
        {
         "gan": "甲",
-        "shishen": "正印"
+        "shishen": "七杀"
        },
        {
         "gan": "丙",
-        "shishen": "劫财"
+        "shishen": "偏印"
        },
        {
         "gan": "戊",
-        "shishen": "伤官"
+        "shishen": "比肩"
        }
       ],
       "nayin": "炉中火",
-      "dishi": "死",
+      "dishi": "长生",
       "xunkong": "戌亥"
      },
      "day": {
-      "ganzhi": "丁卯",
+      "ganzhi": "戊辰",
       "gan_shishen": "日主",
       "zhi_canggan": [
        {
+        "gan": "戊",
+        "shishen": "比肩"
+       },
+       {
         "gan": "乙",
-        "shishen": "偏印"
+        "shishen": "正官"
+       },
+       {
+        "gan": "癸",
+        "shishen": "正财"
        }
       ],
-      "nayin": "炉中火",
-      "dishi": "病",
+      "nayin": "大林木",
+      "dishi": "冠带",
       "xunkong": "戌亥"
      },
      "hour": {
       "ganzhi": "壬子",
-      "gan_shishen": "正官",
+      "gan_shishen": "偏财",
       "zhi_canggan": [
        {
         "gan": "癸",
-        "shishen": "七杀"
+        "shishen": "正财"
        }
       ],
       "nayin": "桑柘木",
-      "dishi": "绝",
+      "dishi": "胎",
       "xunkong": "寅卯"
      }
     },
-    "day_master": "丁",
+    "day_master": "戊",
     "taiyuan": "丁巳",
     "minggong": "丁卯",
     "shengong": "丁卯",
@@ -498,7 +506,7 @@
      "pillars": [
       "己未",
       "丙寅",
-      "丁卯",
+      "戊辰",
       "壬子"
      ]
     },
@@ -507,14 +515,14 @@
      "pillars": [
       "己未",
       "丙寅",
-      "丁卯",
+      "戊辰",
       "壬子"
      ]
     },
-    "day_changes_at_23h": {
+    "day_kept_at_23h": {
      "datetime": "1979-03-01 23:50",
-     "day_pillar": "戊辰",
-     "note": "晚子时：若按 23:00 换日，日柱取次日"
+     "day_pillar": "丁卯",
+     "note": "晚子时：若按「晚子时日柱算当天」，日柱取当天（本仓库默认 23:00 换日）"
     }
    },
    "hour_pillar_varies": false,

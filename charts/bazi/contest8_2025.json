@@ -743,74 +743,74 @@
     "pillars": {
      "year": {
       "ganzhi": "癸酉",
-      "gan_shishen": "偏财",
+      "gan_shishen": "伤官",
       "zhi_canggan": [
        {
         "gan": "辛",
-        "shishen": "食神"
+        "shishen": "劫财"
        }
       ],
       "nayin": "剑锋金",
-      "dishi": "长生",
+      "dishi": "帝旺",
       "xunkong": "戌亥"
      },
      "month": {
       "ganzhi": "丙辰",
-      "gan_shishen": "正印",
+      "gan_shishen": "七杀",
       "zhi_canggan": [
        {
         "gan": "戊",
-        "shishen": "劫财"
-       },
-       {
-        "gan": "乙",
-        "shishen": "七杀"
-       },
-       {
-        "gan": "癸",
-        "shishen": "偏财"
-       }
-      ],
-      "nayin": "沙中土",
-      "dishi": "衰",
-      "xunkong": "子丑"
-     },
-     "day": {
-      "ganzhi": "己未",
-      "gan_shishen": "日主",
-      "zhi_canggan": [
-       {
-        "gan": "己",
-        "shishen": "比肩"
-       },
-       {
-        "gan": "丁",
         "shishen": "偏印"
        },
        {
         "gan": "乙",
-        "shishen": "七杀"
+        "shishen": "正财"
+       },
+       {
+        "gan": "癸",
+        "shishen": "伤官"
        }
       ],
-      "nayin": "天上火",
-      "dishi": "冠带",
+      "nayin": "沙中土",
+      "dishi": "养",
+      "xunkong": "子丑"
+     },
+     "day": {
+      "ganzhi": "庚申",
+      "gan_shishen": "日主",
+      "zhi_canggan": [
+       {
+        "gan": "庚",
+        "shishen": "比肩"
+       },
+       {
+        "gan": "壬",
+        "shishen": "食神"
+       },
+       {
+        "gan": "戊",
+        "shishen": "偏印"
+       }
+      ],
+      "nayin": "石榴木",
+      "dishi": "临官",
       "xunkong": "子丑"
      },
      "hour": {
       "ganzhi": "丙子",
-      "gan_shishen": "正印",
+      "gan_shishen": "七杀",
       "zhi_canggan": [
        {
         "gan": "癸",
-        "shishen": "偏财"
+        "shishen": "伤官"
        }
       ],
       "nayin": "涧下水",
-      "dishi": "绝",
+      "dishi": "死",
       "xunkong": "申酉"
      }
     },
-    "day_master": "己",
+    "day_master": "庚",
     "taiyuan": "丁未",
     "minggong": "乙丑",
     "shengong": "丁巳",
@@ -939,7 +939,7 @@
      "pillars": [
       "癸酉",
       "丙辰",
-      "己未",
+      "庚申",
       "丙子"
      ]
     },
@@ -952,14 +952,14 @@
       "乙亥"
      ]
     },
-    "day_changes_at_23h": {
+    "day_kept_at_23h": {
      "datetime": "1993-04-08 23:34",
-     "day_pillar": "庚申",
-     "note": "晚子时：若按 23:00 换日，日柱取次日"
+     "day_pillar": "己未",
+     "note": "晚子时：若按「晚子时日柱算当天」，日柱取当天（本仓库默认 23:00 换日）"
     }
    },
    "hour_pillar_varies": true,
-   "day_pillar_varies": false
+   "day_pillar_varies": true
   },
   "malaysia_male_19880110_P005": {
    "case_no": "5",
@@ -1480,13 +1480,13 @@
      "pillars": [
       "癸丑",
       "庚申",
-      "辛卯",
+      "壬辰",
       "庚子"
      ]
     }
    },
    "hour_pillar_varies": false,
-   "day_pillar_varies": true
+   "day_pillar_varies": false
   },
   "taiwan_female_19880215_P007": {
    "case_no": "7",
