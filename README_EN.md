@@ -9,7 +9,7 @@ BaziQA is a benchmark for Chinese fortune-telling reasoning (mainly BaZi / Four 
 
 Each question was written by a practising fortune-teller about a real person. The correct answer is what actually happened in that person's life. The organiser publishes the answer key and the champion's score every year, so a model can be scored and also compared directly with the best human practitioners.
 
-The dataset and paper ([arXiv:2602.12889](https://arxiv.org/abs/2602.12889)) power the [AuraMate](https://auramate.net/) app.
+The dataset and paper ([arXiv:2602.12889](https://arxiv.org/abs/2602.12889)) are used in two products: [AuraMate 灵伴](https://auramate.com.cn/) (AI BaZi analysis) and [Xuanji 璇玑](https://xuanji.life/) (Mangpai BaZi, Zi Wei Dou Shu and Indian astrology read side by side).
 
 ## Highlights
 

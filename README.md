@@ -11,7 +11,7 @@ BaziQA 收录香港青年術數家協會「全球算命師大賽」**2010–2026
 
 每道题都是专业命理师用一位真实命主出题，正确答案就是命主的真实经历。主办方每年公布答案和冠军成绩，所以这份数据既能给模型打分，也能直接和人类顶尖命理师比较。
 
-本项目及相关论文已应用于 [AuraMate 灵伴](https://auramate.net/) 玄学陪伴产品，论文见 [arXiv:2602.12889](https://arxiv.org/abs/2602.12889)。
+本项目及相关论文已应用于两款产品：[AuraMate 灵伴](https://auramate.com.cn/)（AI 八字命理分析）和 [璇玑 Xuanji](https://xuanji.life/)（盲派八字、紫微斗数、印度占星三盘合参）。论文见 [arXiv:2602.12889](https://arxiv.org/abs/2602.12889)。
 
 ## ✨ 为什么用 BaziQA
 
@@ -264,7 +264,8 @@ python tools/verify.py          # 文字对原文、选项顺序、命例对排�
 
 发现数据错误或有改进建议，请在 [Issues](https://github.com/ChenJiangxi/BaziQA/issues) 提出，或提交 Pull Request（请附出处）。
 
-- [AuraMate 灵伴](https://auramate.net/)
+- [AuraMate 灵伴](https://auramate.com.cn/)
+- [璇玑 Xuanji](https://xuanji.life/)
 - [论文 arXiv:2602.12889](https://arxiv.org/abs/2602.12889)
 
 ## 📊 更新日志
